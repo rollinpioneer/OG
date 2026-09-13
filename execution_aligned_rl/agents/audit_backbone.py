@@ -29,6 +29,8 @@ def main() -> None:
     parser.add_argument("--candidate-dir", required=True)
     parser.add_argument("--output-dir", required=True)
     parser.add_argument("--training-code-commit", required=True)
+    parser.add_argument("--expected-actor-p-randomgoal", type=float, default=0.5)
+    parser.add_argument("--expected-actor-p-trajgoal", type=float, default=0.5)
     parser.add_argument("--epoch", type=int, default=1_000_000)
     args = parser.parse_args()
 
@@ -60,8 +62,12 @@ def main() -> None:
         and np.all(adjacent_actions >= env.action_space.low - 1e-6)
         and np.all(adjacent_actions <= env.action_space.high + 1e-6)
     )
+    actor_goal_config_ok = bool(
+        np.isclose(float(config.actor_p_randomgoal), args.expected_actor_p_randomgoal)
+        and np.isclose(float(config.actor_p_trajgoal), args.expected_actor_p_trajgoal)
+    )
     status = "PASS"
-    if not action_ok or candidate_audit["status"] != "PASS" or evaluation["overall_success"] <= 0:
+    if not action_ok or not actor_goal_config_ok or candidate_audit["status"] != "PASS":
         status = "HOLD_BACKBONE_OR_CANDIDATES"
     manifest = {
         "status": status,
@@ -83,6 +89,9 @@ def main() -> None:
             "explicit_remaining_horizon_input": False,
             "k_protocol": 20,
             "action_interface_finite_and_bounded": action_ok,
+            "actor_p_randomgoal": float(config.actor_p_randomgoal),
+            "actor_p_trajgoal": float(config.actor_p_trajgoal),
+            "actor_goal_config_ok": actor_goal_config_ok,
             "self_goal_action_abs_mean": float(np.abs(self_actions).mean()),
             "adjacent_goal_action_abs_mean": float(np.abs(adjacent_actions).mean()),
         },

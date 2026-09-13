@@ -32,6 +32,8 @@ def main() -> None:
     parser.add_argument("--eval-episodes", type=int, default=8)
     parser.add_argument("--eval-tasks", type=int)
     parser.add_argument("--alpha", type=float, default=0.3)
+    parser.add_argument("--actor-p-randomgoal", type=float, default=0.5)
+    parser.add_argument("--actor-p-trajgoal", type=float, default=0.5)
     args = parser.parse_args()
 
     impls = str(Path(args.official_source) / "impls")
@@ -47,6 +49,10 @@ def main() -> None:
     config.encoder = None
     config.frame_stack = None
     config.alpha = args.alpha
+    config.actor_p_randomgoal = args.actor_p_randomgoal
+    config.actor_p_trajgoal = args.actor_p_trajgoal
+    if not np.isclose(config.actor_p_randomgoal + config.actor_p_trajgoal + config.actor_p_curgoal, 1.0):
+        raise ValueError("actor goal probabilities must sum to one")
     env, train_data, val_data = ogbench.make_env_and_datasets(args.dataset, dataset_dir=args.dataset_dir)
     train = GCDataset(Dataset.create(**train_data), config)
     val = GCDataset(Dataset.create(**val_data), config)
@@ -63,6 +69,8 @@ def main() -> None:
         "eval_episodes": args.eval_episodes,
         "eval_tasks": args.eval_tasks,
         "agent": config.to_dict(),
+        "actor_p_randomgoal": args.actor_p_randomgoal,
+        "actor_p_trajgoal": args.actor_p_trajgoal,
         "upstream_runner_difference": "wandb removed; stable local output path; fixed-final checkpoint",
         "result_source": "DATA_REAL",
     }
@@ -121,4 +129,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

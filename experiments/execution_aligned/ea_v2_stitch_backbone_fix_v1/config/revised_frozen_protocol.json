@@ -1,0 +1,40 @@
+{
+  "experiment_id": "ea_v2_stitch_backbone_fix_v1",
+  "base_commit": "809cf82b3c59fd741802870d873bb8265f927a99",
+  "scope": ["backbone_revision", "phase_0_revision"],
+  "forbidden_scope": ["C", "D", "E", "F", "P_1", "P_MH", "EXEC"],
+  "dataset_id": "antmaze-large-stitch-v0",
+  "training_seed": 0,
+  "backbone": {
+    "implementation": "official_ogbench_gciql",
+    "actor_p_randomgoal": 0.5,
+    "actor_p_trajgoal": 0.5,
+    "actor_p_curgoal": 0.0,
+    "alpha": 0.3,
+    "updates": 1000000,
+    "checkpoint_rule": "fixed_final_checkpoint",
+    "evaluation_episodes_per_task": 50,
+    "evaluation_tasks": 5
+  },
+  "candidate_prior": {
+    "source": "reused_frozen_phase_B_candidate_prior",
+    "horizon_k": 20,
+    "count_n": 8,
+    "checkpoint_sha256": "ece02018b3e64f20e336fabea2bb19afcda967a4f7c49a6b682b548b305f08a5"
+  },
+  "mechanism_gate": {
+    "roots": 32,
+    "root_namespace": "revised_root_offset_1000",
+    "root_offset": 1000,
+    "deep_roots": 8,
+    "k": 20,
+    "m": 5,
+    "candidates_per_root": 8,
+    "execution_bands": 2,
+    "threshold": "unchanged_from_base_protocol"
+  },
+  "environment_forks_training_eligible": false,
+  "result_sources": ["DATA_REAL", "ENV_EVALUATED"],
+  "created_utc": "2026-09-13T00:00:00Z"
+}
+

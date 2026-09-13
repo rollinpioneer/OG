@@ -119,6 +119,7 @@ def main() -> None:
     parser.add_argument("--m", type=int, default=5)
     parser.add_argument("--max-branch", type=int, default=40)
     parser.add_argument("--deep-roots", type=int, default=8)
+    parser.add_argument("--root-offset", type=int, default=0)
     args = parser.parse_args()
 
     out = Path(args.output_dir)
@@ -138,7 +139,7 @@ def main() -> None:
 
     task_count = len(env.unwrapped.task_infos)
     max_steps = int(env.spec.max_episode_steps)
-    roots = list(range(args.roots))
+    roots = list(range(args.root_offset, args.root_offset + args.roots))
     deep_set = set(sorted(roots, key=lambda root: stable_int(f"deep:{root}"))[: args.deep_roots])
     raw_rows = []
     root_rows = []
