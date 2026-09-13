@@ -1,0 +1,96 @@
+{
+  "candidate_prior_checkpoint_sha256": "ece02018b3e64f20e336fabea2bb19afcda967a4f7c49a6b682b548b305f08a5",
+  "candidate_prior_config": {
+    "adjacent_sample_distinct_rate": 1.0,
+    "audit_windows": 4096,
+    "candidate_count": 8,
+    "candidate_set_is_reachability_label": false,
+    "checkpoint": "candidate_prior.pkl",
+    "checkpoint_sha256": "ece02018b3e64f20e336fabea2bb19afcda967a4f7c49a6b682b548b305f08a5",
+    "dataset_id": "antmaze-large-stitch-v0",
+    "final_training_record": {
+      "loss": 0.18520450592041016,
+      "mse": 0.703092098236084,
+      "step": 50000,
+      "wall_seconds": 53.81152820587158
+    },
+    "finite_candidate_rate": 1.0,
+    "mean_predicted_std": 0.8106861710548401,
+    "normalized_endpoint_mse": 0.7048649191856384,
+    "result_source": "DATA_REAL",
+    "status": "PASS",
+    "training_windows": 900000,
+    "validation_windows": 90000
+  },
+  "checkpoint_rule": "fixed_final_checkpoint",
+  "controller": {
+    "action_interface_finite_and_bounded": true,
+    "adjacent_goal_action_abs_mean": 0.5847316384315491,
+    "explicit_remaining_horizon_input": false,
+    "goal_conditioned": true,
+    "k_protocol": 20,
+    "self_goal_action_abs_mean": 0.5573325753211975
+  },
+  "controller_checkpoint_sha256": "ac5288f1479786fb1d9371e41fe2c6d60a961f33f3478f65f4d2e6b2a4a1c682",
+  "dataset_id": "antmaze-large-stitch-v0",
+  "implementation": "official OGBench GCIQL modules via local no-wandb runner",
+  "official_environment_evaluation": {
+    "overall_success": 0.075,
+    "result_source": "ENV_EVALUATED",
+    "task1": {
+      "prev_qpos": 1.9388515860557036,
+      "prev_qvel": 0.017657623790723116,
+      "qpos": 1.934707364295194,
+      "qvel": -0.04184596802698322,
+      "success": 0.0,
+      "xy": 13.828360586927083
+    },
+    "task2": {
+      "prev_qpos": 2.2073505891071283,
+      "prev_qvel": 0.016472704906781568,
+      "qpos": 2.2171591061954787,
+      "qvel": 0.08657788289146864,
+      "success": 0.0,
+      "xy": 16.09200890169821
+    },
+    "task3": {
+      "prev_qpos": 2.129340276586597,
+      "prev_qvel": -0.16750747138154592,
+      "qpos": 2.126378375312191,
+      "qvel": 0.0778960288769057,
+      "success": 0.375,
+      "xy": 15.442084698493174
+    },
+    "task4": {
+      "prev_qpos": 2.413437773936781,
+      "prev_qvel": 0.0461960708880819,
+      "qpos": 2.424149921456831,
+      "qvel": 0.09082308474595775,
+      "success": 0.0,
+      "xy": 17.929307774193994
+    },
+    "task5": {
+      "prev_qpos": 1.4897536046934954,
+      "prev_qvel": -0.004462064955430218,
+      "qpos": 1.4915193264265378,
+      "qvel": 0.005547160296376212,
+      "success": 0.0,
+      "xy": 10.551225824159914
+    },
+    "training_eligible": false,
+    "wall_seconds": 3463.1402490139008
+  },
+  "official_ogbench_commit": "1d4140997f60c52c6fb0702ec100dc988b18c548",
+  "seed": 0,
+  "shared_gciql_checkpoint": true,
+  "status": "PASS",
+  "training_code_commit": "77910c3f01cee37d1f54158ae53cbb95562a9248",
+  "updates": 1000000,
+  "upstream_runner_difference": "external wandb call removed; stable local paths; fixed-final checkpoint",
+  "value": {
+    "finite_rate": 1.0,
+    "mean": -0.8521184921264648,
+    "std": 0.511938214302063
+  },
+  "value_checkpoint_sha256": "ac5288f1479786fb1d9371e41fe2c6d60a961f33f3478f65f4d2e6b2a4a1c682"
+}

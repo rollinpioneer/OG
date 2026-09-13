@@ -1,0 +1,27 @@
+{
+  "dataset_files": {
+    "train": {
+      "bytes": 245288551,
+      "name": "antmaze-large-stitch-v0.npz",
+      "sha256": "f688759187a2d193760eab70a66ec4f16aa5b20f953ebb63b1f1f4e8a5743cbf"
+    },
+    "validation": {
+      "bytes": 24530047,
+      "name": "antmaze-large-stitch-v0-val.npz",
+      "sha256": "a4dea2dcd83f8fdb40804222fc43707db3aec0cd21ba76e267210b46584a2d82"
+    }
+  },
+  "dependency_lock_sha256": "1335779ad8528a74320c15d1161849da7beb00300855220ffde752263925ed2b",
+  "documents": {
+    "EA_V2_EXPERIMENT_PLAN_OG.md": "c288ba7f9bceab3839010ff6fdd36312e2945dd37ddcd6c91bb69943a4b69e0a",
+    "execution_aligned_multihorizon_offline_rl_research_v2.md": "1f1d903b147a3ca3a22ba4a857ca1f97ac1c3899936f77bbae6143faff57424a"
+  },
+  "legacy_rollinpioneer_sc_assets_used": false,
+  "official_ogbench": {
+    "commit": "1d4140997f60c52c6fb0702ec100dc988b18c548",
+    "url": "https://github.com/seohongpark/ogbench",
+    "version": "1.2.1"
+  },
+  "repository": "rollinpioneer/OG",
+  "training_code_commit": "77910c3f01cee37d1f54158ae53cbb95562a9248"
+}

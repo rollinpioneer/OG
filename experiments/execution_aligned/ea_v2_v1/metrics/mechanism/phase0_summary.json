@@ -1,0 +1,17 @@
+{
+  "all_environment_branches_training_eligible": false,
+  "deep_roots_evaluated": 8,
+  "elapsed_seconds": 294.05225014686584,
+  "full_gap_rate_on_preregistered_deep_roots": 0.125,
+  "full_indistinguishable_rate": 0.875,
+  "legal_roots": 32,
+  "mean_ideal_proxy_spearman": 0.28125000000000006,
+  "planned_roots": 32,
+  "proxy_indistinguishable_rate": 0.0,
+  "proxy_wrong_selection_rate": 0.25,
+  "raw_sha256": "8a3685f30606a7b3f1730e17345ba22833a3235770a6c438ecb4d5cdf2810b90",
+  "roots_sha256": "e74e405c01aee7f3ae20618739313596157d5b83aa36c157dca9d94070d58f80",
+  "status": "GAP_PRESENT_PROVISIONAL",
+  "value_std_data_real": 17.49651336669922,
+  "value_tolerance": 0.874825668334961
+}

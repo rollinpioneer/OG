@@ -1,0 +1,8 @@
+{
+  "automatic_next_phase_started": false,
+  "overall_status": "GAP_PRESENT_PROVISIONAL",
+  "phase_0": "GAP_PRESENT_PROVISIONAL",
+  "phase_a": "PASS",
+  "phase_b": "PASS",
+  "stop_after_phase_0": true
+}

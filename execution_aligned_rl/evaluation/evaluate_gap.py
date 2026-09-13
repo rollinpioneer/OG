@@ -148,6 +148,8 @@ def main() -> None:
         task_id = root_id % task_count + 1
         fraction = (0.0, 0.25, 0.5)[stable_int(f"fraction:{root_id}") % 3]
         decision_step = int(max_steps * fraction)
+        np.random.seed(root_id)
+        env.action_space.seed(root_id)
         observation, info = env.reset(seed=root_id, options={"task_id": task_id})
         final_goal = np.asarray(info["goal"])
         prefix_done = False
@@ -173,11 +175,19 @@ def main() -> None:
                 restore_snapshot(env, snapshot)
                 key = jax.random.PRNGKey(stable_int(f"branch:{root_id}:{candidate_id}:{band}") & 0xFFFFFFFF)
                 first = run_steps(env, agent, candidate, key, args.m, float(config.discount))
-                tail_m = 0.0 if first["terminated"] else float(value_for(agent, first["observation"][None], final_goal)[0])
+                tail_m = (
+                    0.0
+                    if first["terminated"] or first["truncated"]
+                    else float(value_for(agent, first["observation"][None], final_goal)[0])
+                )
                 proxy_m = first["discounted_training_reward"] + (float(config.discount) ** first["steps"]) * tail_m
                 restore_snapshot(env, snapshot)
                 full_k = run_steps(env, agent, candidate, key, args.k, float(config.discount))
-                tail_k = 0.0 if full_k["terminated"] else float(value_for(agent, full_k["observation"][None], final_goal)[0])
+                tail_k = (
+                    0.0
+                    if full_k["terminated"] or full_k["truncated"]
+                    else float(value_for(agent, full_k["observation"][None], final_goal)[0])
+                )
                 proxy_k = full_k["discounted_training_reward"] + (float(config.discount) ** full_k["steps"]) * tail_k
                 restore_snapshot(env, snapshot)
                 full_40 = run_steps(env, agent, candidate, key, args.max_branch, float(config.discount))
@@ -275,6 +285,7 @@ def main() -> None:
     deep = [row for row in legal if "full_gap_present" in row]
     wrong_rate = float(np.mean([row["proxy_wrong_beyond_tolerance"] for row in legal])) if legal else 0.0
     full_gap_rate = float(np.mean([row["full_gap_present"] for row in deep])) if deep else 0.0
+    correlations = [row["ideal_proxy_spearman"] for row in legal if row["ideal_proxy_spearman"] is not None]
     if len(legal) < 24:
         status = "HOLD_INSUFFICIENT_LEGAL_ROOTS"
     elif wrong_rate >= 0.1 and full_gap_rate > 0:
@@ -292,6 +303,7 @@ def main() -> None:
         "value_tolerance": tolerance,
         "proxy_wrong_selection_rate": wrong_rate,
         "full_gap_rate_on_preregistered_deep_roots": full_gap_rate,
+        "mean_ideal_proxy_spearman": float(np.mean(correlations)) if correlations else None,
         "proxy_indistinguishable_rate": float(np.mean([row["proxy_indistinguishable"] for row in legal])) if legal else None,
         "full_indistinguishable_rate": float(np.mean([row["full_indistinguishable"] for row in deep])) if deep else None,
         "all_environment_branches_training_eligible": False,

@@ -1,12 +1,25 @@
 {
+  "candidate_prior_checkpoint_bytes": 325036,
   "candidate_prior_update_cap": 50000,
   "checkpoint_budget_bytes_estimate": 4000000000,
   "dataset_bytes": 269818598,
+  "gciql_checkpoint_bytes": 40467262,
+  "gciql_train_csv_sha256": "f056c25ed91ac5f77c36e92b0e373c3bc0cf0ede5c3c76dd81634af9b1048e68",
   "gpu_measurement_status": "pending_phase_b_1000_update_benchmark",
+  "measured_gpu_model": "NVIDIA A100-SXM4-40GB",
+  "measured_peak_gpu_memory_mib": 22836,
+  "next_phase_estimate": {
+    "assumptions": "P_1 ensemble of 3 x 50k updates; same 32x8x2x40 bounded candidate branches; lightweight logs plus checkpoints",
+    "environment_rollout_steps_upper_bound": 20480,
+    "gpu_hours": 0.8,
+    "scope": "phase C only; not started",
+    "storage_gib": 2.0
+  },
   "phase_0_max_environment_steps": 84480,
   "phase_0_note": "upper bound; terminated prefixes and branches stop early; forks are evaluation-only",
-  "phase_a_wall_seconds": 1.9430112838745117,
+  "phase_0_wall_seconds": 294.05225014686584,
+  "phase_a_wall_seconds": 1.9455204010009766,
   "phase_b_update_cap": 1000000,
   "raw_mechanism_budget_bytes_estimate": 1000000000,
-  "run_root": "/home/xushijie/og_runs/ea_v2_v1"
+  "run_root": "<LOCAL_RUN_ROOT>"
 }

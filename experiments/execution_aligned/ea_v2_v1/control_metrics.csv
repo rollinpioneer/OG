@@ -1,0 +1,6 @@
+phase,task_id,success,result_source,training_eligible
+B,task1,0.0,ENV_EVALUATED,false
+B,task2,0.0,ENV_EVALUATED,false
+B,task3,0.375,ENV_EVALUATED,false
+B,task4,0.0,ENV_EVALUATED,false
+B,task5,0.0,ENV_EVALUATED,false

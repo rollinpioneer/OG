@@ -1,0 +1,7 @@
+{
+  "comparison": "IDEAL_top1_vs_environment_proxy_oracle",
+  "confirmatory_method_comparisons": "NOT_RUN",
+  "full_gap_rate_on_preregistered_deep_roots": 0.125,
+  "proxy_wrong_selection_rate": 0.25,
+  "scope": "phase_0_candidate_ranking_only"
+}

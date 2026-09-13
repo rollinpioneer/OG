@@ -124,6 +124,7 @@
     "wrapper_elapsed_steps"
   ],
   "state_markov_audit": "PASS_PUBLIC_OBSERVATION_CONTAINS_QPOS_QVEL",
+  "status": "PASS",
   "terminal_semantics": "dataset terminal marks trajectory file boundary; GCIQL mask is goal-relabel success, not file termination",
   "training_reward": "official GCIQL gc_negative contract: 0 when relabeled state equals goal, else -1"
 }

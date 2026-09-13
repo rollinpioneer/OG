@@ -1,0 +1,18 @@
+{
+  "absorbing_tail": "tail value set to zero after success/termination",
+  "dataset_id": "antmaze-large-stitch-v0",
+  "dataset_terminal_semantics": "episode/file boundary only; never substituted for goal-success mask",
+  "discount": 0.99,
+  "environment_reward": {
+    "failure": 0.0,
+    "success": 1.0
+  },
+  "gciql_training_reward": {
+    "goal": 0.0,
+    "non_goal": -1.0
+  },
+  "goal_success_mask": "1 - relabeled_goal_success",
+  "planning_conversion": "r_training = r_environment - 1",
+  "time_limit_semantics": "official env.spec.max_episode_steps and TimeLimit elapsed_steps",
+  "value_semantics": "frozen conservative ranking critic under official GCIQL relabeling; not a success probability"
+}

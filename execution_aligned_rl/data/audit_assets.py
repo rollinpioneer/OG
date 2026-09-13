@@ -333,6 +333,12 @@ def main() -> None:
     interface_audit = audit_environment(env)
     interface_audit.update(
         {
+            "status": (
+                "PASS"
+                if interface_audit["all_deterministic_resets"]
+                and interface_audit["all_snapshot_restores_exact"]
+                else "HOLD_INTERFACE_OR_DATA"
+            ),
             "observation_semantics": "Ant qpos concatenated with qvel; public observation includes full MuJoCo generalized state",
             "action_semantics": "8 normalized actuator controls clipped by Box bounds",
             "environment_reward": "goal success indicator in goal-conditioned mode: 1 on success, else 0",
