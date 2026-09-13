@@ -1,11 +1,81 @@
 {
-  "status": "HOLD_CUBE_DATA_DOWNLOAD",
   "dataset_id": "cube-double-play-v0",
-  "official_ogbench": {"commit": "1d4140997f60c52c6fb0702ec100dc988b18c548", "url": "https://github.com/seohongpark/ogbench"},
-  "acquisition_interface": "ogbench.make_env_and_datasets",
-  "source_url": "https://rail.eecs.berkeley.edu/datasets/ogbench/cube-double-play-v0.npz",
-  "train": null,
-  "validation": null,
-  "self_generated": false,
-  "transfer_verified": false
+  "files": {
+    "train": {
+      "bytes": 297435656,
+      "name": "cube-double-play-v0.npz",
+      "sha256": "a73d1a33d029cedb8bc170ef94791ec585fa2d9450096f4f2a02b8cfbcf608c9"
+    },
+    "validation": {
+      "bytes": 29726524,
+      "name": "cube-double-play-v0-val.npz",
+      "sha256": "b1fcdf4bd40750351a58d0d491d6be198366ce898f0c6a2e4cb5db331966013e"
+    }
+  },
+  "license": "OGBench upstream MIT code; dataset terms per upstream project",
+  "result_source": "DATA_REAL",
+  "train": {
+    "action_shape": [
+      5
+    ],
+    "episode_length": {
+      "max": 1000,
+      "mean": 1000.0,
+      "median": 1000.0,
+      "min": 1000,
+      "p25": 1000.0,
+      "p75": 1000.0
+    },
+    "episodes": 1000,
+    "keys": [
+      "actions",
+      "next_observations",
+      "observations",
+      "terminals"
+    ],
+    "legal_windows_by_horizon": {
+      "1": 999000,
+      "10": 990000,
+      "20": 980000,
+      "40": 960000,
+      "5": 995000
+    },
+    "observation_shape": [
+      37
+    ],
+    "terminal_count": 1000,
+    "transitions": 1000000
+  },
+  "validation": {
+    "action_shape": [
+      5
+    ],
+    "episode_length": {
+      "max": 1000,
+      "mean": 1000.0,
+      "median": 1000.0,
+      "min": 1000,
+      "p25": 1000.0,
+      "p75": 1000.0
+    },
+    "episodes": 100,
+    "keys": [
+      "actions",
+      "next_observations",
+      "observations",
+      "terminals"
+    ],
+    "legal_windows_by_horizon": {
+      "1": 99900,
+      "10": 99000,
+      "20": 98000,
+      "40": 96000,
+      "5": 99500
+    },
+    "observation_shape": [
+      37
+    ],
+    "terminal_count": 100,
+    "transitions": 100000
+  }
 }

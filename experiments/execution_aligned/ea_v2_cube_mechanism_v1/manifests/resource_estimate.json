@@ -1,0 +1,12 @@
+{
+  "candidate_prior_update_cap": 50000,
+  "checkpoint_budget_bytes_estimate": 4000000000,
+  "dataset_bytes": 327162180,
+  "gpu_measurement_status": "pending_phase_b_1000_update_benchmark",
+  "phase_0_max_environment_steps": 52480,
+  "phase_0_note": "upper bound; terminated prefixes and branches stop early; forks are evaluation-only",
+  "phase_a_wall_seconds": 3.1128432750701904,
+  "phase_b_update_cap": 1000000,
+  "raw_mechanism_budget_bytes_estimate": 1000000000,
+  "run_root": "/home/__compress_data/xushijie/ea_v2_cube_data"
+}
