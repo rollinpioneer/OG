@@ -1,0 +1,81 @@
+{
+  "dataset_id": "antmaze-large-stitch-v0",
+  "files": {
+    "train": {
+      "bytes": 245288551,
+      "name": "antmaze-large-stitch-v0.npz",
+      "sha256": "f688759187a2d193760eab70a66ec4f16aa5b20f953ebb63b1f1f4e8a5743cbf"
+    },
+    "validation": {
+      "bytes": 24530047,
+      "name": "antmaze-large-stitch-v0-val.npz",
+      "sha256": "a4dea2dcd83f8fdb40804222fc43707db3aec0cd21ba76e267210b46584a2d82"
+    }
+  },
+  "license": "OGBench upstream MIT code; dataset terms per upstream project",
+  "result_source": "DATA_REAL",
+  "train": {
+    "action_shape": [
+      8
+    ],
+    "episode_length": {
+      "max": 200,
+      "mean": 200.0,
+      "median": 200.0,
+      "min": 200,
+      "p25": 200.0,
+      "p75": 200.0
+    },
+    "episodes": 5000,
+    "keys": [
+      "actions",
+      "next_observations",
+      "observations",
+      "terminals"
+    ],
+    "legal_windows_by_horizon": {
+      "1": 995000,
+      "10": 950000,
+      "20": 900000,
+      "40": 800000,
+      "5": 975000
+    },
+    "observation_shape": [
+      29
+    ],
+    "terminal_count": 5000,
+    "transitions": 1000000
+  },
+  "validation": {
+    "action_shape": [
+      8
+    ],
+    "episode_length": {
+      "max": 200,
+      "mean": 200.0,
+      "median": 200.0,
+      "min": 200,
+      "p25": 200.0,
+      "p75": 200.0
+    },
+    "episodes": 500,
+    "keys": [
+      "actions",
+      "next_observations",
+      "observations",
+      "terminals"
+    ],
+    "legal_windows_by_horizon": {
+      "1": 99500,
+      "10": 95000,
+      "20": 90000,
+      "40": 80000,
+      "5": 97500
+    },
+    "observation_shape": [
+      29
+    ],
+    "terminal_count": 500,
+    "transitions": 100000
+  }
+}

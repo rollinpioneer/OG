@@ -1,0 +1,57 @@
+{
+  "experiment_id": "ea_v2_v1_antmaze_seed0",
+  "scope": ["A", "B", "0"],
+  "forbidden_scope": ["C", "D", "E", "F", "P_1", "P_MH", "EXEC"],
+  "dataset_id": "antmaze-large-stitch-v0",
+  "training_seed": 0,
+  "split": {
+    "unit": "episode",
+    "source": "official_validation",
+    "offline_select": 0.4,
+    "offline_calibration": 0.3,
+    "offline_audit": 0.3,
+    "algorithm": "sha256_order_then_largest_remainder"
+  },
+  "normalization_source": "official_training_only",
+  "backbone": {
+    "implementation": "official_ogbench_gciql",
+    "agent_config": "impls/agents/gciql.py",
+    "alpha": 0.3,
+    "train_steps_cap": 1000000,
+    "checkpoint_rule": "fixed_final_checkpoint",
+    "time_conditioned": false,
+    "note": "k is enforced by candidate-window and execution protocol; official GCIQL actor has no explicit remaining-horizon input"
+  },
+  "candidate_prior": {
+    "representation": "physical_observation",
+    "horizon_k": 20,
+    "count_n": 8,
+    "source": "training_episode_k_step_endpoints",
+    "architecture": "conditional_diagonal_gaussian_mlp",
+    "hidden_dims": [256, 256],
+    "updates": 50000,
+    "batch_size": 1024,
+    "learning_rate": 0.0003,
+    "selection_rule": "fixed_final_checkpoint"
+  },
+  "mechanism_gate": {
+    "roots": 32,
+    "minimum_legal_roots": 24,
+    "decision_fractions": [0.0, 0.25, 0.5],
+    "decision_fraction_assignment": "sha256(root_id) modulo 3",
+    "k": 20,
+    "m": 5,
+    "max_branch_steps": 40,
+    "candidates_per_root": 8,
+    "execution_bands": 2,
+    "deep_roots": 8,
+    "deep_root_rule": "lowest sha256(root_id) among preregistered roots",
+    "value_tolerance": "0.05 * offline_train_value_std",
+    "wrong_selection_rate_threshold": 0.1,
+    "no_replacement": true
+  },
+  "result_sources": ["DATA_REAL", "MODEL_SIMULATED", "ENV_EVALUATED"],
+  "environment_forks_training_eligible": false,
+  "created_utc": "2026-09-13T00:00:00Z"
+}
+

@@ -1,0 +1,129 @@
+{
+  "action_semantics": "8 normalized actuator controls clipped by Box bounds",
+  "all_deterministic_resets": true,
+  "all_snapshot_restores_exact": true,
+  "checks": [
+    {
+      "deterministic_reset": true,
+      "reset_id": 0,
+      "result_source": "ENV_EVALUATED",
+      "reward": 0.0,
+      "snapshot_restore_exact_for_zero_action": true,
+      "success": 0.0,
+      "task_id": 1,
+      "terminated": false,
+      "training_eligible": false,
+      "truncated": false
+    },
+    {
+      "deterministic_reset": true,
+      "reset_id": 1,
+      "result_source": "ENV_EVALUATED",
+      "reward": 0.0,
+      "snapshot_restore_exact_for_zero_action": true,
+      "success": 0.0,
+      "task_id": 2,
+      "terminated": false,
+      "training_eligible": false,
+      "truncated": false
+    },
+    {
+      "deterministic_reset": true,
+      "reset_id": 2,
+      "result_source": "ENV_EVALUATED",
+      "reward": 0.0,
+      "snapshot_restore_exact_for_zero_action": true,
+      "success": 0.0,
+      "task_id": 3,
+      "terminated": false,
+      "training_eligible": false,
+      "truncated": false
+    },
+    {
+      "deterministic_reset": true,
+      "reset_id": 3,
+      "result_source": "ENV_EVALUATED",
+      "reward": 0.0,
+      "snapshot_restore_exact_for_zero_action": true,
+      "success": 0.0,
+      "task_id": 4,
+      "terminated": false,
+      "training_eligible": false,
+      "truncated": false
+    },
+    {
+      "deterministic_reset": true,
+      "reset_id": 4,
+      "result_source": "ENV_EVALUATED",
+      "reward": 0.0,
+      "snapshot_restore_exact_for_zero_action": true,
+      "success": 0.0,
+      "task_id": 5,
+      "terminated": false,
+      "training_eligible": false,
+      "truncated": false
+    },
+    {
+      "deterministic_reset": true,
+      "reset_id": 5,
+      "result_source": "ENV_EVALUATED",
+      "reward": 0.0,
+      "snapshot_restore_exact_for_zero_action": true,
+      "success": 0.0,
+      "task_id": 1,
+      "terminated": false,
+      "training_eligible": false,
+      "truncated": false
+    },
+    {
+      "deterministic_reset": true,
+      "reset_id": 6,
+      "result_source": "ENV_EVALUATED",
+      "reward": 0.0,
+      "snapshot_restore_exact_for_zero_action": true,
+      "success": 0.0,
+      "task_id": 2,
+      "terminated": false,
+      "training_eligible": false,
+      "truncated": false
+    },
+    {
+      "deterministic_reset": true,
+      "reset_id": 7,
+      "result_source": "ENV_EVALUATED",
+      "reward": 0.0,
+      "snapshot_restore_exact_for_zero_action": true,
+      "success": 0.0,
+      "task_id": 3,
+      "terminated": false,
+      "training_eligible": false,
+      "truncated": false
+    }
+  ],
+  "engineering_reset_limit": 8,
+  "environment_reward": "goal success indicator in goal-conditioned mode: 1 on success, else 0",
+  "future_information_isolation": {
+    "oracle_entrypoint_present": false,
+    "planner_entrypoint_present": false,
+    "status": "NOT_APPLICABLE_PHASE_A"
+  },
+  "observation_semantics": "Ant qpos concatenated with qvel; public observation includes full MuJoCo generalized state",
+  "quaternion_order": "MuJoCo qpos convention (w, x, y, z) for free joint",
+  "snapshot_fields": [
+    "mujoco_qpos",
+    "mujoco_qvel",
+    "mujoco_act",
+    "mujoco_time",
+    "environment_rng",
+    "global_numpy_rng",
+    "action_space_rng",
+    "mujoco_ctrl_warmstart_applied_forces_mocap_userdata",
+    "task_id",
+    "task_info",
+    "goal_xy",
+    "wrapper_elapsed_steps"
+  ],
+  "state_markov_audit": "PASS_PUBLIC_OBSERVATION_CONTAINS_QPOS_QVEL",
+  "terminal_semantics": "dataset terminal marks trajectory file boundary; GCIQL mask is goal-relabel success, not file termination",
+  "training_reward": "official GCIQL gc_negative contract: 0 when relabeled state equals goal, else -1"
+}
