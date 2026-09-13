@@ -1,5 +1,5 @@
 {
-  "action_semantics": "8 normalized actuator controls clipped by Box bounds",
+  "action_semantics": "5 normalized robot controls clipped to [-1, 1] Box bounds",
   "all_deterministic_resets": true,
   "all_snapshot_restores_exact": true,
   "checks": [
@@ -107,7 +107,7 @@
     "planner_entrypoint_present": false,
     "status": "NOT_APPLICABLE_PHASE_A"
   },
-  "observation_semantics": "Ant qpos concatenated with qvel; public observation includes full MuJoCo generalized state",
+  "observation_semantics": "37D Cube state: robot proprioception, effector/gripper/contact, per-cube pose/quaternion/yaw, qpos/qvel/control/time",
   "quaternion_order": "MuJoCo qpos convention (w, x, y, z) for free joint",
   "snapshot_fields": [
     "mujoco_qpos",
@@ -123,7 +123,7 @@
     "goal_xy",
     "wrapper_elapsed_steps"
   ],
-  "state_markov_audit": "PASS_PUBLIC_OBSERVATION_CONTAINS_QPOS_QVEL",
+  "state_markov_audit": "PASS_PUBLIC_OBSERVATION_CONTAINS_ROBOT_AND_CUBE_STATE",
   "status": "PASS",
   "terminal_semantics": "dataset terminal marks trajectory file boundary; GCIQL mask is goal-relabel success, not file termination",
   "training_reward": "official GCIQL gc_negative contract: 0 when relabeled state equals goal, else -1"
