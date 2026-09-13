@@ -1,0 +1,13 @@
+{
+  "status": "HOLD_CUBE_DATA_DOWNLOAD",
+  "dataset_id": "cube-double-play-v0",
+  "official_interface": "ogbench.make_env_and_datasets(dataset_name, dataset_dir)",
+  "official_ogbench_commit": "1d4140997f60c52c6fb0702ec100dc988b18c548",
+  "source_url": "https://rail.eecs.berkeley.edu/datasets/ogbench/cube-double-play-v0.npz",
+  "server_dataset_dir": "/home/__compress_data/xushijie/ea_v2_cube_data",
+  "train": null,
+  "validation": null,
+  "attempt": {"result": "ConnectionRefusedError [Errno 111]", "generated_data": false, "generation_script_used": false},
+  "transfer_post_hash": null,
+  "note": "Official download unavailable from server network; no substitute or self-generated data used."
+}

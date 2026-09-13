@@ -1,0 +1,11 @@
+{
+  "status": "HOLD_CUBE_DATA_DOWNLOAD",
+  "dataset_id": "cube-double-play-v0",
+  "official_ogbench": {"commit": "1d4140997f60c52c6fb0702ec100dc988b18c548", "url": "https://github.com/seohongpark/ogbench"},
+  "acquisition_interface": "ogbench.make_env_and_datasets",
+  "source_url": "https://rail.eecs.berkeley.edu/datasets/ogbench/cube-double-play-v0.npz",
+  "train": null,
+  "validation": null,
+  "self_generated": false,
+  "transfer_verified": false
+}
