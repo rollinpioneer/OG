@@ -151,7 +151,7 @@ def write_root_bundle(directory: Path, bundle: dict) -> dict:
     save_python_state(directory / "decision_python_state", bundle["decision_python_state"])
     _write_npz(directory / "bootstrap_observation_stage.npz", bundle["bootstrap_observation_stage"])
     _write_npz(directory / "decision_observation_stage.npz", bundle["decision_observation_stage"])
-    dump_json(directory / "task_state.json", bundle["task_state"])
+    dump_json(directory / "task_state.json", encode_nested(bundle["task_state"]))
     dump_json(directory / "root_manifest.json", bundle["manifest"])
     if bundle.get("prefix_trace") is not None:
         save_trace_npz(directory / "prefix_trace.npz", bundle["prefix_trace"])

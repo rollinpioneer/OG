@@ -1,0 +1,55 @@
+START 2026-09-15T00:58:36+08:00 HEAD=714a4c2488fbbc427898783f2e62e96ea3aa5c52
+/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/site-packages/glfw/__init__.py:917: GLFWError: (65550) b'X11: The DISPLAY environment variable is missing'
+  warnings.warn(message, GLFWError)
+/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/site-packages/gymnasium/spaces/box.py:231: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/site-packages/gymnasium/spaces/box.py:297: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/engineering_pilot.py", line 669, in <module>
+    main()
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/engineering_pilot.py", line 659, in main
+    acquire(args)
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/engineering_pilot.py", line 191, in acquire
+    hashes = write_root_bundle(dest, bundle)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/root_bundle.py", line 154, in write_root_bundle
+    dump_json(directory / "task_state.json", bundle["task_state"])
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/serialization.py", line 25, in dump_json
+    text = json.dumps(payload, indent=2, sort_keys=sort_keys, default=json_default, ensure_ascii=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/serialization.py", line 14, in json_default
+    raise TypeError("ndarray must be stored in .npy/.npz, not JSON")
+TypeError: ndarray must be stored in .npy/.npz, not JSON
+Restored from /home/__compress_data/xushijie/og_runs/ea_v2_cube_mechanism_v1/checkpoints/gciql_seed0/params_1000000.pkl
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/engineering_pilot.py", line 669, in <module>
+    main()
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/engineering_pilot.py", line 665, in main
+    run_s1(args)
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/engineering_pilot.py", line 642, in run_s1
+    subprocess.run(common + ["acquire"], check=True, cwd=args.repo)
+  File "/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/xushijie/.conda/envs/og-ea-v2/bin/python', '-m', 'execution_aligned_rl.v3.engineering_pilot', '--repo', '/home/__compress_data/xushijie/OG_ea_v3_materialized_roots', '--dataset-dir', '/home/__compress_data/xushijie/ea_v2_cube_data', '--official-source', '/home/__compress_data/xushijie/og_runs/ea_v2_v1/src/ogbench', '--checkpoint-dir', '/home/__compress_data/xushijie/og_runs/ea_v2_cube_mechanism_v1/checkpoints/gciql_seed0', '--root-store', '/home/__compress_data/xushijie/ea_v3_root_store/ea_v3_materialized_roots_v1', 'acquire']' returned non-zero exit status 1.
