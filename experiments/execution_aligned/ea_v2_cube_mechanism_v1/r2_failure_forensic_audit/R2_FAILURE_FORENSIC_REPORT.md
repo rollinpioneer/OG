@@ -1,6 +1,6 @@
 # R2 Failure Forensic Audit
 
-Status: **HOLD_SIMULATOR_CONTACT_NONDETERMINISM**
+Status: **HOLD_CUBE_ROOT_RECONSTRUCTION_MISMATCH**
 
 This engineering-only audit froze all 61 non-reproducible root/candidate pairs from
 `branch_reproducibility_r2.json` across 10 unique roots. It generated no roots or candidates
@@ -19,8 +19,10 @@ frozen thresholds. No policy-action or post-branch simulator divergence was obse
 The remaining 7 candidate branches all belong to root 4022. In this forensic process, the
 frozen closed-loop prefix terminated at step 176, although R2 recorded root 4022 as legal.
 Consequently its R2 decision snapshot could not be reconstructed and none of A/B/C could be
-validly run for those 7 candidates. This cross-run prefix outcome difference is classified as
-`HOLD_SIMULATOR_CONTACT_NONDETERMINISM`.
+validly run for those 7 candidates. This is classified as
+`HOLD_CUBE_ROOT_RECONSTRUCTION_MISMATCH`, not simulator contact non-determinism: policy
+action divergence was zero and simulator state divergence was zero on all 54 evaluable
+branches.
 
 Independent envs produced identical reset observations and task metadata but different 37D
 goal observation encodings. Goal encoding was retained as a non-gate diagnostic because the

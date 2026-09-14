@@ -19,7 +19,7 @@
   "protocol_preparation_failure_records": 21,
   "research_metrics_computed": false,
   "simulator_state_failure_records": 0,
-  "status": "HOLD_SIMULATOR_CONTACT_NONDETERMINISM",
+  "status": "HOLD_CUBE_ROOT_RECONSTRUCTION_MISMATCH",
   "steps_per_branch": 5,
   "thresholds": {
     "action_max_abs": 1e-07,
