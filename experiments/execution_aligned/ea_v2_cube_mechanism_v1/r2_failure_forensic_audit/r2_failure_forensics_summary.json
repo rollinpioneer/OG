@@ -1,0 +1,34 @@
+{
+  "baseline_commit": "5126193457d62e5054588b380bea8e3c00229ec0",
+  "elapsed_seconds": 139.24250650405884,
+  "frozen_failure_branches": 61,
+  "generated_candidates": 0,
+  "generated_roots": 0,
+  "goal_encoding_is_gate_metric": false,
+  "initial_state_failure_records": 0,
+  "phase_r2_rp_executed": false,
+  "policy_action_failure_records": 0,
+  "preparation_failure_roots": [
+    4022
+  ],
+  "protocol_pass_counts": {
+    "A_same_env_snapshot_v2": 54,
+    "B_two_env_reset_frozen_prefix_replay": 54,
+    "C_full_mjdata_copy_two_envs": 54
+  },
+  "protocol_preparation_failure_records": 21,
+  "research_metrics_computed": false,
+  "simulator_state_failure_records": 0,
+  "status": "HOLD_SIMULATOR_CONTACT_NONDETERMINISM",
+  "steps_per_branch": 5,
+  "thresholds": {
+    "action_max_abs": 1e-07,
+    "cube_observation_max_abs": 1e-06,
+    "integration_state_max_abs": 1e-06,
+    "observation_max_abs": 1e-06,
+    "proxy_value_abs": 1e-05,
+    "success_terminated_truncated_agreement": 1.0
+  },
+  "unique_preparation_failure_branches": 7,
+  "unique_roots": 10
+}

@@ -1,0 +1,7 @@
+{
+  "phase_c_unlocked": false,
+  "r2_rp_authorized": false,
+  "r2_rp_executed": false,
+  "reason": "No protocol passed all frozen failures: root 4022 terminated while reconstructing the originally legal frozen prefix at step 176. No policy-action divergence was observed on the 54 fully evaluable branches.",
+  "status": "HOLD_SIMULATOR_CONTACT_NONDETERMINISM"
+}
