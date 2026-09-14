@@ -1,13 +1,17 @@
 {
-  "overall_status": "CUBE_GAP_PRESENT_PROVISIONAL",
+  "overall_status": "HOLD_CUBE_BRANCH_REPRODUCIBILITY",
   "candidate_support": "PASS",
-  "legal_roots": 30,
-  "planned_roots": 32,
-  "deep_roots_evaluated": 14,
-  "planned_deep_roots": 16,
-  "full_distinguishable_roots_legal": 5,
-  "full_gap_roots_legal": 3,
-  "phase0_started": true,
-  "stop_after_phase0": true,
-  "phases_not_run": ["C", "D", "E", "F", "P_1", "P_MH", "EXEC"]
+  "phase0r_status": "HOLD_CUBE_BRANCH_REPRODUCIBILITY",
+  "phase0r_started": true,
+  "phase0r_results_conclusive": false,
+  "stop_after_phase0r": true,
+  "phases_not_run": [
+    "C",
+    "D",
+    "E",
+    "F",
+    "P_1",
+    "P_MH",
+    "EXEC"
+  ]
 }

@@ -1,0 +1,16 @@
+{
+  "status": "CUBE_GAP_PROXY_ONLY_ROBUST",
+  "planned_roots": 32,
+  "legal_roots": 29,
+  "planned_deep_roots": 16,
+  "deep_roots_evaluated": 14,
+  "full_distinguishable_roots": 0,
+  "full_gap_roots": 0,
+  "ideal_not_best_deep_roots": 0,
+  "proxy_wrong_selection_rate": 0.5172413793103449,
+  "mean_ideal_proxy_spearman": 0.025451559934318555,
+  "all_reproducible": false,
+  "raw_sha256": "b1998f4ca73c27a11202bc29186d6349d46af5ab16c56034f4877de34495390b",
+  "roots_sha256": "56b617549a90530d1686bc07322478258845b04ad7f5ce0035fa807b7b805382",
+  "elapsed_seconds": 60.04649496078491
+}

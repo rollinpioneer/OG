@@ -1,0 +1,25 @@
+{
+  "status": "HOLD_CUBE_BRANCH_REPRODUCIBILITY",
+  "total_candidate_repeats": 232,
+  "non_reproducible_repeats": 83,
+  "reproducible_rate": 0.6422413793103449,
+  "endpoint_task_pose_distance": {
+    "median": 0.001712582573915343,
+    "max": 0.14989161675735843
+  },
+  "proxy_value_abs_difference": {
+    "median": 0.004164644536160722,
+    "max": 0.2397463967427882
+  },
+  "comparison_fields": [
+    "m_endpoint",
+    "proxy_value",
+    "success",
+    "terminated",
+    "truncated",
+    "task_relevant_state_distance"
+  ],
+  "same_snapshot_and_rng_key": true,
+  "averaging_bands_to_mask_difference": false,
+  "result_source": "ENV_EVALUATED"
+}
