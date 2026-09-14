@@ -1,0 +1,22 @@
+{
+  "adjacent_sample_distinct_rate": 1.0,
+  "audit_windows": 4096,
+  "candidate_count": 8,
+  "candidate_set_is_reachability_label": false,
+  "checkpoint": "candidate_prior.pkl",
+  "checkpoint_sha256": "56c2005b327d82b85c8029e48848d680ac5eb10c7678b3be49d534bb8ddccf95",
+  "dataset_id": "cube-double-play-v0",
+  "final_training_record": {
+    "loss": -0.747539222240448,
+    "mse": 0.18406084179878235,
+    "step": 50000,
+    "wall_seconds": 74.63696455955505
+  },
+  "finite_candidate_rate": 1.0,
+  "mean_predicted_std": 0.3618882894515991,
+  "normalized_endpoint_mse": 0.19579103589057922,
+  "result_source": "DATA_REAL",
+  "status": "PASS",
+  "training_windows": 980000,
+  "validation_windows": 98000
+}

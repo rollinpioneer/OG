@@ -32,10 +32,12 @@ def main() -> None:
     parser.add_argument("--expected-actor-p-randomgoal", type=float, default=0.5)
     parser.add_argument("--expected-actor-p-trajgoal", type=float, default=0.5)
     parser.add_argument("--epoch", type=int, default=1_000_000)
+    parser.add_argument("--dataset", default="antmaze-large-stitch-v0")
+    parser.add_argument("--alpha", type=float, default=0.3)
     args = parser.parse_args()
 
-    env, train, val = ogbench.make_env_and_datasets("antmaze-large-stitch-v0", dataset_dir=args.dataset_dir)
-    agent, config = load_agent(args.official_source, args.checkpoint_dir, args.epoch, train, {"alpha": 0.3})
+    env, train, val = ogbench.make_env_and_datasets(args.dataset, dataset_dir=args.dataset_dir)
+    agent, config = load_agent(args.official_source, args.checkpoint_dir, args.epoch, train, {"alpha": args.alpha})
     rng = np.random.default_rng(20260913)
     ids = rng.choice(len(val["observations"]), size=min(4096, len(val["observations"])), replace=False)
     observations = np.asarray(val["observations"])[ids]
@@ -71,7 +73,7 @@ def main() -> None:
         status = "HOLD_BACKBONE_OR_CANDIDATES"
     manifest = {
         "status": status,
-        "dataset_id": "antmaze-large-stitch-v0",
+        "dataset_id": args.dataset,
         "training_code_commit": args.training_code_commit,
         "official_ogbench_commit": official_commit,
         "implementation": "official OGBench GCIQL modules via local no-wandb runner",
@@ -103,7 +105,7 @@ def main() -> None:
         "official_environment_evaluation": evaluation,
     }
     contract = {
-        "dataset_id": "antmaze-large-stitch-v0",
+        "dataset_id": args.dataset,
         "discount": float(config.discount),
         "environment_reward": {"failure": 0.0, "success": 1.0},
         "gciql_training_reward": {"non_goal": -1.0, "goal": 0.0},

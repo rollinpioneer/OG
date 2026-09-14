@@ -1,13 +1,13 @@
 {
-  "status": "HOLD_CUBE_DATA_DOWNLOAD",
+  "status": "CUBE_DATA_READY_FOR_PHASE_A",
   "dataset_id": "cube-double-play-v0",
   "official_interface": "ogbench.make_env_and_datasets(dataset_name, dataset_dir)",
   "official_ogbench_commit": "1d4140997f60c52c6fb0702ec100dc988b18c548",
   "source_url": "https://rail.eecs.berkeley.edu/datasets/ogbench/cube-double-play-v0.npz",
   "server_dataset_dir": "/home/__compress_data/xushijie/ea_v2_cube_data",
-  "train": null,
-  "validation": null,
-  "attempt": {"result": "ConnectionRefusedError [Errno 111]", "generated_data": false, "generation_script_used": false},
-  "transfer_post_hash": null,
-  "note": "Official download unavailable from server network; no substitute or self-generated data used."
+  "train": {"name": "cube-double-play-v0.npz", "bytes": 297435656, "sha256": "a73d1a33d029cedb8bc170ef94791ec585fa2d9450096f4f2a02b8cfbcf608c9"},
+  "validation": {"name": "cube-double-play-v0-val.npz", "bytes": 29726524, "sha256": "b1fcdf4bd40750351a58d0d491d6be198366ce898f0c6a2e4cb5db331966013e"},
+  "attempt": {"result": "official_interface_loaded_after_user_provided_transfer", "generated_data": false, "generation_script_used": false},
+  "transfer_post_hash": true,
+  "note": "User-provided files match local source and server post-transfer SHA256."
 }
