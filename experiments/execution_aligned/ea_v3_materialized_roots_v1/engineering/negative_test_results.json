@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "detail": "ValueError: hash mismatch for goal_observation.npy: c4c73a6cd113c46d368166c7315b1c78dd2d1e86b7cff108e79b8d4139585008 != f5bff6c74c3f349395ea5b8f8f2f013b4047736a290ef1116bbf2b66735eb58d",
+      "detected": true,
+      "expected": "hash_failure",
+      "name": "byte_flip_root_file"
+    },
+    {
+      "detected": true,
+      "expected": "GOAL_ENCODING",
+      "name": "replace_37d_goal_keep_task",
+      "reasons": [
+        "GOAL_ENCODING"
+      ],
+      "status": "FAIL"
+    },
+    {
+      "detected": true,
+      "expected": "ELAPSED_START",
+      "name": "elapsed_plus_one",
+      "reasons": [
+        "ELAPSED_START"
+      ],
+      "status": "FAIL"
+    },
+    {
+      "detected": true,
+      "expected": "LENGTH_MISMATCH",
+      "name": "drop_last_step",
+      "reasons": [
+        "LENGTH_MISMATCH"
+      ],
+      "status": "FAIL"
+    },
+    {
+      "detected": true,
+      "expected": "NONFINITE",
+      "first_divergent_step": 4,
+      "name": "nan_observation",
+      "status": "FAIL"
+    },
+    {
+      "detected": true,
+      "expected": "action threshold",
+      "first_divergent_step": 0,
+      "name": "action_bias",
+      "status": "FAIL"
+    },
+    {
+      "detected": true,
+      "expected": "TERMINATION_PROTOCOL",
+      "name": "continue_after_terminal",
+      "status": "FAIL"
+    },
+    {
+      "detected": true,
+      "expected": "IDENTITY_root_id",
+      "name": "wrong_root_identity",
+      "reasons": [
+        "IDENTITY_root_id"
+      ],
+      "status": "FAIL"
+    }
+  ],
+  "n_cases": 8,
+  "passed_cases": 8,
+  "status": "PASS"
+}

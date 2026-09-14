@@ -327,7 +327,13 @@ def _trace_from_worker(exp: Path, worker_id: str, root_id: int, name: str):
 
 def negative_tests(exp: Path, store: Path, sample_bundle: dict) -> dict:
     cases = []
-    original = sample_bundle["original_live_probe"]
+    original = dict(sample_bundle["original_live_probe"])
+    original["goal_observation"] = sample_bundle["goal_observation"]
+    ident = dict(original.get("identity") or {})
+    ident["root_id"] = sample_bundle["manifest"]["root_id"]
+    ident["task_id"] = sample_bundle["manifest"]["task_id"]
+    ident["protocol_id"] = PROTOCOL_ID
+    original["identity"] = ident
     worker_a = _trace_from_worker(exp, "A", sample_bundle["manifest"]["root_id"], "d3")
 
     # 1. byte flip hash

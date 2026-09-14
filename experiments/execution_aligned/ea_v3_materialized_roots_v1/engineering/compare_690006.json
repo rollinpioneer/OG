@@ -1,0 +1,2829 @@
+{
+  "comparisons": {
+    "D0_A": {
+      "failures": [
+        "terminated",
+        "truncated"
+      ],
+      "fields": {
+        "act": {
+          "error": null,
+          "limit": 1e-06,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        },
+        "action": {
+          "reason": "D0_no_action",
+          "status": "NOT_APPLICABLE"
+        },
+        "ctrl": {
+          "error": null,
+          "limit": 1e-06,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        },
+        "cube_obs_19_37": {
+          "error": null,
+          "limit": 1e-06,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        },
+        "elapsed_steps": {
+          "agree": true,
+          "left": 0,
+          "right": 0,
+          "status": "PASS"
+        },
+        "goal_observation": {
+          "error": null,
+          "limit": 0.0,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        },
+        "integration": {
+          "error": null,
+          "limit": 1e-06,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        },
+        "observation": {
+          "error": null,
+          "limit": 1e-06,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        },
+        "proxy": {
+          "reason": "D0_no_rollout",
+          "status": "NOT_APPLICABLE"
+        },
+        "qpos": {
+          "error": null,
+          "limit": 1e-06,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        },
+        "qvel": {
+          "error": null,
+          "limit": 1e-06,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        },
+        "robot_obs_0_19": {
+          "error": null,
+          "limit": 1e-06,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        },
+        "success": {
+          "agree": true,
+          "left": false,
+          "right": false,
+          "status": "PASS"
+        },
+        "task_id": {
+          "agree": true,
+          "left": 3,
+          "right": 3,
+          "status": "PASS"
+        },
+        "terminated": {
+          "reason": "MISSING",
+          "status": "FAIL"
+        },
+        "truncated": {
+          "reason": "MISSING",
+          "status": "FAIL"
+        },
+        "warmstart": {
+          "error": null,
+          "limit": 1e-06,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        }
+      },
+      "first_divergent_step": 0,
+      "status": "FAIL"
+    },
+    "D0_B": {
+      "failures": [
+        "terminated",
+        "truncated"
+      ],
+      "fields": {
+        "act": {
+          "error": null,
+          "limit": 1e-06,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        },
+        "action": {
+          "reason": "D0_no_action",
+          "status": "NOT_APPLICABLE"
+        },
+        "ctrl": {
+          "error": null,
+          "limit": 1e-06,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        },
+        "cube_obs_19_37": {
+          "error": null,
+          "limit": 1e-06,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        },
+        "elapsed_steps": {
+          "agree": true,
+          "left": 0,
+          "right": 0,
+          "status": "PASS"
+        },
+        "goal_observation": {
+          "error": null,
+          "limit": 0.0,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        },
+        "integration": {
+          "error": null,
+          "limit": 1e-06,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        },
+        "observation": {
+          "error": null,
+          "limit": 1e-06,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        },
+        "proxy": {
+          "reason": "D0_no_rollout",
+          "status": "NOT_APPLICABLE"
+        },
+        "qpos": {
+          "error": null,
+          "limit": 1e-06,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        },
+        "qvel": {
+          "error": null,
+          "limit": 1e-06,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        },
+        "robot_obs_0_19": {
+          "error": null,
+          "limit": 1e-06,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        },
+        "success": {
+          "agree": true,
+          "left": false,
+          "right": false,
+          "status": "PASS"
+        },
+        "task_id": {
+          "agree": true,
+          "left": 3,
+          "right": 3,
+          "status": "PASS"
+        },
+        "terminated": {
+          "reason": "MISSING",
+          "status": "FAIL"
+        },
+        "truncated": {
+          "reason": "MISSING",
+          "status": "FAIL"
+        },
+        "warmstart": {
+          "error": null,
+          "limit": 1e-06,
+          "max_abs_diff": 0.0,
+          "rtol": 0.0,
+          "status": "PASS"
+        }
+      },
+      "first_divergent_step": 0,
+      "status": "FAIL"
+    },
+    "D1_A_vs_original_prefix_action": {
+      "first_divergent_step": 0,
+      "full_proxy": {
+        "status": "FAIL"
+      },
+      "n_steps_a": 1,
+      "n_steps_b": 1,
+      "reasons": [
+        "FULL_PROXY"
+      ],
+      "rtol": 0.0,
+      "status": "FAIL",
+      "steps": [
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "step": 0,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          }
+        }
+      ]
+    },
+    "D1_B_vs_original": {
+      "first_divergent_step": 0,
+      "full_proxy": {
+        "status": "FAIL"
+      },
+      "n_steps_a": 1,
+      "n_steps_b": 1,
+      "reasons": [
+        "FULL_PROXY"
+      ],
+      "rtol": 0.0,
+      "status": "FAIL",
+      "steps": [
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "step": 0,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          }
+        }
+      ]
+    },
+    "D2_A_vs_original": {
+      "first_divergent_step": null,
+      "full_proxy": {
+        "status": "PASS"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "reasons": [],
+      "rtol": 0.0,
+      "status": "PASS",
+      "steps": [
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "step": 0,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "step": 1,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "step": 2,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "step": 3,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "step": 4,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          }
+        }
+      ]
+    },
+    "D2_B_vs_original": {
+      "first_divergent_step": null,
+      "full_proxy": {
+        "status": "PASS"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "reasons": [],
+      "rtol": 0.0,
+      "status": "PASS",
+      "steps": [
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "step": 0,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "step": 1,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "step": 2,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "step": 3,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "step": 4,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          }
+        }
+      ]
+    },
+    "D3_A_vs_B": {
+      "first_divergent_step": 0,
+      "full_proxy": {
+        "status": "FAIL"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "reasons": [],
+      "rtol": 0.0,
+      "status": "FAIL",
+      "steps": [
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 4.470348358154297e-08,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 5.6686590976795515e-09,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [
+            "integration",
+            "warmstart"
+          ],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 2.7504759304852744e-06,
+            "status": "FAIL"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 4.2999886075423266e-08,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 3.640409973471037e-09,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 4.2999886075423266e-08,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 4.2999886075423266e-08,
+            "status": "PASS"
+          },
+          "step": 0,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 2.7504759304852744e-06,
+            "status": "FAIL"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 2.682209014892578e-07,
+            "status": "FAIL"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 5.735947272711428e-08,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [
+            "action",
+            "integration",
+            "warmstart"
+          ],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 7.593270535011243e-06,
+            "status": "FAIL"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 2.3519523736914572e-07,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.3402552623276165e-08,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 2.3519523736914572e-07,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 2.3519523736914572e-07,
+            "status": "PASS"
+          },
+          "step": 1,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 7.593270535011243e-06,
+            "status": "FAIL"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 6.48200511932373e-07,
+            "status": "FAIL"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 2.341568776653702e-07,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [
+            "action",
+            "integration",
+            "warmstart"
+          ],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.332553950827986e-05,
+            "status": "FAIL"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 8.777761287132035e-07,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 6.125163487524787e-08,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 8.777761287132035e-07,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 8.777761287132035e-07,
+            "status": "PASS"
+          },
+          "step": 2,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.332553950827986e-05,
+            "status": "FAIL"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 8.717179298400879e-07,
+            "status": "FAIL"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 3.488989182010016e-07,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [
+            "action",
+            "observation",
+            "robot_obs_0_19",
+            "integration",
+            "qvel",
+            "warmstart"
+          ],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.726208973051868e-05,
+            "status": "FAIL"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.1367301400166951e-06,
+            "status": "FAIL"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.2498563273233287e-07,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.1367301400166951e-06,
+            "status": "FAIL"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.1367301400166951e-06,
+            "status": "FAIL"
+          },
+          "step": 3,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.726208973051868e-05,
+            "status": "FAIL"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 1.1622905731201172e-06,
+            "status": "FAIL"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 4.97439611280015e-07,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [
+            "action",
+            "observation",
+            "robot_obs_0_19",
+            "integration",
+            "qvel",
+            "warmstart"
+          ],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 2.6494728473380746e-05,
+            "status": "FAIL"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.4718758171161639e-06,
+            "status": "FAIL"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 2.075103919807475e-07,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.4718758171161639e-06,
+            "status": "FAIL"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.4718758171161639e-06,
+            "status": "FAIL"
+          },
+          "step": 4,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 2.6494728473380746e-05,
+            "status": "FAIL"
+          }
+        }
+      ]
+    },
+    "D3_A_vs_original_live": {
+      "first_divergent_step": 0,
+      "full_proxy": {
+        "status": "FAIL"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "reasons": [],
+      "rtol": 0.0,
+      "status": "FAIL",
+      "steps": [
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 4.470348358154297e-08,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 5.6686590976795515e-09,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [
+            "integration",
+            "warmstart"
+          ],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 2.7504759304852744e-06,
+            "status": "FAIL"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 4.2999886075423266e-08,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 3.640409973471037e-09,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 4.2999886075423266e-08,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 4.2999886075423266e-08,
+            "status": "PASS"
+          },
+          "step": 0,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 2.7504759304852744e-06,
+            "status": "FAIL"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 2.682209014892578e-07,
+            "status": "FAIL"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 5.735947272711428e-08,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [
+            "action",
+            "integration",
+            "warmstart"
+          ],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 7.593270535011243e-06,
+            "status": "FAIL"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 2.3519523736914572e-07,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.3402552623276165e-08,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 2.3519523736914572e-07,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 2.3519523736914572e-07,
+            "status": "PASS"
+          },
+          "step": 1,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 7.593270535011243e-06,
+            "status": "FAIL"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 6.48200511932373e-07,
+            "status": "FAIL"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 2.341568776653702e-07,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [
+            "action",
+            "integration",
+            "warmstart"
+          ],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.332553950827986e-05,
+            "status": "FAIL"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 8.777761287132035e-07,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 6.125163487524787e-08,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 8.777761287132035e-07,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 8.777761287132035e-07,
+            "status": "PASS"
+          },
+          "step": 2,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.332553950827986e-05,
+            "status": "FAIL"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 8.717179298400879e-07,
+            "status": "FAIL"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 3.488989182010016e-07,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [
+            "action",
+            "observation",
+            "robot_obs_0_19",
+            "integration",
+            "qvel",
+            "warmstart"
+          ],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.726208973051868e-05,
+            "status": "FAIL"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.1367301400166951e-06,
+            "status": "FAIL"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.2498563273233287e-07,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.1367301400166951e-06,
+            "status": "FAIL"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.1367301400166951e-06,
+            "status": "FAIL"
+          },
+          "step": 3,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.726208973051868e-05,
+            "status": "FAIL"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 1.1622905731201172e-06,
+            "status": "FAIL"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 4.97439611280015e-07,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [
+            "action",
+            "observation",
+            "robot_obs_0_19",
+            "integration",
+            "qvel",
+            "warmstart"
+          ],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 2.6494728473380746e-05,
+            "status": "FAIL"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.4718758171161639e-06,
+            "status": "FAIL"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 2.075103919807475e-07,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.4718758171161639e-06,
+            "status": "FAIL"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 1.4718758171161639e-06,
+            "status": "FAIL"
+          },
+          "step": 4,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 2.6494728473380746e-05,
+            "status": "FAIL"
+          }
+        }
+      ]
+    },
+    "D3_B_vs_original_live": {
+      "first_divergent_step": null,
+      "full_proxy": {
+        "status": "PASS"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "reasons": [],
+      "rtol": 0.0,
+      "status": "PASS",
+      "steps": [
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "step": 0,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "step": 1,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "step": 2,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "step": 3,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          }
+        },
+        {
+          "act": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "action": {
+            "error": null,
+            "limit": 1e-07,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "ctrl": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "cube_obs_19_37": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "elapsed_steps": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "failures": [],
+          "integration": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "observation": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "proxy": {
+            "reason": "not_stored_per_step",
+            "status": "NOT_APPLICABLE"
+          },
+          "qpos": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "qvel": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "reward": {
+            "error": null,
+            "limit": 0.0,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "robot_obs_0_19": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          },
+          "step": 4,
+          "success": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "terminated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "truncated": {
+            "agree": true,
+            "status": "PASS"
+          },
+          "warmstart": {
+            "error": null,
+            "limit": 1e-06,
+            "max_abs_diff": 0.0,
+            "status": "PASS"
+          }
+        }
+      ]
+    },
+    "physical_A": {
+      "cube0_rotation": {
+        "norm_a": 1.0,
+        "norm_b": 1.0,
+        "norm_error": 0.0,
+        "radians": 0.0
+      },
+      "cube1_rotation": {
+        "norm_a": 0.9999999999999999,
+        "norm_b": 0.9999999999999999,
+        "norm_error": 2.220446049250313e-16,
+        "radians": 0.0
+      },
+      "cube_position_l2_m": 0.0,
+      "cube_rotation_geodesic_rad": 0.0,
+      "note": "informational; not a pass threshold",
+      "status": "DIAGNOSTIC_ONLY"
+    }
+  },
+  "pass": false,
+  "planned_decision_step": 0,
+  "root_id": 690006,
+  "task_id": 3
+}

@@ -1,0 +1,57 @@
+START_WORKERS 2026-09-15T01:04:54+08:00 HEAD=ea8ff2fae5938fa6b9d7af527fc1b58b0548f703
+/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/site-packages/glfw/__init__.py:917: GLFWError: (65550) b'X11: The DISPLAY environment variable is missing'
+  warnings.warn(message, GLFWError)
+/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/site-packages/gymnasium/spaces/box.py:231: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/site-packages/gymnasium/spaces/box.py:297: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+Restored from /home/__compress_data/xushijie/og_runs/ea_v2_cube_mechanism_v1/checkpoints/gciql_seed0/params_1000000.pkl
+{"worker": "A", "root": 690000, "d0": "FAIL"}
+{"worker": "A", "root": 690001, "d0": "FAIL"}
+{"worker": "A", "root": 690002, "d0": "FAIL"}
+{"worker": "A", "root": 690003, "d0": "FAIL"}
+{"worker": "A", "root": 690004, "d0": "FAIL"}
+{"worker": "A", "root": 690006, "d0": "FAIL"}
+{"worker": "A", "root": 690007, "d0": "FAIL"}
+{"worker": "A", "root": 690008, "d0": "FAIL"}
+{"worker": "A", "root": 690009, "d0": "FAIL"}
+{"worker": "A", "root": 690010, "d0": "FAIL"}
+{"worker": "A", "root": 690011, "d0": "FAIL"}
+{"worker": "A", "root": 690012, "d0": "FAIL"}
+{"worker": "A", "root": 690013, "d0": "FAIL"}
+{"worker": "A", "root": 690014, "d0": "FAIL"}
+/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/site-packages/glfw/__init__.py:917: GLFWError: (65550) b'X11: The DISPLAY environment variable is missing'
+  warnings.warn(message, GLFWError)
+/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/site-packages/gymnasium/spaces/box.py:231: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/site-packages/gymnasium/spaces/box.py:297: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+Restored from /home/__compress_data/xushijie/og_runs/ea_v2_cube_mechanism_v1/checkpoints/gciql_seed0/params_1000000.pkl
+{"worker": "B", "root": 690000, "d0": "FAIL"}
+{"worker": "B", "root": 690001, "d0": "FAIL"}
+{"worker": "B", "root": 690002, "d0": "FAIL"}
+{"worker": "B", "root": 690003, "d0": "FAIL"}
+{"worker": "B", "root": 690004, "d0": "FAIL"}
+{"worker": "B", "root": 690006, "d0": "FAIL"}
+{"worker": "B", "root": 690007, "d0": "FAIL"}
+{"worker": "B", "root": 690008, "d0": "FAIL"}
+{"worker": "B", "root": 690009, "d0": "FAIL"}
+{"worker": "B", "root": 690010, "d0": "FAIL"}
+{"worker": "B", "root": 690011, "d0": "FAIL"}
+{"worker": "B", "root": 690012, "d0": "FAIL"}
+{"worker": "B", "root": 690013, "d0": "FAIL"}
+{"worker": "B", "root": 690014, "d0": "FAIL"}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/engineering_pilot.py", line 669, in <module>
+    main()
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/engineering_pilot.py", line 663, in main
+    finalize(args)
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/engineering_pilot.py", line 457, in finalize
+    negatives = negative_tests(exp, store, sample) if sample else {"status": "FAIL", "cases": [], "reason": "no_legal_root"}
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/engineering_pilot.py", line 355, in negative_tests
+    other["goal_observation"] = np.asarray(original["goal_observation"]).copy()
+                                           ~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'goal_observation'

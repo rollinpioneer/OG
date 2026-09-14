@@ -1,0 +1,58 @@
+START 2026-09-15T01:00:36+08:00 HEAD=ea1cffee03959199beb6965d402052305697f38e
+/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/site-packages/glfw/__init__.py:917: GLFWError: (65550) b'X11: The DISPLAY environment variable is missing'
+  warnings.warn(message, GLFWError)
+/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/site-packages/gymnasium/spaces/box.py:231: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/site-packages/gymnasium/spaces/box.py:297: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+Restored from /home/__compress_data/xushijie/og_runs/ea_v2_cube_mechanism_v1/checkpoints/gciql_seed0/params_1000000.pkl
+{"acquired": 690000, "legal": true, "prefix": 0}
+{"acquired": 690001, "legal": true, "prefix": 125}
+{"acquired": 690002, "legal": true, "prefix": 250}
+{"acquired": 690003, "legal": true, "prefix": 0}
+{"acquired": 690004, "legal": true, "prefix": 125}
+{"acquired": 690005, "legal": false, "prefix": 137}
+{"acquired": 690006, "legal": true, "prefix": 0}
+{"acquired": 690007, "legal": true, "prefix": 125}
+{"acquired": 690008, "legal": true, "prefix": 250}
+{"acquired": 690009, "legal": true, "prefix": 0}
+{"acquired": 690010, "legal": true, "prefix": 125}
+{"acquired": 690011, "legal": true, "prefix": 250}
+{"acquired": 690012, "legal": true, "prefix": 0}
+{"acquired": 690013, "legal": true, "prefix": 125}
+{"acquired": 690014, "legal": true, "prefix": 250}
+/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/site-packages/glfw/__init__.py:917: GLFWError: (65550) b'X11: The DISPLAY environment variable is missing'
+  warnings.warn(message, GLFWError)
+/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/site-packages/gymnasium/spaces/box.py:231: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/site-packages/gymnasium/spaces/box.py:297: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/engineering_pilot.py", line 669, in <module>
+    main()
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/engineering_pilot.py", line 661, in main
+    worker(args)
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/engineering_pilot.py", line 303, in worker
+    rec = run_root(bundle, "primary")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/engineering_pilot.py", line 234, in run_root
+    loaded = load_root(bundle, mode="BOOTSTRAP_PREFIX_REPLAY", strict=True, env=env, step_counter=counters)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/root_loader.py", line 123, in load_root
+    raise RuntimeError(f"bootstrap restore failed: {bootstrap_cmp['failures']} goal_diff={goal_diff}")
+RuntimeError: bootstrap restore failed: ['act', 'terminated', 'truncated'] goal_diff=0.0
+Restored from /home/__compress_data/xushijie/og_runs/ea_v2_cube_mechanism_v1/checkpoints/gciql_seed0/params_1000000.pkl
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/engineering_pilot.py", line 669, in <module>
+    main()
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/engineering_pilot.py", line 665, in main
+    run_s1(args)
+  File "/home/__compress_data/xushijie/OG_ea_v3_materialized_roots/execution_aligned_rl/v3/engineering_pilot.py", line 643, in run_s1
+    subprocess.run(common + ["worker", "--worker-id", "A"], check=True, cwd=args.repo)
+  File "/home/xushijie/.conda/envs/og-ea-v2/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/xushijie/.conda/envs/og-ea-v2/bin/python', '-m', 'execution_aligned_rl.v3.engineering_pilot', '--repo', '/home/__compress_data/xushijie/OG_ea_v3_materialized_roots', '--dataset-dir', '/home/__compress_data/xushijie/ea_v2_cube_data', '--official-source', '/home/__compress_data/xushijie/og_runs/ea_v2_v1/src/ogbench', '--checkpoint-dir', '/home/__compress_data/xushijie/og_runs/ea_v2_cube_mechanism_v1/checkpoints/gciql_seed0', '--root-store', '/home/__compress_data/xushijie/ea_v3_root_store/ea_v3_materialized_roots_v1', 'worker', '--worker-id', 'A']' returned non-zero exit status 1.

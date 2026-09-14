@@ -1,0 +1,67 @@
+{
+  "counters": {
+    "external_control_steps": 1937,
+    "reset_internal_steps": 34,
+    "resets": 17,
+    "worker_id": "B"
+  },
+  "results": [
+    {
+      "d0_status": "FAIL",
+      "root_id": 690000
+    },
+    {
+      "d0_status": "FAIL",
+      "root_id": 690001
+    },
+    {
+      "d0_status": "FAIL",
+      "root_id": 690002
+    },
+    {
+      "d0_status": "FAIL",
+      "root_id": 690003
+    },
+    {
+      "d0_status": "FAIL",
+      "root_id": 690004
+    },
+    {
+      "d0_status": "FAIL",
+      "root_id": 690006
+    },
+    {
+      "d0_status": "FAIL",
+      "root_id": 690007
+    },
+    {
+      "d0_status": "FAIL",
+      "root_id": 690008
+    },
+    {
+      "d0_status": "FAIL",
+      "root_id": 690009
+    },
+    {
+      "d0_status": "FAIL",
+      "root_id": 690010
+    },
+    {
+      "d0_status": "FAIL",
+      "root_id": 690011
+    },
+    {
+      "d0_status": "FAIL",
+      "root_id": 690012
+    },
+    {
+      "d0_status": "FAIL",
+      "root_id": 690013
+    },
+    {
+      "d0_status": "FAIL",
+      "root_id": 690014
+    }
+  ],
+  "wall_seconds": 6.764027833938599
+}

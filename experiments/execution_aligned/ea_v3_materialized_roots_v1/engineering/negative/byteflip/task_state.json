@@ -1,0 +1,149 @@
+{
+  "cubes": [
+    {
+      "cube_index": 0,
+      "mocap_id": 0,
+      "object_pos": {
+        "__ndarray__": true,
+        "data": [
+          0.42932345945532907,
+          -0.09360468323615326,
+          0.02
+        ],
+        "dtype": "float64",
+        "shape": [
+          3
+        ]
+      },
+      "object_quat": {
+        "__ndarray__": true,
+        "data": [
+          -0.1406818710118688,
+          0.0,
+          0.0,
+          0.9900548526059553
+        ],
+        "dtype": "float64",
+        "shape": [
+          4
+        ]
+      },
+      "target_pos": {
+        "__ndarray__": true,
+        "data": [
+          0.425,
+          0.1,
+          0.02
+        ],
+        "dtype": "float64",
+        "shape": [
+          3
+        ]
+      },
+      "target_quat": {
+        "__ndarray__": true,
+        "data": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dtype": "float64",
+        "shape": [
+          4
+        ]
+      }
+    },
+    {
+      "cube_index": 1,
+      "mocap_id": 1,
+      "object_pos": {
+        "__ndarray__": true,
+        "data": [
+          0.4174223579263738,
+          0.004534657556327615,
+          0.02
+        ],
+        "dtype": "float64",
+        "shape": [
+          3
+        ]
+      },
+      "object_quat": {
+        "__ndarray__": true,
+        "data": [
+          -0.32810704186158923,
+          0.0,
+          0.0,
+          0.9446405501993006
+        ],
+        "dtype": "float64",
+        "shape": [
+          4
+        ]
+      },
+      "target_pos": {
+        "__ndarray__": true,
+        "data": [
+          0.425,
+          0.0,
+          0.02
+        ],
+        "dtype": "float64",
+        "shape": [
+          3
+        ]
+      },
+      "target_quat": {
+        "__ndarray__": true,
+        "data": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dtype": "float64",
+        "shape": [
+          4
+        ]
+      }
+    }
+  ],
+  "success": false,
+  "task_id": 1,
+  "task_info": {
+    "goal_xyzs": {
+      "__ndarray__": true,
+      "data": [
+        0.425,
+        0.0,
+        0.02,
+        0.425,
+        0.1,
+        0.02
+      ],
+      "dtype": "float64",
+      "shape": [
+        2,
+        3
+      ]
+    },
+    "init_xyzs": {
+      "__ndarray__": true,
+      "data": [
+        0.425,
+        0.0,
+        0.02,
+        0.425,
+        -0.1,
+        0.02
+      ],
+      "dtype": "float64",
+      "shape": [
+        2,
+        3
+      ]
+    },
+    "task_name": "task1_single_pnp"
+  }
+}

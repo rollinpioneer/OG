@@ -1,0 +1,12 @@
+{
+  "budget": 30000,
+  "external_control_steps": 5706,
+  "gpu_used": true,
+  "legal_roots": 14,
+  "planned_roots": 15,
+  "reset_internal_steps": 98,
+  "result_source": "ENV_EVALUATED",
+  "training_eligible": false,
+  "training_performed": false,
+  "wall_seconds_acquisition": 9.177256345748901
+}

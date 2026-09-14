@@ -1,10 +1,34 @@
 {
-  "env_step_calls": 0,
-  "holds": [],
+  "coverage": {
+    "decision_steps_present": [
+      0,
+      125,
+      250
+    ],
+    "ineligible": [
+      690005
+    ],
+    "legal": 14,
+    "ok": true,
+    "planned": 15,
+    "tasks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "engineering_pass": false,
+  "external_control_steps": 5706,
   "human_review": null,
+  "negative_tests": "PASS",
   "phase_c_unlocked": false,
   "protocol_sha256": "9ebe18d4c7c620d4bbcdaac63dbad0910a46c2adc9adf41ac6dd151674bb25ae",
-  "stage": "S0",
-  "status": "EA3_PREFLIGHT_PASS",
+  "result_source": "ENV_EVALUATED",
+  "s2_unlocked": false,
+  "stage": "S1",
+  "status": "EA3_HOLD_TRACE_MISMATCH",
+  "training_eligible": false,
   "training_performed": false
 }
