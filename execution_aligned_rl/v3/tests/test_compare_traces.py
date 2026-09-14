@@ -114,3 +114,23 @@ class CompareTests(unittest.TestCase):
         self.assertEqual(result["status"], "PASS")
         self.assertEqual(result["fields"]["proxy"]["status"], "NOT_APPLICABLE")
         self.assertEqual(result["fields"]["action"]["status"], "NOT_APPLICABLE")
+
+    def test_empty_act_arrays_are_equal(self):
+        state = {
+            "observation": np.zeros(37),
+            "integration": np.zeros(4),
+            "qpos": np.zeros(4),
+            "qvel": np.zeros(4),
+            "act": np.zeros(0),
+            "ctrl": np.zeros(2),
+            "warmstart": np.zeros(4),
+            "goal_observation": np.zeros(37),
+            "elapsed_steps": 0,
+            "success": False,
+            "terminated": False,
+            "truncated": False,
+            "task_id": 1,
+        }
+        result = compare_states(state, state, has_actions=False)
+        self.assertEqual(result["status"], "PASS")
+        self.assertEqual(result["fields"]["act"]["status"], "PASS")

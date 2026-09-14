@@ -27,6 +27,10 @@ def _finite(array: np.ndarray) -> bool:
 def max_abs_diff(a, b) -> tuple[str | float, str | None]:
     aa = _as_array(a)
     bb = _as_array(b)
+    if aa.size == 0 and bb.size == 0:
+        if aa.shape != bb.shape:
+            return float("nan"), "SHAPE_MISMATCH"
+        return 0.0, None
     if aa.size == 0 or bb.size == 0:
         return float("nan"), "EMPTY"
     if aa.shape != bb.shape:

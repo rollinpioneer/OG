@@ -112,7 +112,7 @@ def load_root(bundle, mode: str = "BOOTSTRAP_PREFIX_REPLAY", strict: bool = True
             "terminated": False,
             "truncated": False,
         },
-        measure_state(env, observation=obs0, goal=goal),
+        measure_state(env, observation=obs0, goal=goal, terminated=False, truncated=False, info={"success": False}),
         has_actions=False,
     )
     proof["bootstrap_compare"] = bootstrap_cmp
