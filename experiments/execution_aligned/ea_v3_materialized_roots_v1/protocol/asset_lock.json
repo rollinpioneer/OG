@@ -1,0 +1,61 @@
+{
+  "actor_value_share_checkpoint": true,
+  "checkpoint_epoch": 1000000,
+  "dataset_id": "cube-double-play-v0",
+  "hashes": {
+    "checkpoint": {
+      "bytes": 40964890,
+      "path": "/home/__compress_data/xushijie/og_runs/ea_v2_cube_mechanism_v1/checkpoints/gciql_seed0/params_1000000.pkl",
+      "sha256": "12f7bd7ed9f909039dd6e3e3c44cd226bf765cf7d959396001e469dbbcbc3d87"
+    },
+    "normalizer": {
+      "bytes": 1390,
+      "path": "/home/__compress_data/xushijie/OG/experiments/execution_aligned/ea_v2_cube_mechanism_v1/manifests/normalizer_train_only.npz",
+      "sha256": "d4f912c0e458a031114cce0c084157780e3a527d26e21e4e1b7aa0745dd2c0c5"
+    },
+    "train": {
+      "bytes": 297435656,
+      "path": "/home/__compress_data/xushijie/ea_v2_cube_data/cube-double-play-v0.npz",
+      "sha256": "a73d1a33d029cedb8bc170ef94791ec585fa2d9450096f4f2a02b8cfbcf608c9"
+    },
+    "train_summary": {
+      "action_shape": [
+        1001000,
+        5
+      ],
+      "episodes": 1000,
+      "observation_shape": [
+        1001000,
+        37
+      ],
+      "transitions": 1001000
+    },
+    "validation": {
+      "bytes": 29726524,
+      "path": "/home/__compress_data/xushijie/ea_v2_cube_data/cube-double-play-v0-val.npz",
+      "sha256": "b1fcdf4bd40750351a58d0d491d6be198366ce898f0c6a2e4cb5db331966013e"
+    }
+  },
+  "historical_commit": "7714e33958dd6ab7d8a1ddf894dca1eb88a69b17",
+  "normalizer_not_applied_to_actor_value": true,
+  "ogbench_commit": "1d4140997f60c52c6fb0702ec100dc988b18c548",
+  "planned_root_ids": [
+    690000,
+    690001,
+    690002,
+    690003,
+    690004,
+    690005,
+    690006,
+    690007,
+    690008,
+    690009,
+    690010,
+    690011,
+    690012,
+    690013,
+    690014
+  ],
+  "root_id_overlap": [],
+  "status": "RECORDED"
+}

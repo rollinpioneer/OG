@@ -1,0 +1,34 @@
+{
+  "official_source": "/home/__compress_data/xushijie/og_runs/ea_v2_v1/src/ogbench",
+  "ogbench_commit": "1d4140997f60c52c6fb0702ec100dc988b18c548",
+  "ogbench_dirty": false,
+  "repo_branch": "exp/ea-v3-materialized-roots-v1",
+  "repo_head_at_preflight": "7714e33958dd6ab7d8a1ddf894dca1eb88a69b17",
+  "source_files": [
+    {
+      "path": "/home/__compress_data/xushijie/og_runs/ea_v2_v1/src/ogbench/ogbench/manipspace/envs/cube_env.py",
+      "sha256": "6f8457ffd634f6620411c788c86e871f44ea5b5b5eecf76cd694fc04d12d678d"
+    },
+    {
+      "path": "/home/__compress_data/xushijie/og_runs/ea_v2_v1/src/ogbench/ogbench/manipspace/envs/manipspace_env.py",
+      "sha256": "03524eb1c95155bbc2ec3d29e9836fccffe8eb9fce1be15b6f0e7062cc1bb5fd"
+    },
+    {
+      "path": "/home/__compress_data/xushijie/og_runs/ea_v2_v1/src/ogbench/ogbench/manipspace/envs/env.py",
+      "sha256": "c656f4733a1ad4cb07289bc58ac1ac0f7da378e1f2714dc80a5ed8c0b3028c38"
+    },
+    {
+      "path": "/home/__compress_data/xushijie/og_runs/ea_v2_v1/src/ogbench/ogbench/manipspace/controllers/diff_ik.py",
+      "sha256": "4914ea5fbf6428daa4f475a0490a8786514fafd15072c5e18c5d4a5213b8f1be"
+    },
+    {
+      "path": "/home/__compress_data/xushijie/og_runs/ea_v2_v1/src/ogbench/impls/agents/gciql.py",
+      "sha256": "05a0b5d9b987d3049df8a1158bbfbaba2ca2611604d24f9e484f8fb6d0cd92bc"
+    }
+  ],
+  "unique_executor_modules": [
+    "execution_aligned_rl/v3/root_loader.py",
+    "execution_aligned_rl/v3/rollout.py",
+    "execution_aligned_rl/v3/compare.py"
+  ]
+}

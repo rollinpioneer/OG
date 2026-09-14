@@ -1,0 +1,10 @@
+{
+  "env_step_calls": 0,
+  "holds": [],
+  "human_review": null,
+  "phase_c_unlocked": false,
+  "protocol_sha256": "9ebe18d4c7c620d4bbcdaac63dbad0910a46c2adc9adf41ac6dd151674bb25ae",
+  "stage": "S0",
+  "status": "EA3_PREFLIGHT_PASS",
+  "training_performed": false
+}

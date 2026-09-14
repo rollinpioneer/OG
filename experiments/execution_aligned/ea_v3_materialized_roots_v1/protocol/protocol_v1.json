@@ -1,0 +1,382 @@
+{
+  "assets": {
+    "actor_and_value_checkpoint_sha256": "12f7bd7ed9f909039dd6e3e3c44cd226bf765cf7d959396001e469dbbcbc3d87",
+    "backbone": {
+      "actor_p_curgoal": 0.0,
+      "actor_p_randomgoal": 0.0,
+      "actor_p_trajgoal": 1.0,
+      "algorithm": "GCIQL",
+      "alpha": 1.0,
+      "checkpoint_rule": "fixed_final_checkpoint",
+      "controller_interface": "pi(a|o,z)",
+      "explicit_remaining_horizon_input": false,
+      "inference_temperature": 0.0,
+      "k_is_controller_horizon_input": false,
+      "k_protocol": 20,
+      "seed": 0,
+      "shared_actor_value_checkpoint": true,
+      "updates": 1000000
+    },
+    "dataset_id": "cube-double-play-v0",
+    "do_not_retrain_or_replace_on_mismatch": true,
+    "env_id": "cube-double-v0",
+    "normalizer_applied_to_actor_value_inputs": false,
+    "normalizer_role": "offline_split_and_future_retrieval_distance_only",
+    "normalizer_sha256": "d4f912c0e458a031114cce0c084157780e3a527d26e21e4e1b7aa0745dd2c0c5",
+    "ogbench_commit": "1d4140997f60c52c6fb0702ec100dc988b18c548",
+    "train_sha256": "a73d1a33d029cedb8bc170ef94791ec585fa2d9450096f4f2a02b8cfbcf608c9",
+    "validation_sha256": "b1fcdf4bd40750351a58d0d491d6be198366ce898f0c6a2e4cb5db331966013e"
+  },
+  "budget": {
+    "count_env_step_of_5d_action_as_external": true,
+    "do_not_mix_reset_internal_substeps_or_disk_into_external_count": true,
+    "s0_external_control_steps": 0,
+    "s1_external_control_step_limit": 30000
+  },
+  "engineering": {
+    "aba_required": true,
+    "collector_process_must_exit_before_workers": true,
+    "d1_steps": 1,
+    "d3_target": "one_deterministic_training_observation_endpoint_per_root",
+    "d3_target_formula": "index = sha256('ea3-mr-v1:d3-endpoint:{root_id}')[:16] % n_train",
+    "external_control_step_budget": 30000,
+    "fresh_workers": [
+      "A",
+      "B"
+    ],
+    "ineligible_prefix_policy": "INELIGIBLE_PREFIX_TERMINAL_record_and_do_not_replace_seed",
+    "max_implementation_fix_versions": 2,
+    "max_roots": 15,
+    "min_legal_roots": 10,
+    "prefix_policy_goal": "exact_task_goal_observation",
+    "probe_steps": 5,
+    "require_all_five_tasks": true,
+    "require_legal_125_and_250": true,
+    "root_ids": [
+      690000,
+      690001,
+      690002,
+      690003,
+      690004,
+      690005,
+      690006,
+      690007,
+      690008,
+      690009,
+      690010,
+      690011,
+      690012,
+      690013,
+      690014
+    ],
+    "roots": [
+      {
+        "planned_decision_step": 0,
+        "reset_seed": 690000,
+        "root_id": 690000,
+        "task_id": 1
+      },
+      {
+        "planned_decision_step": 125,
+        "reset_seed": 690001,
+        "root_id": 690001,
+        "task_id": 1
+      },
+      {
+        "planned_decision_step": 250,
+        "reset_seed": 690002,
+        "root_id": 690002,
+        "task_id": 1
+      },
+      {
+        "planned_decision_step": 0,
+        "reset_seed": 690003,
+        "root_id": 690003,
+        "task_id": 2
+      },
+      {
+        "planned_decision_step": 125,
+        "reset_seed": 690004,
+        "root_id": 690004,
+        "task_id": 2
+      },
+      {
+        "planned_decision_step": 250,
+        "reset_seed": 690005,
+        "root_id": 690005,
+        "task_id": 2
+      },
+      {
+        "planned_decision_step": 0,
+        "reset_seed": 690006,
+        "root_id": 690006,
+        "task_id": 3
+      },
+      {
+        "planned_decision_step": 125,
+        "reset_seed": 690007,
+        "root_id": 690007,
+        "task_id": 3
+      },
+      {
+        "planned_decision_step": 250,
+        "reset_seed": 690008,
+        "root_id": 690008,
+        "task_id": 3
+      },
+      {
+        "planned_decision_step": 0,
+        "reset_seed": 690009,
+        "root_id": 690009,
+        "task_id": 4
+      },
+      {
+        "planned_decision_step": 125,
+        "reset_seed": 690010,
+        "root_id": 690010,
+        "task_id": 4
+      },
+      {
+        "planned_decision_step": 250,
+        "reset_seed": 690011,
+        "root_id": 690011,
+        "task_id": 4
+      },
+      {
+        "planned_decision_step": 0,
+        "reset_seed": 690012,
+        "root_id": 690012,
+        "task_id": 5
+      },
+      {
+        "planned_decision_step": 125,
+        "reset_seed": 690013,
+        "root_id": 690013,
+        "task_id": 5
+      },
+      {
+        "planned_decision_step": 250,
+        "reset_seed": 690014,
+        "root_id": 690014,
+        "task_id": 5
+      }
+    ],
+    "workers_must_load_from_files_only": true
+  },
+  "environment": {
+    "action_dim": 5,
+    "action_high": 1.0,
+    "action_low": -1.0,
+    "control_substeps_field": "_n_steps",
+    "cube_success_position_tolerance_m": 0.04,
+    "gripper_opening_scaler": 3.0,
+    "max_episode_steps": 500,
+    "mode": "task",
+    "observation_dim": 37,
+    "observation_type": "states",
+    "observation_xyz_center": [
+      0.425,
+      0.0,
+      0.0
+    ],
+    "observation_xyz_scaler": 10.0,
+    "official_reset_distribution_unmodified": true,
+    "permute_blocks": true,
+    "public_slices": {
+      "cube0_pos_scaled_19_22": [
+        19,
+        22
+      ],
+      "cube0_quat_22_26": [
+        22,
+        26
+      ],
+      "cube0_yaw_cs_26_28": [
+        26,
+        28
+      ],
+      "cube1_pos_scaled_28_31": [
+        28,
+        31
+      ],
+      "cube1_quat_31_35": [
+        31,
+        35
+      ],
+      "cube1_yaw_cs_35_37": [
+        35,
+        37
+      ],
+      "cube_19_37": [
+        19,
+        37
+      ],
+      "effector_pos_scaled_12_15": [
+        12,
+        15
+      ],
+      "robot_0_19": [
+        0,
+        19
+      ]
+    },
+    "quaternion_order": "wxyz",
+    "reset_internal_random_steps_at_goal_state": 2,
+    "reset_internal_steps_are_not_external_control_steps": true,
+    "success_timing": "post",
+    "task_count": 5,
+    "terminate_at_goal": true
+  },
+  "historical": {
+    "ea_v2_closure_status": "HOLD_CUBE_ROOT_RECONSTRUCTION_MISMATCH",
+    "ea_v2_output_dir": "/home/__compress_data/xushijie/OG/experiments/execution_aligned/ea_v2_cube_mechanism_v1",
+    "read_only": true,
+    "repository_commit": "7714e33958dd6ab7d8a1ddf894dca1eb88a69b17"
+  },
+  "integration_units": {
+    "act": "actuator_activation",
+    "ctrl": "actuator_control",
+    "discrete_switches": "exact_equality",
+    "qacc_warmstart": "generalized_acceleration_warmstart",
+    "qpos": "generalized_position_model_units",
+    "qvel": "generalized_velocity_model_units",
+    "time": "seconds"
+  },
+  "observation_stage_fields": [
+    "cfrc_ext",
+    "site_xpos",
+    "site_xmat",
+    "xpos",
+    "xmat",
+    "xquat",
+    "mocap_pos",
+    "mocap_quat",
+    "sensordata"
+  ],
+  "protocol_id": "ea_v3_materialized_roots_v1",
+  "protocol_name": "EA-V3 Materialized Roots v1",
+  "python_state_fields": [
+    "cur_task_id",
+    "cur_task_info",
+    "_cur_goal_ob",
+    "_success",
+    "_reset_next_step",
+    "_prev_qpos",
+    "_prev_qvel",
+    "_prev_ob_info",
+    "_render_goal",
+    "_target_block",
+    "_mode",
+    "_success_timing",
+    "_terminate_at_goal",
+    "_use_oracle_rep",
+    "elapsed_steps_by_wrapper",
+    "env_np_random",
+    "action_space_np_random",
+    "global_numpy_rng",
+    "python_random_state"
+  ],
+  "python_state_not_applicable": {
+    "cur_goal_xy": "NOT_APPLICABLE_cube_uses__cur_goal_ob_and_mocap",
+    "jax_global_key": "NOT_APPLICABLE_explicit_per_step_keys_only"
+  },
+  "restore": {
+    "direct_decision_restore_allowed_in_s1_as_engineering_control": true,
+    "direct_decision_restore_for_s3": false,
+    "integration_spec_name": "mjSTATE_INTEGRATION",
+    "must_not_regenerate_closed_loop_prefix": true,
+    "must_replay_saved_prefix_actions": true,
+    "must_restore_exact_37d_goal_and_physical_targets": true,
+    "new_reset_is_not_root_identity": true,
+    "observation_stage": {
+      "after_direct_restore": [
+        "mj_setState(mjSTATE_INTEGRATION)",
+        "restore python_state",
+        "restore observation_stage_state onto mjData",
+        "do_not_call_mj_forward",
+        "first_observation=compute_observation()"
+      ],
+      "after_external_control_step": [
+        "set_control(action)",
+        "pre_step",
+        "mj_step(nstep=_n_steps)",
+        "mj_rnePostConstraint",
+        "post_step",
+        "compute_observation from env.step return"
+      ],
+      "arrays_must_be_copied": true,
+      "rollout_uses_env_step_returns_only": true
+    },
+    "primary_mode": "BOOTSTRAP_PREFIX_REPLAY"
+  },
+  "reward_value_contract": {
+    "absorbing_tail": "tail value set to zero after success/termination",
+    "discount": 0.99,
+    "environment_reward_failure": 0.0,
+    "environment_reward_success": 1.0,
+    "gciql_training_reward_goal": 0.0,
+    "gciql_training_reward_non_goal": -1.0,
+    "planning_conversion": "r_training = r_environment - 1",
+    "proxy_formula": "sum_{i=0}^{T-1} gamma^i * (r_env_i - 1) + gamma^T * tail_value",
+    "tail_value": "0 if terminated or truncated else V(o_T, exact_goal)",
+    "value_inputs": "raw public observation and exact 37D goal; no extra normalizer"
+  },
+  "schema_version": "mr-ep-1.0",
+  "scope": {
+    "forbidden": [
+      "S2_formal_root_pool",
+      "S3_mechanism",
+      "S4",
+      "S5",
+      "Phase_C",
+      "Phase_D",
+      "Phase_E",
+      "Phase_F",
+      "P_1_training",
+      "P_MH",
+      "EXEC",
+      "gap_statistics",
+      "wrong_selection",
+      "oracle_ranking",
+      "research_success_rate",
+      "overwrite_ea_v2_outputs"
+    ],
+    "result_source": "ENV_EVALUATED",
+    "this_handoff": "S0_S1",
+    "training_eligible": false
+  },
+  "status_machine": {
+    "agent_may_self_approve_human_review": false,
+    "default_on_asset_mismatch": "EA3_HOLD_ASSET_MISMATCH",
+    "default_on_missing_field": "HOLD",
+    "finalizer_may_rewrite_protocol": false,
+    "human_review": null,
+    "phase_c_unlocked": false,
+    "s2_unlocked": false,
+    "s3_unlocked": false,
+    "s4_unlocked": false
+  },
+  "thresholds": {
+    "act_max_abs": 1e-06,
+    "action_max_abs": 1e-07,
+    "ctrl_max_abs": 1e-06,
+    "cube_obs_19_37_max_abs": 1e-06,
+    "goal_encoding_max_abs": 0.0,
+    "integration_continuous_max_abs": 1e-06,
+    "observation_max_abs": 1e-06,
+    "proxy_max_abs": 1e-05,
+    "qpos_max_abs": 1e-06,
+    "qvel_max_abs": 1e-06,
+    "robot_obs_0_19_max_abs": 1e-06,
+    "rtol": 0.0,
+    "warmstart_max_abs": 1e-06
+  },
+  "unique_executor": {
+    "closed_loop_d3": "recompute_action_from_current_observation_each_step",
+    "compare_traces": "execution_aligned_rl.v3.compare.compare_traces",
+    "compute_proxy": "execution_aligned_rl.v3.rollout.compute_proxy",
+    "load_root": "execution_aligned_rl.v3.root_loader.load_root",
+    "no_audit_only_shortcuts": true,
+    "rollout_segment": "execution_aligned_rl.v3.rollout.rollout_segment"
+  }
+}
