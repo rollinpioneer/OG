@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "samples": 16,
+  "pass_count": 16,
+  "diagnostic_set": "8 unique non-reproducible roots + 8 unique reproducible roots"
+}

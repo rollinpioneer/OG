@@ -2,8 +2,8 @@
   "overall_status": "SNAPSHOT_V2_REPRODUCIBLE",
   "snapshot_v2": "PASS_16_OF_16",
   "reset_replay": "PASS_16_OF_16",
-  "phase0r_rerun": false,
-  "research_conclusion": "NOT_REASSESSED",
+  "diagnostic_set": "8 unique non-reproducible roots + 8 unique reproducible roots",
+  "phase0r2_rerun": false,
   "phases_not_run": ["C", "D", "E", "F", "P_1", "P_MH", "EXEC"],
   "stop_after_engineering_audit": true
 }
