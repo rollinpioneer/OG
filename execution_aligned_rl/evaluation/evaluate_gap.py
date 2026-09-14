@@ -73,7 +73,11 @@ def sample_candidates(prior_payload, state, count: int, seed: int):
 
 
 def run_steps(env, agent, goal, start_key, steps: int, gamma: float):
-    observation = env.unwrapped.get_ob()
+    observation = (
+        env.unwrapped.get_ob()
+        if hasattr(env.unwrapped, "get_ob")
+        else env.unwrapped.compute_observation()
+    )
     rewards = []
     terminated = truncated = False
     success = 0.0

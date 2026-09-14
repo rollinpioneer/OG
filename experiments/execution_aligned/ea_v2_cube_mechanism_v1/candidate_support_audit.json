@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "dataset_id": "cube-double-play-v0",
+  "candidate_count": 512,
+  "endpoint_count": 49999,
+  "normalized_full37d_nearest_neighbor": {
+    "median": 0.6262934591396567,
+    "p90": 0.7158643391599792,
+    "p95": 0.7391733603408276,
+    "max": 0.8663017399616663
+  },
+  "task_relevant_cube_pose_nearest_neighbor": {
+    "median": 0.3437764843116705,
+    "p90": 0.4418276655215223,
+    "p95": 0.46137841234914345,
+    "max": 0.5361172867775565
+  },
+  "finite_rate": 1.0,
+  "state_validity": "finite_and_clipped_to_training_support",
+  "quaternion_validity": "not_independently normalized; raw public observation quaternion fields retained",
+  "candidate_interface_dimension": 37,
+  "support_source": "DATA_REAL training k=20 endpoints",
+  "result_source": "DATA_REAL"
+}

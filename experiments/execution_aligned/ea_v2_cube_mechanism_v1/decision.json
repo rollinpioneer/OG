@@ -1,1 +1,13 @@
-{"overall_status":"CUBE_PHASE_B_PASS_PROVISIONAL","backbone_status":"PASS","candidate_status":"PASS","phase0_started":false,"stop_after_phase_b":true,"phases_not_run":["Phase 0","C","D","E","F","P_1","P_MH","EXEC"]}
+{
+  "overall_status": "CUBE_GAP_PRESENT_PROVISIONAL",
+  "candidate_support": "PASS",
+  "legal_roots": 30,
+  "planned_roots": 32,
+  "deep_roots_evaluated": 14,
+  "planned_deep_roots": 16,
+  "full_distinguishable_roots_legal": 5,
+  "full_gap_roots_legal": 3,
+  "phase0_started": true,
+  "stop_after_phase0": true,
+  "phases_not_run": ["C", "D", "E", "F", "P_1", "P_MH", "EXEC"]
+}
