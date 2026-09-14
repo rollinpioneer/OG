@@ -1,0 +1,17 @@
+{
+  "comparator_status": "PASS",
+  "cpu_status": "EA31_CPU_RUNTIME_QUALIFIED",
+  "dist_mode_used": false,
+  "env_step_calls": 0,
+  "gpu_status": "EA31_HOLD_POLICY_RUNTIME_NUMERICS",
+  "holds": [],
+  "human_review": null,
+  "phase_c_unlocked": false,
+  "protocol_id": "ea_v3_runtime_qualification_v1",
+  "s1_retry_run": false,
+  "s2_unlocked": false,
+  "stage": "Q0_Q1",
+  "status": "EA31_HOLD_POLICY_RUNTIME_NUMERICS",
+  "thresholds_relaxed": false,
+  "training_performed": false
+}

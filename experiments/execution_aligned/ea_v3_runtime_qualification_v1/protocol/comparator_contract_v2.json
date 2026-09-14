@@ -1,0 +1,18 @@
+{
+  "contract": "comparator_contract_v2",
+  "d0_terminated_truncated": "if either side is missing/None, field is NOT_APPLICABLE; if both explicit they must agree",
+  "d1_action_state": "required",
+  "d1_full_proxy": "NOT_APPLICABLE",
+  "d1_step_proxy": "NOT_APPLICABLE",
+  "d2_d3_full_proxy": "required when present; missing is FAIL",
+  "does_not_modify_s1_compare_py": true,
+  "does_not_modify_s1_traces": true,
+  "fail_closed": [
+    "missing",
+    "nan",
+    "Inf",
+    "length",
+    "identity"
+  ],
+  "rtol": 0.0
+}

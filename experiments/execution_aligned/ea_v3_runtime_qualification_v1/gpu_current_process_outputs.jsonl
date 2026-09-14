@@ -1,0 +1,8 @@
+{"backend": "gpu", "devices": ["cuda:0"], "n_actor": 70, "n_value": 84, "pid": 1755807, "process_id": 0, "runtime": "GPU_CURRENT"}
+{"backend": "gpu", "devices": ["cuda:0"], "n_actor": 70, "n_value": 84, "pid": 1758154, "process_id": 1, "runtime": "GPU_CURRENT"}
+{"backend": "gpu", "devices": ["cuda:0"], "n_actor": 70, "n_value": 84, "pid": 1760138, "process_id": 2, "runtime": "GPU_CURRENT"}
+{"backend": "gpu", "devices": ["cuda:0"], "n_actor": 70, "n_value": 84, "pid": 1761873, "process_id": 3, "runtime": "GPU_CURRENT"}
+{"backend": "gpu", "devices": ["cuda:0"], "n_actor": 70, "n_value": 84, "pid": 1764036, "process_id": 4, "runtime": "GPU_CURRENT"}
+{"backend": "gpu", "devices": ["cuda:0"], "n_actor": 70, "n_value": 84, "pid": 1766326, "process_id": 5, "runtime": "GPU_CURRENT"}
+{"backend": "gpu", "devices": ["cuda:0"], "n_actor": 70, "n_value": 84, "pid": 1768321, "process_id": 6, "runtime": "GPU_CURRENT"}
+{"backend": "gpu", "devices": ["cuda:0"], "n_actor": 70, "n_value": 84, "pid": 1770153, "process_id": 7, "runtime": "GPU_CURRENT"}

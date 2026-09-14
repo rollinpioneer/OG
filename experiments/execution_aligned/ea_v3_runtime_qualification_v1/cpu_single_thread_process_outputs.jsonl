@@ -1,0 +1,8 @@
+{"backend": "cpu", "devices": ["cpu:0"], "n_actor": 70, "n_value": 84, "pid": 1772216, "process_id": 0, "runtime": "CPU_SINGLE_THREAD"}
+{"backend": "cpu", "devices": ["cpu:0"], "n_actor": 70, "n_value": 84, "pid": 1774144, "process_id": 1, "runtime": "CPU_SINGLE_THREAD"}
+{"backend": "cpu", "devices": ["cpu:0"], "n_actor": 70, "n_value": 84, "pid": 1775612, "process_id": 2, "runtime": "CPU_SINGLE_THREAD"}
+{"backend": "cpu", "devices": ["cpu:0"], "n_actor": 70, "n_value": 84, "pid": 1777210, "process_id": 3, "runtime": "CPU_SINGLE_THREAD"}
+{"backend": "cpu", "devices": ["cpu:0"], "n_actor": 70, "n_value": 84, "pid": 1778986, "process_id": 4, "runtime": "CPU_SINGLE_THREAD"}
+{"backend": "cpu", "devices": ["cpu:0"], "n_actor": 70, "n_value": 84, "pid": 1780269, "process_id": 5, "runtime": "CPU_SINGLE_THREAD"}
+{"backend": "cpu", "devices": ["cpu:0"], "n_actor": 70, "n_value": 84, "pid": 1782170, "process_id": 6, "runtime": "CPU_SINGLE_THREAD"}
+{"backend": "cpu", "devices": ["cpu:0"], "n_actor": 70, "n_value": 84, "pid": 1783718, "process_id": 7, "runtime": "CPU_SINGLE_THREAD"}

@@ -1,0 +1,506 @@
+{
+  "checkpoint_sha256": "12f7bd7ed9f909039dd6e3e3c44cd226bf765cf7d959396001e469dbbcbc3d87",
+  "cpu_processes": [
+    {
+      "CUDA_VISIBLE_DEVICES": "",
+      "JAX_COMPILATION_CACHE_DIR": null,
+      "JAX_PLATFORMS": "cpu",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": null,
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "XLA_FLAGS": null,
+      "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+      "applied_env": {
+        "CUDA_VISIBLE_DEVICES": "",
+        "JAX_PLATFORMS": "cpu",
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1"
+      },
+      "executable": "/home/xushijie/.conda/envs/og-ea-v2/bin/python",
+      "jax_compilation_cache_dir_api": null,
+      "jax_default_backend": "cpu",
+      "jax_default_matmul_precision": "None",
+      "jax_devices": [
+        "cpu:0"
+      ],
+      "jax_enable_x64": false,
+      "jax_version": "0.10.2",
+      "jaxlib_version": "0.10.2",
+      "nvidia_smi": "0, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n1, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n2, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n3, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n4, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n5, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n6, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n7, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0",
+      "pid": 1772216,
+      "platform": "Linux-7.2.2-1.el10.elrepo.x86_64-x86_64-with-glibc2.39",
+      "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]"
+    },
+    {
+      "CUDA_VISIBLE_DEVICES": "",
+      "JAX_COMPILATION_CACHE_DIR": null,
+      "JAX_PLATFORMS": "cpu",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": null,
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "XLA_FLAGS": null,
+      "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+      "applied_env": {
+        "CUDA_VISIBLE_DEVICES": "",
+        "JAX_PLATFORMS": "cpu",
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1"
+      },
+      "executable": "/home/xushijie/.conda/envs/og-ea-v2/bin/python",
+      "jax_compilation_cache_dir_api": null,
+      "jax_default_backend": "cpu",
+      "jax_default_matmul_precision": "None",
+      "jax_devices": [
+        "cpu:0"
+      ],
+      "jax_enable_x64": false,
+      "jax_version": "0.10.2",
+      "jaxlib_version": "0.10.2",
+      "nvidia_smi": "0, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n1, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n2, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n3, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n4, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n5, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n6, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n7, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0",
+      "pid": 1774144,
+      "platform": "Linux-7.2.2-1.el10.elrepo.x86_64-x86_64-with-glibc2.39",
+      "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]"
+    },
+    {
+      "CUDA_VISIBLE_DEVICES": "",
+      "JAX_COMPILATION_CACHE_DIR": null,
+      "JAX_PLATFORMS": "cpu",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": null,
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "XLA_FLAGS": null,
+      "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+      "applied_env": {
+        "CUDA_VISIBLE_DEVICES": "",
+        "JAX_PLATFORMS": "cpu",
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1"
+      },
+      "executable": "/home/xushijie/.conda/envs/og-ea-v2/bin/python",
+      "jax_compilation_cache_dir_api": null,
+      "jax_default_backend": "cpu",
+      "jax_default_matmul_precision": "None",
+      "jax_devices": [
+        "cpu:0"
+      ],
+      "jax_enable_x64": false,
+      "jax_version": "0.10.2",
+      "jaxlib_version": "0.10.2",
+      "nvidia_smi": "0, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n1, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n2, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n3, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n4, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n5, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n6, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n7, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0",
+      "pid": 1775612,
+      "platform": "Linux-7.2.2-1.el10.elrepo.x86_64-x86_64-with-glibc2.39",
+      "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]"
+    },
+    {
+      "CUDA_VISIBLE_DEVICES": "",
+      "JAX_COMPILATION_CACHE_DIR": null,
+      "JAX_PLATFORMS": "cpu",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": null,
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "XLA_FLAGS": null,
+      "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+      "applied_env": {
+        "CUDA_VISIBLE_DEVICES": "",
+        "JAX_PLATFORMS": "cpu",
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1"
+      },
+      "executable": "/home/xushijie/.conda/envs/og-ea-v2/bin/python",
+      "jax_compilation_cache_dir_api": null,
+      "jax_default_backend": "cpu",
+      "jax_default_matmul_precision": "None",
+      "jax_devices": [
+        "cpu:0"
+      ],
+      "jax_enable_x64": false,
+      "jax_version": "0.10.2",
+      "jaxlib_version": "0.10.2",
+      "nvidia_smi": "0, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n1, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n2, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n3, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n4, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n5, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n6, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n7, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0",
+      "pid": 1777210,
+      "platform": "Linux-7.2.2-1.el10.elrepo.x86_64-x86_64-with-glibc2.39",
+      "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]"
+    },
+    {
+      "CUDA_VISIBLE_DEVICES": "",
+      "JAX_COMPILATION_CACHE_DIR": null,
+      "JAX_PLATFORMS": "cpu",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": null,
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "XLA_FLAGS": null,
+      "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+      "applied_env": {
+        "CUDA_VISIBLE_DEVICES": "",
+        "JAX_PLATFORMS": "cpu",
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1"
+      },
+      "executable": "/home/xushijie/.conda/envs/og-ea-v2/bin/python",
+      "jax_compilation_cache_dir_api": null,
+      "jax_default_backend": "cpu",
+      "jax_default_matmul_precision": "None",
+      "jax_devices": [
+        "cpu:0"
+      ],
+      "jax_enable_x64": false,
+      "jax_version": "0.10.2",
+      "jaxlib_version": "0.10.2",
+      "nvidia_smi": "0, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n1, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n2, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n3, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n4, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n5, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n6, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n7, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0",
+      "pid": 1778986,
+      "platform": "Linux-7.2.2-1.el10.elrepo.x86_64-x86_64-with-glibc2.39",
+      "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]"
+    },
+    {
+      "CUDA_VISIBLE_DEVICES": "",
+      "JAX_COMPILATION_CACHE_DIR": null,
+      "JAX_PLATFORMS": "cpu",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": null,
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "XLA_FLAGS": null,
+      "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+      "applied_env": {
+        "CUDA_VISIBLE_DEVICES": "",
+        "JAX_PLATFORMS": "cpu",
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1"
+      },
+      "executable": "/home/xushijie/.conda/envs/og-ea-v2/bin/python",
+      "jax_compilation_cache_dir_api": null,
+      "jax_default_backend": "cpu",
+      "jax_default_matmul_precision": "None",
+      "jax_devices": [
+        "cpu:0"
+      ],
+      "jax_enable_x64": false,
+      "jax_version": "0.10.2",
+      "jaxlib_version": "0.10.2",
+      "nvidia_smi": "0, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n1, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n2, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n3, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n4, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n5, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n6, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n7, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0",
+      "pid": 1780269,
+      "platform": "Linux-7.2.2-1.el10.elrepo.x86_64-x86_64-with-glibc2.39",
+      "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]"
+    },
+    {
+      "CUDA_VISIBLE_DEVICES": "",
+      "JAX_COMPILATION_CACHE_DIR": null,
+      "JAX_PLATFORMS": "cpu",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": null,
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "XLA_FLAGS": null,
+      "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+      "applied_env": {
+        "CUDA_VISIBLE_DEVICES": "",
+        "JAX_PLATFORMS": "cpu",
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1"
+      },
+      "executable": "/home/xushijie/.conda/envs/og-ea-v2/bin/python",
+      "jax_compilation_cache_dir_api": null,
+      "jax_default_backend": "cpu",
+      "jax_default_matmul_precision": "None",
+      "jax_devices": [
+        "cpu:0"
+      ],
+      "jax_enable_x64": false,
+      "jax_version": "0.10.2",
+      "jaxlib_version": "0.10.2",
+      "nvidia_smi": "0, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n1, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n2, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n3, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n4, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n5, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n6, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n7, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0",
+      "pid": 1782170,
+      "platform": "Linux-7.2.2-1.el10.elrepo.x86_64-x86_64-with-glibc2.39",
+      "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]"
+    },
+    {
+      "CUDA_VISIBLE_DEVICES": "",
+      "JAX_COMPILATION_CACHE_DIR": null,
+      "JAX_PLATFORMS": "cpu",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": null,
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "XLA_FLAGS": null,
+      "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+      "applied_env": {
+        "CUDA_VISIBLE_DEVICES": "",
+        "JAX_PLATFORMS": "cpu",
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1"
+      },
+      "executable": "/home/xushijie/.conda/envs/og-ea-v2/bin/python",
+      "jax_compilation_cache_dir_api": null,
+      "jax_default_backend": "cpu",
+      "jax_default_matmul_precision": "None",
+      "jax_devices": [
+        "cpu:0"
+      ],
+      "jax_enable_x64": false,
+      "jax_version": "0.10.2",
+      "jaxlib_version": "0.10.2",
+      "nvidia_smi": "0, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n1, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n2, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n3, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n4, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n5, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n6, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n7, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0",
+      "pid": 1783718,
+      "platform": "Linux-7.2.2-1.el10.elrepo.x86_64-x86_64-with-glibc2.39",
+      "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]"
+    }
+  ],
+  "gpu_processes": [
+    {
+      "CUDA_VISIBLE_DEVICES": "3",
+      "JAX_COMPILATION_CACHE_DIR": null,
+      "JAX_PLATFORMS": null,
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": null,
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "XLA_FLAGS": null,
+      "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+      "applied_env": {
+        "CUDA_VISIBLE_DEVICES": "3",
+        "JAX_PLATFORMS": null,
+        "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+      },
+      "executable": "/home/xushijie/.conda/envs/og-ea-v2/bin/python",
+      "jax_compilation_cache_dir_api": null,
+      "jax_default_backend": "gpu",
+      "jax_default_matmul_precision": "None",
+      "jax_devices": [
+        "cuda:0"
+      ],
+      "jax_enable_x64": false,
+      "jax_version": "0.10.2",
+      "jaxlib_version": "0.10.2",
+      "nvidia_smi": "0, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n1, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n2, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n3, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n4, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n5, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n6, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n7, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0",
+      "pid": 1755807,
+      "platform": "Linux-7.2.2-1.el10.elrepo.x86_64-x86_64-with-glibc2.39",
+      "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]"
+    },
+    {
+      "CUDA_VISIBLE_DEVICES": "3",
+      "JAX_COMPILATION_CACHE_DIR": null,
+      "JAX_PLATFORMS": null,
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": null,
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "XLA_FLAGS": null,
+      "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+      "applied_env": {
+        "CUDA_VISIBLE_DEVICES": "3",
+        "JAX_PLATFORMS": null,
+        "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+      },
+      "executable": "/home/xushijie/.conda/envs/og-ea-v2/bin/python",
+      "jax_compilation_cache_dir_api": null,
+      "jax_default_backend": "gpu",
+      "jax_default_matmul_precision": "None",
+      "jax_devices": [
+        "cuda:0"
+      ],
+      "jax_enable_x64": false,
+      "jax_version": "0.10.2",
+      "jaxlib_version": "0.10.2",
+      "nvidia_smi": "0, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n1, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n2, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n3, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n4, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n5, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n6, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n7, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0",
+      "pid": 1758154,
+      "platform": "Linux-7.2.2-1.el10.elrepo.x86_64-x86_64-with-glibc2.39",
+      "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]"
+    },
+    {
+      "CUDA_VISIBLE_DEVICES": "3",
+      "JAX_COMPILATION_CACHE_DIR": null,
+      "JAX_PLATFORMS": null,
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": null,
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "XLA_FLAGS": null,
+      "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+      "applied_env": {
+        "CUDA_VISIBLE_DEVICES": "3",
+        "JAX_PLATFORMS": null,
+        "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+      },
+      "executable": "/home/xushijie/.conda/envs/og-ea-v2/bin/python",
+      "jax_compilation_cache_dir_api": null,
+      "jax_default_backend": "gpu",
+      "jax_default_matmul_precision": "None",
+      "jax_devices": [
+        "cuda:0"
+      ],
+      "jax_enable_x64": false,
+      "jax_version": "0.10.2",
+      "jaxlib_version": "0.10.2",
+      "nvidia_smi": "0, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n1, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n2, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n3, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n4, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n5, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n6, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n7, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0",
+      "pid": 1760138,
+      "platform": "Linux-7.2.2-1.el10.elrepo.x86_64-x86_64-with-glibc2.39",
+      "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]"
+    },
+    {
+      "CUDA_VISIBLE_DEVICES": "3",
+      "JAX_COMPILATION_CACHE_DIR": null,
+      "JAX_PLATFORMS": null,
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": null,
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "XLA_FLAGS": null,
+      "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+      "applied_env": {
+        "CUDA_VISIBLE_DEVICES": "3",
+        "JAX_PLATFORMS": null,
+        "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+      },
+      "executable": "/home/xushijie/.conda/envs/og-ea-v2/bin/python",
+      "jax_compilation_cache_dir_api": null,
+      "jax_default_backend": "gpu",
+      "jax_default_matmul_precision": "None",
+      "jax_devices": [
+        "cuda:0"
+      ],
+      "jax_enable_x64": false,
+      "jax_version": "0.10.2",
+      "jaxlib_version": "0.10.2",
+      "nvidia_smi": "0, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n1, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n2, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n3, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n4, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n5, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n6, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n7, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0",
+      "pid": 1761873,
+      "platform": "Linux-7.2.2-1.el10.elrepo.x86_64-x86_64-with-glibc2.39",
+      "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]"
+    },
+    {
+      "CUDA_VISIBLE_DEVICES": "3",
+      "JAX_COMPILATION_CACHE_DIR": null,
+      "JAX_PLATFORMS": null,
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": null,
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "XLA_FLAGS": null,
+      "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+      "applied_env": {
+        "CUDA_VISIBLE_DEVICES": "3",
+        "JAX_PLATFORMS": null,
+        "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+      },
+      "executable": "/home/xushijie/.conda/envs/og-ea-v2/bin/python",
+      "jax_compilation_cache_dir_api": null,
+      "jax_default_backend": "gpu",
+      "jax_default_matmul_precision": "None",
+      "jax_devices": [
+        "cuda:0"
+      ],
+      "jax_enable_x64": false,
+      "jax_version": "0.10.2",
+      "jaxlib_version": "0.10.2",
+      "nvidia_smi": "0, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n1, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n2, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n3, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n4, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n5, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n6, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n7, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0",
+      "pid": 1764036,
+      "platform": "Linux-7.2.2-1.el10.elrepo.x86_64-x86_64-with-glibc2.39",
+      "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]"
+    },
+    {
+      "CUDA_VISIBLE_DEVICES": "3",
+      "JAX_COMPILATION_CACHE_DIR": null,
+      "JAX_PLATFORMS": null,
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": null,
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "XLA_FLAGS": null,
+      "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+      "applied_env": {
+        "CUDA_VISIBLE_DEVICES": "3",
+        "JAX_PLATFORMS": null,
+        "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+      },
+      "executable": "/home/xushijie/.conda/envs/og-ea-v2/bin/python",
+      "jax_compilation_cache_dir_api": null,
+      "jax_default_backend": "gpu",
+      "jax_default_matmul_precision": "None",
+      "jax_devices": [
+        "cuda:0"
+      ],
+      "jax_enable_x64": false,
+      "jax_version": "0.10.2",
+      "jaxlib_version": "0.10.2",
+      "nvidia_smi": "0, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n1, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n2, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n3, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n4, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n5, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n6, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n7, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0",
+      "pid": 1766326,
+      "platform": "Linux-7.2.2-1.el10.elrepo.x86_64-x86_64-with-glibc2.39",
+      "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]"
+    },
+    {
+      "CUDA_VISIBLE_DEVICES": "3",
+      "JAX_COMPILATION_CACHE_DIR": null,
+      "JAX_PLATFORMS": null,
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": null,
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "XLA_FLAGS": null,
+      "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+      "applied_env": {
+        "CUDA_VISIBLE_DEVICES": "3",
+        "JAX_PLATFORMS": null,
+        "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+      },
+      "executable": "/home/xushijie/.conda/envs/og-ea-v2/bin/python",
+      "jax_compilation_cache_dir_api": null,
+      "jax_default_backend": "gpu",
+      "jax_default_matmul_precision": "None",
+      "jax_devices": [
+        "cuda:0"
+      ],
+      "jax_enable_x64": false,
+      "jax_version": "0.10.2",
+      "jaxlib_version": "0.10.2",
+      "nvidia_smi": "0, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n1, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n2, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n3, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n4, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n5, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n6, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n7, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0",
+      "pid": 1768321,
+      "platform": "Linux-7.2.2-1.el10.elrepo.x86_64-x86_64-with-glibc2.39",
+      "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]"
+    },
+    {
+      "CUDA_VISIBLE_DEVICES": "3",
+      "JAX_COMPILATION_CACHE_DIR": null,
+      "JAX_PLATFORMS": null,
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": null,
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "XLA_FLAGS": null,
+      "XLA_PYTHON_CLIENT_PREALLOCATE": "false",
+      "applied_env": {
+        "CUDA_VISIBLE_DEVICES": "3",
+        "JAX_PLATFORMS": null,
+        "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+      },
+      "executable": "/home/xushijie/.conda/envs/og-ea-v2/bin/python",
+      "jax_compilation_cache_dir_api": null,
+      "jax_default_backend": "gpu",
+      "jax_default_matmul_precision": "None",
+      "jax_devices": [
+        "cuda:0"
+      ],
+      "jax_enable_x64": false,
+      "jax_version": "0.10.2",
+      "jaxlib_version": "0.10.2",
+      "nvidia_smi": "0, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n1, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n2, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n3, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n4, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n5, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n6, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0\n7, NVIDIA A100-SXM4-40GB, 610.57.04, 8.0",
+      "pid": 1770153,
+      "platform": "Linux-7.2.2-1.el10.elrepo.x86_64-x86_64-with-glibc2.39",
+      "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]"
+    }
+  ],
+  "ogbench_commit": "1d4140997f60c52c6fb0702ec100dc988b18c548",
+  "qualification_head_at_start": "6fea6044d3ad12b9d77b75702d881c2eedd6ce64",
+  "s1_commit_required": "6fea6044d3ad12b9d77b75702d881c2eedd6ce64"
+}

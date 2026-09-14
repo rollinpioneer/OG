@@ -1,0 +1,92 @@
+{
+  "forbidden": [
+    "S1_env_retry",
+    "S2",
+    "S3",
+    "Phase_C",
+    "Phase_D",
+    "Phase_E",
+    "Phase_F",
+    "P_1",
+    "P_MH",
+    "EXEC",
+    "rewrite_protocol_v1",
+    "modify_old_traces",
+    "relax_thresholds",
+    "auto_switch_dist_mode",
+    "modify_checkpoint"
+  ],
+  "protocol_id": "ea_v3_runtime_qualification_v1",
+  "protocol_name": "EA-V3 Runtime Qualification v1",
+  "q0": {
+    "actor_call": "agent.sample_actions(observation, goals=d3_target, seed=key, temperature=0.0)",
+    "env_step_calls": 0,
+    "n_fresh_processes": 8,
+    "probe_key_formula": "jax.random.PRNGKey(stable_uint32('ea3-mr-v1:probe:{root_id}:{step}') & 0xFFFFFFFF)",
+    "runtimes": {
+      "CPU_SINGLE_THREAD": {
+        "cuda_visible_devices": "",
+        "description": "same sample_actions interface on CPU, single thread",
+        "jax_platforms": "cpu",
+        "mkl_num_threads": "1",
+        "omp_num_threads": "1",
+        "openblas_num_threads": "1"
+      },
+      "GPU_CURRENT": {
+        "cuda_visible_devices": "3",
+        "description": "current sample_actions(..., temperature=0.0) on the S1 GPU runtime",
+        "jax_platforms": null,
+        "xla_python_client_preallocate": "false"
+      }
+    },
+    "saved_key_schedule_note": "S1 original_live_probe.key_schedule was not persisted; keys are reconstructed from the frozen S1 formula",
+    "thresholds": {
+      "action_max_abs": 1e-07,
+      "rtol": 0.0,
+      "value_max_abs": 1e-05
+    },
+    "value_call": "agent.network.select('value')(observation, exact_task_goal)"
+  },
+  "q1": {
+    "comparator_contract": "v2",
+    "d0_terminated_truncated": "explicit_agree_or_unified_NA",
+    "d1_full_proxy": "NOT_APPLICABLE",
+    "d1_step_proxy": "NOT_APPLICABLE",
+    "d1_still_compares_action_and_state": true,
+    "d2_d3_compare_full_proxy": true,
+    "does_not_modify_s1_compare_py": true,
+    "fail_closed": [
+      "missing",
+      "nan",
+      "length",
+      "identity"
+    ]
+  },
+  "s1_readonly": {
+    "branch": "exp/ea-v3-materialized-roots-v1",
+    "commit": "6fea6044d3ad12b9d77b75702d881c2eedd6ce64",
+    "must_not_modify": true,
+    "protocol_id": "ea_v3_materialized_roots_v1",
+    "status": "EA3_HOLD_TRACE_MISMATCH"
+  },
+  "scope": [
+    "Q0",
+    "Q1"
+  ],
+  "thresholds": {
+    "act_max_abs": 1e-06,
+    "action_max_abs": 1e-07,
+    "ctrl_max_abs": 1e-06,
+    "cube_obs_19_37_max_abs": 1e-06,
+    "goal_encoding_max_abs": 0.0,
+    "integration_continuous_max_abs": 1e-06,
+    "observation_max_abs": 1e-06,
+    "proxy_max_abs": 1e-05,
+    "qpos_max_abs": 1e-06,
+    "qvel_max_abs": 1e-06,
+    "robot_obs_0_19_max_abs": 1e-06,
+    "rtol": 0.0,
+    "value_max_abs": 1e-05,
+    "warmstart_max_abs": 1e-06
+  }
+}
