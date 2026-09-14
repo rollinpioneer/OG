@@ -1,0 +1,2260 @@
+{
+  "protocol": "snapshot_v2",
+  "repeat_count": 2,
+  "candidate_branches": 224,
+  "thresholds": {
+    "endpoint_max_abs": 1e-06,
+    "proxy_abs": 1e-05,
+    "success_terminated_truncated_agreement": 1.0
+  },
+  "max_endpoint_abs": 0.23696387598968538,
+  "max_proxy_abs": 0.7128253474235606,
+  "agreement_rates": {
+    "success_agree": 1.0,
+    "terminated_agree": 1.0,
+    "truncated_agree": 1.0
+  },
+  "all_reproducible": false,
+  "rows": [
+    {
+      "root_id": 4000,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4000,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4000,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4000,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4000,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4000,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4000,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4000,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4001,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4001,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4001,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4001,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4001,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4001,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4001,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4001,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4002,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4002,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4002,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4002,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4002,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4002,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4002,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4002,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4003,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4003,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4003,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4003,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4003,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4003,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4003,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4003,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4004,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4004,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4004,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4004,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4004,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4004,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4004,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4004,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4006,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.001027511786399038,
+      "proxy_abs": 0.0064065873265235496,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4006,
+      "candidate_id": 1,
+      "endpoint_max_abs": 2.339077452628846e-05,
+      "proxy_abs": 4.353286972502701e-05,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4006,
+      "candidate_id": 2,
+      "endpoint_max_abs": 3.4244927173521233e-05,
+      "proxy_abs": 0.0002176643485825025,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4006,
+      "candidate_id": 3,
+      "endpoint_max_abs": 1.452158851888985e-05,
+      "proxy_abs": 4.353286971081616e-05,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4006,
+      "candidate_id": 4,
+      "endpoint_max_abs": 1.860513489893023e-05,
+      "proxy_abs": 0.00011608765257165032,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4006,
+      "candidate_id": 5,
+      "endpoint_max_abs": 2.250046485852142e-05,
+      "proxy_abs": 3.627739141620623e-05,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4006,
+      "candidate_id": 6,
+      "endpoint_max_abs": 9.476905102445699e-06,
+      "proxy_abs": 3.627739143041708e-05,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4006,
+      "candidate_id": 7,
+      "endpoint_max_abs": 5.149133106119308e-06,
+      "proxy_abs": 2.176643485540808e-05,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4007,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4007,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4007,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4007,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4007,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4007,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4007,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4007,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4008,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4008,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4008,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4008,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4008,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4008,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4008,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4008,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4010,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4010,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4010,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4010,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4010,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4010,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4010,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4010,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4011,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4011,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4011,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4011,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4011,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4011,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4011,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4011,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4012,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0017994469748463526,
+      "proxy_abs": 0.00208232226806615,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4012,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.010080091207739006,
+      "proxy_abs": 0.014373102484526612,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4012,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.00030210089246707206,
+      "proxy_abs": 0.00029747460972373574,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4012,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0003947111756703592,
+      "proxy_abs": 0.0004716060885954221,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4012,
+      "candidate_id": 4,
+      "endpoint_max_abs": 1.1168152730833825e-05,
+      "proxy_abs": 2.1766434869618934e-05,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4012,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.009939415639784288,
+      "proxy_abs": 0.01464155518111454,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4012,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.00014645190936368735,
+      "proxy_abs": 0.00017413147885747549,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4012,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.00012473329125417543,
+      "proxy_abs": 0.00010157669599664132,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4013,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4013,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4013,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4013,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4013,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4013,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4013,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4013,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4014,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4014,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4014,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4014,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4014,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4014,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4014,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4014,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4015,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.004533627146164898,
+      "proxy_abs": 0.00018138695715208542,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4015,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.00019718614666375256,
+      "proxy_abs": 1.4510956575009004e-05,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4015,
+      "candidate_id": 2,
+      "endpoint_max_abs": 1.739718066662288e-05,
+      "proxy_abs": 7.255478280399075e-06,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4015,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0001809941946923077,
+      "proxy_abs": 2.176643485540808e-05,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4015,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4015,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4015,
+      "candidate_id": 6,
+      "endpoint_max_abs": 1.4253162512467554e-05,
+      "proxy_abs": 7.255478280399075e-06,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4015,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.010071999672005005,
+      "proxy_abs": 0.002031533920074935,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4016,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.004241529826859325,
+      "proxy_abs": 0.00047886156687582115,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4016,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0203296177371044,
+      "proxy_abs": 0.010135903165519267,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4016,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.06961901375685453,
+      "proxy_abs": 0.011623276214137945,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4016,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.001984171744496832,
+      "proxy_abs": 0.004527418450450682,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4016,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4016,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0007850883328973032,
+      "proxy_abs": 0.0006747594805887047,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4016,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0003726011316153399,
+      "proxy_abs": 0.00018138695715208542,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4016,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.00020652368813500743,
+      "proxy_abs": 0.0008634019160354001,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4017,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4017,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4017,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4017,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4017,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4017,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4017,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4017,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4018,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4018,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.030957317621047586,
+      "proxy_abs": 0.15375084035820663,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4018,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4018,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4018,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4018,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.11176352823927704,
+      "proxy_abs": 0.7128253474235606,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4018,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4018,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4019,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4019,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4019,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4019,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4019,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4019,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4019,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4019,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4020,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.010798319252044664,
+      "proxy_abs": 0.005035301930476521,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4020,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.001525175113466979,
+      "proxy_abs": 0.006188922977941047,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4020,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.00010486467212328376,
+      "proxy_abs": 0.0003990513057345879,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4020,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.025182951174312795,
+      "proxy_abs": 0.008902471856885086,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4020,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0003553386739352238,
+      "proxy_abs": 0.0011245991343287187,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4020,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4020,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4020,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4021,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4021,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4021,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4021,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4021,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4021,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4021,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4021,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4022,
+      "candidate_id": 0,
+      "endpoint_max_abs": 8.86868226228632e-05,
+      "proxy_abs": 0.00010157669600374675,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4022,
+      "candidate_id": 1,
+      "endpoint_max_abs": 1.5433445010870628e-05,
+      "proxy_abs": 2.1766434862513506e-05,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4022,
+      "candidate_id": 2,
+      "endpoint_max_abs": 6.789983498151075e-05,
+      "proxy_abs": 5.4416087145625625e-05,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4022,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.03794360105292893,
+      "proxy_abs": 0.02349323869000841,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4022,
+      "candidate_id": 4,
+      "endpoint_max_abs": 3.916136616294308e-05,
+      "proxy_abs": 3.990513057061662e-05,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4022,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0034348971563151753,
+      "proxy_abs": 0.0014438401789078625,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4022,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.007236460223323471,
+      "proxy_abs": 0.008862566726321575,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4022,
+      "candidate_id": 7,
+      "endpoint_max_abs": 3.477474980195794e-07,
+      "proxy_abs": 3.6277391473049647e-06,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4023,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.00031930324517803754,
+      "proxy_abs": 0.0001886424354324845,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4023,
+      "candidate_id": 1,
+      "endpoint_max_abs": 1.7961590204063071e-06,
+      "proxy_abs": 3.6277391473049647e-06,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4023,
+      "candidate_id": 2,
+      "endpoint_max_abs": 8.804888459446047e-06,
+      "proxy_abs": 3.6277391473049647e-06,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4023,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0002708939430524637,
+      "proxy_abs": 0.00042081774058289056,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4023,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.00018034553836110412,
+      "proxy_abs": 0.00010157669600374675,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4023,
+      "candidate_id": 5,
+      "endpoint_max_abs": 1.6734403752272087e-05,
+      "proxy_abs": 3.2649652290217546e-05,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4023,
+      "candidate_id": 6,
+      "endpoint_max_abs": 4.105821039468438e-05,
+      "proxy_abs": 1.813869571520854e-05,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4023,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.00016077106499956528,
+      "proxy_abs": 0.001218920352044961,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4024,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4024,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4024,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4024,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4024,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4024,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4024,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4024,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4027,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4027,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4027,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4027,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4027,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4027,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4027,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4027,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4028,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4028,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4028,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4028,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.23696387598968538,
+      "proxy_abs": 0.6559605363571848,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4028,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.05998991363268269,
+      "proxy_abs": 0.06452659613636769,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4028,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.04299246605521678,
+      "proxy_abs": 0.039988568573178895,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4028,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4028,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4029,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4029,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4029,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4029,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4029,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4029,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4029,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4029,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4030,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0005882323774336617,
+      "proxy_abs": 0.004226316101579641,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4030,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0017459426163362046,
+      "proxy_abs": 0.012414123347312511,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4030,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.00017554297972721677,
+      "proxy_abs": 0.002844147488104909,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4030,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.00012122617210857944,
+      "proxy_abs": 0.0007509420025968438,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4030,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0004445009067259864,
+      "proxy_abs": 0.003435468968412181,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4030,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.00010221444749222708,
+      "proxy_abs": 0.0005332776540214468,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4030,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.00042240779978774956,
+      "proxy_abs": 0.004512907493875673,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4030,
+      "candidate_id": 7,
+      "endpoint_max_abs": 3.1319063965640215e-05,
+      "proxy_abs": 0.0011753874823341448,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": false
+    },
+    {
+      "root_id": 4031,
+      "candidate_id": 0,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4031,
+      "candidate_id": 1,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4031,
+      "candidate_id": 2,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4031,
+      "candidate_id": 3,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4031,
+      "candidate_id": 4,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4031,
+      "candidate_id": 5,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4031,
+      "candidate_id": 6,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    },
+    {
+      "root_id": 4031,
+      "candidate_id": 7,
+      "endpoint_max_abs": 0.0,
+      "proxy_abs": 0.0,
+      "success_agree": true,
+      "terminated_agree": true,
+      "truncated_agree": true,
+      "reproducible": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "HOLD_CUBE_BRANCH_REPRODUCIBILITY",
+  "planned_roots": 32,
+  "legal_roots": 28,
+  "planned_deep_roots": 16,
+  "deep_roots_evaluated": 15,
+  "value_std_data_real": 10.990410804748535,
+  "value_tolerance": 0.5495205402374268,
+  "proxy_wrong_selection_rate": 0.17857142857142858,
+  "mean_ideal_proxy_spearman": 0.12500000000000003,
+  "full_distinguishable_roots": 10,
+  "full_gap_roots": 2,
+  "ideal_not_best_deep_roots": 2,
+  "all_reproducible": false,
+  "raw_sha256": "7312cbe281ee568c36974264eb95bfdd96cdd64102cc3a5a6f0d0e4c964e0289",
+  "roots_sha256": "447ecfe60bc52c800420d14de222e57b50aac1b80a45fa5fcca386cbb4de562f",
+  "elapsed_seconds": 169.37753915786743
+}

@@ -1,0 +1,10 @@
+{
+  "candidate_source": "DATA_REAL",
+  "window_horizon": 20,
+  "distinct_endpoints_per_root": 8,
+  "root_count": 28,
+  "candidate_count": 224,
+  "training_eligible": false,
+  "endpoint_validity": "train observations retrieved from legal same-episode windows",
+  "raw_candidates_sha256": "7312cbe281ee568c36974264eb95bfdd96cdd64102cc3a5a6f0d0e4c964e0289"
+}

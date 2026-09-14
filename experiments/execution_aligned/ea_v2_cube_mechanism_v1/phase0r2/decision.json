@@ -1,0 +1,15 @@
+{
+  "status": "HOLD_CUBE_BRANCH_REPRODUCIBILITY",
+  "phase_c_unlocked": false,
+  "engineering_gate": {
+    "legal_roots": 28,
+    "deep_roots": 15,
+    "all_reproducible": false
+  },
+  "mechanism_metrics": {
+    "proxy_wrong_selection_rate": 0.17857142857142858,
+    "full_distinguishable_roots": 10,
+    "ideal_not_best_deep_roots": 2
+  },
+  "reason": "Engineering reproducibility gate failed; no research conclusion computed."
+}
