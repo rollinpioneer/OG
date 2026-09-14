@@ -1,17 +1,9 @@
 {
-  "overall_status": "HOLD_CUBE_BRANCH_REPRODUCIBILITY",
-  "candidate_support": "PASS",
-  "phase0r_status": "HOLD_CUBE_BRANCH_REPRODUCIBILITY",
-  "phase0r_started": true,
-  "phase0r_results_conclusive": false,
-  "stop_after_phase0r": true,
-  "phases_not_run": [
-    "C",
-    "D",
-    "E",
-    "F",
-    "P_1",
-    "P_MH",
-    "EXEC"
-  ]
+  "overall_status": "SNAPSHOT_V2_REPRODUCIBLE",
+  "snapshot_v2": "PASS_16_OF_16",
+  "reset_replay": "PASS_16_OF_16",
+  "phase0r_rerun": false,
+  "research_conclusion": "NOT_REASSESSED",
+  "phases_not_run": ["C", "D", "E", "F", "P_1", "P_MH", "EXEC"],
+  "stop_after_engineering_audit": true
 }
