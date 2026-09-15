@@ -1,0 +1,71 @@
+{
+  "n": 10,
+  "n_fail": 0,
+  "n_pass": 10,
+  "rows": [
+    {
+      "id": 1,
+      "name": "unterminated_tail_reads_o_h",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "id": 2,
+      "name": "success_at_3_h5_no_padding",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "id": 3,
+      "name": "truncation_zeros_tail_history_contract",
+      "note": "future statistical targets may treat truncation differently; history mask unchanged",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "error": "trace shorter than h without success/terminated/truncated",
+      "id": 4,
+      "name": "short_incomplete_errors",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "id": 5,
+      "name": "nan_observation_errors",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "id": 6,
+      "name": "identical_prefix_identical_J5",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "id": 7,
+      "name": "identity_mismatch_rejected",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "id": 8,
+      "n_records": 6,
+      "n_units": 3,
+      "name": "workers_do_not_double_bootstrap_n",
+      "pass": true
+    },
+    {
+      "id": 9,
+      "name": "unresolved_uses_prefix_only",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "id": 10,
+      "name": "fixed_deep_bootstrap_n35_task_counts",
+      "pass": true,
+      "reason": null
+    }
+  ],
+  "status": "PASS"
+}

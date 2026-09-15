@@ -1,0 +1,54 @@
+{
+  "always_IDEAL": {
+    "n_harm": 0,
+    "n_intervened_success_change": 0,
+    "n_rescue": 0,
+    "n_retained_failure": 20,
+    "n_retained_success": 15,
+    "net": 0,
+    "success": 15
+  },
+  "does_not_modify_s3": true,
+  "epsilon": 0.5495205402374268,
+  "epsilon_switch": {
+    "n_harm": 0,
+    "n_intervened_success_change": 0,
+    "n_rescue": 0,
+    "n_retained_failure": 20,
+    "n_retained_success": 15,
+    "net": 0,
+    "success": 15
+  },
+  "exploratory": true,
+  "intervened": [
+    {
+      "from": 5,
+      "gap": 0.6654906070858218,
+      "root_id": 720023,
+      "to": 7
+    },
+    {
+      "from": 3,
+      "gap": 0.6117456516824262,
+      "root_id": 720060,
+      "to": 6
+    },
+    {
+      "from": 4,
+      "gap": 0.6791490449591748,
+      "root_id": 720061,
+      "to": 1
+    }
+  ],
+  "intervention_rate": 0.08571428571428572,
+  "n_intervened": 3,
+  "unconditional_ORACLE_PROXY": {
+    "n_harm": 5,
+    "n_intervened_success_change": 5,
+    "n_rescue": 0,
+    "n_retained_failure": 20,
+    "n_retained_success": 10,
+    "net": -5,
+    "success": 10
+  }
+}

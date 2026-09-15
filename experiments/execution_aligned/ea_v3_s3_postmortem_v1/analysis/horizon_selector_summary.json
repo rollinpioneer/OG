@@ -1,0 +1,212 @@
+{
+  "1": {
+    "IDEAL": {
+      "n_harm": 0,
+      "n_intervened_success_change": 0,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 15,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    },
+    "J_h": {
+      "n_harm": 4,
+      "n_intervened_success_change": 4,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 11,
+      "net": -4,
+      "rate": 0.3142857142857143,
+      "success": 11
+    },
+    "KNOWN_OUTCOME_ONLY": {
+      "n_harm": 0,
+      "n_intervened_success_change": 0,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 15,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    },
+    "n_candidate_prefixes": 280,
+    "n_candidate_prefixes_revealed": 0,
+    "revealed_fraction": 0.0
+  },
+  "10": {
+    "IDEAL": {
+      "n_harm": 0,
+      "n_intervened_success_change": 0,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 15,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    },
+    "J_h": {
+      "n_harm": 4,
+      "n_intervened_success_change": 5,
+      "n_rescue": 1,
+      "n_retained_failure": 19,
+      "n_retained_success": 11,
+      "net": -3,
+      "rate": 0.34285714285714286,
+      "success": 12
+    },
+    "KNOWN_OUTCOME_ONLY": {
+      "n_harm": 0,
+      "n_intervened_success_change": 0,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 15,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    },
+    "n_candidate_prefixes": 280,
+    "n_candidate_prefixes_revealed": 0,
+    "revealed_fraction": 0.0
+  },
+  "20": {
+    "IDEAL": {
+      "n_harm": 0,
+      "n_intervened_success_change": 0,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 15,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    },
+    "J_h": {
+      "n_harm": 8,
+      "n_intervened_success_change": 8,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 7,
+      "net": -8,
+      "rate": 0.2,
+      "success": 7
+    },
+    "KNOWN_OUTCOME_ONLY": {
+      "n_harm": 0,
+      "n_intervened_success_change": 0,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 15,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    },
+    "n_candidate_prefixes": 280,
+    "n_candidate_prefixes_revealed": 5,
+    "revealed_fraction": 0.017857142857142856
+  },
+  "40": {
+    "IDEAL": {
+      "n_harm": 0,
+      "n_intervened_success_change": 0,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 15,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    },
+    "J_h": {
+      "n_harm": 3,
+      "n_intervened_success_change": 6,
+      "n_rescue": 3,
+      "n_retained_failure": 17,
+      "n_retained_success": 12,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    },
+    "KNOWN_OUTCOME_ONLY": {
+      "n_harm": 0,
+      "n_intervened_success_change": 0,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 15,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    },
+    "n_candidate_prefixes": 280,
+    "n_candidate_prefixes_revealed": 14,
+    "revealed_fraction": 0.05
+  },
+  "5": {
+    "IDEAL": {
+      "n_harm": 0,
+      "n_intervened_success_change": 0,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 15,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    },
+    "J_h": {
+      "n_harm": 5,
+      "n_intervened_success_change": 5,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 10,
+      "net": -5,
+      "rate": 0.2857142857142857,
+      "success": 10
+    },
+    "KNOWN_OUTCOME_ONLY": {
+      "n_harm": 0,
+      "n_intervened_success_change": 0,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 15,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    },
+    "n_candidate_prefixes": 280,
+    "n_candidate_prefixes_revealed": 0,
+    "revealed_fraction": 0.0
+  },
+  "80": {
+    "IDEAL": {
+      "n_harm": 0,
+      "n_intervened_success_change": 0,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 15,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    },
+    "J_h": {
+      "n_harm": 5,
+      "n_intervened_success_change": 11,
+      "n_rescue": 6,
+      "n_retained_failure": 14,
+      "n_retained_success": 10,
+      "net": 1,
+      "rate": 0.45714285714285713,
+      "success": 16
+    },
+    "KNOWN_OUTCOME_ONLY": {
+      "n_harm": 0,
+      "n_intervened_success_change": 0,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 15,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    },
+    "n_candidate_prefixes": 280,
+    "n_candidate_prefixes_revealed": 29,
+    "revealed_fraction": 0.10357142857142858
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "failures": [],
+  "mismatch_examples": [],
+  "missing_examples": [],
+  "n_deep": 35,
+  "n_deep_A": 280,
+  "n_direct_A": 70,
+  "n_legal": 70,
+  "n_mismatch": 0,
+  "n_missing": 0,
+  "n_needed_traces": 2380,
+  "n_short_A": 560,
+  "runtime_identity_ok": true,
+  "status": "PASS"
+}

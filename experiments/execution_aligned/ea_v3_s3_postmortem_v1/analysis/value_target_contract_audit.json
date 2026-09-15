@@ -1,0 +1,19 @@
+{
+  "TARGET_CONTRACT_DISCREPANCY": [
+    "success can be true while terminated and truncated are false",
+    "historical J uses term/trunc mask, not success mask"
+  ],
+  "actor_loss": "AWR or DDPG+BC on a separately trained actor; S3 samples with temperature=0",
+  "cube_success": "all cubes within 0.04 of mocap xyz; task mode requires all cubes",
+  "gc_negative": "training relabel uses 0 if s==g else -1 when gc_negative=True",
+  "n_success_without_done_short_or_decomp": 0,
+  "public_observation_markov_proven": false,
+  "s3_prefix_stop_on_success": false,
+  "s3_tail_direct_stop_on_success": true,
+  "terminated_truncated_in_proxy": "history compute_proxy zeros tail iff terminated or truncated; success-without-done does not zero tail",
+  "unproven": [
+    "whether expectile V mismatch is the unique cause of proxy misalignment"
+  ],
+  "value_loss": "IQL expectile regression of V toward min(target_Q); not explicit FQE of the frozen actor",
+  "value_uses_remaining_budget": false
+}

@@ -1,0 +1,26 @@
+{
+  "DIRECT_on_35": {
+    "n_harm": 5,
+    "n_intervened_success_change": 9,
+    "n_rescue": 4,
+    "n_retained_failure": 16,
+    "n_retained_success": 10,
+    "net": -1
+  },
+  "ORACLE_FULL": {
+    "n_harm": 0,
+    "n_intervened_success_change": 6,
+    "n_rescue": 6,
+    "n_retained_failure": 14,
+    "n_retained_success": 15,
+    "net": 6
+  },
+  "ORACLE_PROXY": {
+    "n_harm": 5,
+    "n_intervened_success_change": 5,
+    "n_rescue": 0,
+    "n_retained_failure": 20,
+    "n_retained_success": 10,
+    "net": -5
+  }
+}

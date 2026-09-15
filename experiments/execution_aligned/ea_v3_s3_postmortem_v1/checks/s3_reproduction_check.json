@@ -1,0 +1,28 @@
+{
+  "expected": {
+    "direct_success_70": 26,
+    "distinguishable": 17,
+    "full_success_35": 21,
+    "ideal_miss": 6,
+    "ideal_success_35": 15,
+    "paired_net_gain": -5,
+    "proxy_success_35": 10,
+    "wrong_selection": 10
+  },
+  "got": {
+    "direct_success_35": 14,
+    "direct_success_70": 26,
+    "distinguishable": 17,
+    "full_success_35": 21,
+    "ideal_miss": 6,
+    "ideal_success_35": 15,
+    "n_deep": 35,
+    "n_legal": 70,
+    "paired_net_gain": -5,
+    "proxy_success_35": 10,
+    "uniform_35": 0.32857142857142857,
+    "wrong_selection": 10
+  },
+  "match": true,
+  "mismatches": {}
+}

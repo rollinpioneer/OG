@@ -1,0 +1,10 @@
+{
+  "actor_query_budget": 512,
+  "extra_support_actor_queries": 511,
+  "gpu": 0,
+  "new_environment_steps": 0,
+  "training_updates": 0,
+  "unique_extra_value_queries": 1912,
+  "value_query_budget": 10000,
+  "wall_seconds": 5636.867821455002
+}

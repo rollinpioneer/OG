@@ -1,0 +1,65 @@
+{
+  "by_h": {
+    "1": {
+      "n_harm": 0,
+      "n_intervened_success_change": 0,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 15,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    },
+    "10": {
+      "n_harm": 0,
+      "n_intervened_success_change": 0,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 15,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    },
+    "20": {
+      "n_harm": 0,
+      "n_intervened_success_change": 0,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 15,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    },
+    "40": {
+      "n_harm": 0,
+      "n_intervened_success_change": 0,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 15,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    },
+    "5": {
+      "n_harm": 0,
+      "n_intervened_success_change": 0,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 15,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    },
+    "80": {
+      "n_harm": 0,
+      "n_intervened_success_change": 0,
+      "n_rescue": 0,
+      "n_retained_failure": 20,
+      "n_retained_success": 15,
+      "net": 0,
+      "rate": 0.42857142857142855,
+      "success": 15
+    }
+  },
+  "note": "uses revealed success/term/trunc only; not a deployable method"
+}

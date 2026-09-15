@@ -1,0 +1,8 @@
+{
+  "j5_mismatch_examples": [],
+  "n_j5_mismatches": 0,
+  "n_roots": 70,
+  "n_roots_all_candidates_full5_zero_reward": 70,
+  "n_success_without_done": 0,
+  "selector_changes_from_mismatch": 0
+}

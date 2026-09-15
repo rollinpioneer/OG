@@ -1,0 +1,8 @@
+{
+  "DIRECT_on_all_70": 26,
+  "DIRECT_on_same_35_deep": 14,
+  "IDEAL_on_same_35_deep": 15,
+  "ORACLE_FULL_on_same_35_deep": 21,
+  "ORACLE_PROXY_on_same_35_deep": 10,
+  "do_not_compare_direct70_to_deep35": true
+}

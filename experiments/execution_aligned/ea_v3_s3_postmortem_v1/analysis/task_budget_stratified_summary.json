@@ -1,0 +1,30 @@
+{
+  "by_task_deep": {
+    "1": {
+      "ideal": 4,
+      "n": 5,
+      "proxy": 2
+    },
+    "2": {
+      "ideal": 4,
+      "n": 6,
+      "proxy": 4
+    },
+    "3": {
+      "ideal": 4,
+      "n": 8,
+      "proxy": 2
+    },
+    "4": {
+      "ideal": 2,
+      "n": 8,
+      "proxy": 1
+    },
+    "5": {
+      "ideal": 1,
+      "n": 8,
+      "proxy": 1
+    }
+  },
+  "remaining_horizon_note": "decision remaining budget is 500-decision_elapsed; stored on jsonl"
+}

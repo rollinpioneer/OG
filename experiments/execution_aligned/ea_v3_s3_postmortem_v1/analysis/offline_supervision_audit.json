@@ -1,0 +1,28 @@
+{
+  "actor_support_diagnostic": {
+    "max_abs_vs_recorded_action_mean": 0.15037058348222518,
+    "max_abs_vs_recorded_action_p90": 0.2383008599281311,
+    "n": 511,
+    "note": "distance to behavior action at the same index, not proof of coverage"
+  },
+  "future_fqe_supervision": {
+    "cannot_treat_recorded_later_actions_as_pi_g": true,
+    "cannot_use": "S3 ENV_EVALUATED labels as train y",
+    "requires": "target actor bootstrap on train (o,a,o') plus remaining budget R and reconstructible success"
+  },
+  "public_obs_goal_success_reconstruction": {
+    "agree": 90680,
+    "agreement_rate": 1.0,
+    "disagree": 0,
+    "examples": [],
+    "n_steps": 90680
+  },
+  "recorded_window_is_not_target_policy_rollout": true,
+  "s3_env_labels_training_eligible": false,
+  "true_terminal_vs_truncation_vs_budget": {
+    "cube_success_does_not_set_terminated": true,
+    "s3_deep_tail_stop_on_success": true,
+    "s3_prefix_does_not_stop_on_success": true,
+    "time_limit_truncated_at_500": true
+  }
+}

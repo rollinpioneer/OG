@@ -1,0 +1,214 @@
+{
+  "analysis_kind": "exploratory_postmortem",
+  "evidence": {
+    "epsilon_switch_signal": {
+      "numbers": {
+        "always_IDEAL": {
+          "n_harm": 0,
+          "n_intervened_success_change": 0,
+          "n_rescue": 0,
+          "n_retained_failure": 20,
+          "n_retained_success": 15,
+          "net": 0,
+          "success": 15
+        },
+        "does_not_modify_s3": true,
+        "epsilon": 0.5495205402374268,
+        "epsilon_switch": {
+          "n_harm": 0,
+          "n_intervened_success_change": 0,
+          "n_rescue": 0,
+          "n_retained_failure": 20,
+          "n_retained_success": 15,
+          "net": 0,
+          "success": 15
+        },
+        "exploratory": true,
+        "intervened": [
+          {
+            "from": 5,
+            "gap": 0.6654906070858218,
+            "root_id": 720023,
+            "to": 7
+          },
+          {
+            "from": 3,
+            "gap": 0.6117456516824262,
+            "root_id": 720060,
+            "to": 6
+          },
+          {
+            "from": 4,
+            "gap": 0.6791490449591748,
+            "root_id": 720061,
+            "to": 1
+          }
+        ],
+        "intervention_rate": 0.08571428571428572,
+        "n_intervened": 3,
+        "unconditional_ORACLE_PROXY": {
+          "n_harm": 5,
+          "n_intervened_success_change": 5,
+          "n_rescue": 0,
+          "n_retained_failure": 20,
+          "n_retained_success": 10,
+          "net": -5,
+          "success": 10
+        }
+      },
+      "source": "fixed epsilon 0.5495205402374268",
+      "unidentified": [
+        "whether a learned rejector would generalize"
+      ],
+      "value": false
+    },
+    "longer_horizon_descriptive_signal": {
+      "numbers": {
+        "1": 11,
+        "10": 12,
+        "20": 7,
+        "40": 15,
+        "5": 10,
+        "80": 16
+      },
+      "source": "deep traces J_h",
+      "unidentified": [
+        "decision-time predictability"
+      ],
+      "value": true
+    },
+    "offline_supervision_feasibility": {
+      "numbers": {
+        "agree": 90680,
+        "agreement_rate": 1.0,
+        "disagree": 0,
+        "examples": [],
+        "n_steps": 90680
+      },
+      "source": "cube_env._compute_successes 0.04 xyz; public obs cube xyz scaled by 10",
+      "unidentified": [
+        "sufficient target-actor coverage for FQE"
+      ],
+      "value": true
+    },
+    "signal_beyond_revealed_outcomes": {
+      "numbers": {
+        "J_h80_success": 16,
+        "known_h80_success": 15,
+        "unresolved_h5": {
+          "IDEAL": {
+            "n": 35,
+            "n_harm": 0,
+            "n_intervened_success_change": 0,
+            "n_rescue": 0,
+            "n_retained_failure": 20,
+            "n_retained_success": 15,
+            "net": 0,
+            "rate": 0.42857142857142855,
+            "success": 15
+          },
+          "J_h": {
+            "n": 35,
+            "n_harm": 5,
+            "n_intervened_success_change": 5,
+            "n_rescue": 0,
+            "n_retained_failure": 20,
+            "n_retained_success": 10,
+            "net": -5,
+            "rate": 0.2857142857142857,
+            "success": 10
+          },
+          "KNOWN_OUTCOME_ONLY": {
+            "n": 35,
+            "n_harm": 0,
+            "n_intervened_success_change": 0,
+            "n_rescue": 0,
+            "n_retained_failure": 20,
+            "n_retained_success": 15,
+            "net": 0,
+            "rate": 0.42857142857142855,
+            "success": 15
+          },
+          "coverage": "OK",
+          "n_roots": 35,
+          "root_ids": [
+            720000,
+            720006,
+            720012,
+            720013,
+            720015,
+            720017,
+            720021,
+            720022,
+            720023,
+            720025,
+            720031,
+            720032,
+            720033,
+            720034,
+            720038,
+            720039,
+            720042,
+            720044,
+            720046,
+            720052,
+            720054,
+            720055,
+            720057,
+            720058,
+            720060,
+            720061,
+            720062,
+            720066,
+            720067,
+            720069,
+            720075,
+            720076,
+            720077,
+            720078,
+            720079
+          ],
+          "tasks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "unresolved_h80_n": 30
+      },
+      "source": "ALL_UNRESOLVED_h and KNOWN_OUTCOME_ONLY_h",
+      "unidentified": [
+        "offline learnability of any residual signal"
+      ],
+      "value": true
+    },
+    "target_policy_mismatch": {
+      "numbers": {
+        "success_without_done": 0,
+        "value_is_expectile_not_FQE": true
+      },
+      "source": "ogbench impls/agents/gciql.py value_loss; S3 compute_proxy",
+      "unidentified": [
+        "whether replacing V with FQE would reverse the -5 net"
+      ],
+      "value": "possible_not_identified_as_unique_cause"
+    }
+  },
+  "extra_support_actor_queries": 511,
+  "human_review": null,
+  "method_training_authorized": false,
+  "modifies_s3_decision": false,
+  "new_environment_evaluation_authorized": false,
+  "new_environment_steps": 0,
+  "protocol_id": "ea_v3_s3_postmortem_v1",
+  "research_metrics_valid_s3": true,
+  "runtime_identity_sha256": "ce7dad6d2f2a9d8ec7dde9faa5ef6477b2cbd60da0a86c8ab9785549c24cf9e8",
+  "s3_status_preserved": "EA35_GAP_EXISTS_PROXY_MISALIGNED",
+  "s4_unlocked": false,
+  "stage": "S3_POSTMORTEM",
+  "status": "EA35X_POSTMORTEM_COMPLETE",
+  "training_performed": false,
+  "unique_extra_value_queries": 1912
+}
