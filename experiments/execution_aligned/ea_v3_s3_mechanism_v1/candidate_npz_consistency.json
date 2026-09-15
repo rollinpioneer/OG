@@ -1,0 +1,11 @@
+{
+  "canonical_identity_is_npz_bytes": false,
+  "dtype": "float64",
+  "numeric_copy_of_float32_source": true,
+  "ok": true,
+  "shape": [
+    70,
+    8,
+    37
+  ]
+}

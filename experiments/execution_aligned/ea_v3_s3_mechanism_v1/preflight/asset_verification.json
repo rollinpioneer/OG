@@ -1,0 +1,47 @@
+{
+  "details": {
+    "hashes": {
+      "candidates_npz": {
+        "exists": true,
+        "expected": "23ab9c91674f5c08d269452dc8a13589b8fb99de2ffb3af93dd8b52c2a977028",
+        "path": "/home/__compress_data/xushijie/OG_ea_v3_s2_pool/experiments/execution_aligned/ea_v3_s2_root_candidate_pool_v1/candidates.npz",
+        "sha256": "23ab9c91674f5c08d269452dc8a13589b8fb99de2ffb3af93dd8b52c2a977028"
+      },
+      "checkpoint": {
+        "exists": true,
+        "expected": "12f7bd7ed9f909039dd6e3e3c44cd226bf765cf7d959396001e469dbbcbc3d87",
+        "path": "/home/__compress_data/xushijie/og_runs/ea_v2_cube_mechanism_v1/checkpoints/gciql_seed0/params_1000000.pkl",
+        "sha256": "12f7bd7ed9f909039dd6e3e3c44cd226bf765cf7d959396001e469dbbcbc3d87"
+      },
+      "normalizer": {
+        "exists": true,
+        "expected": "d4f912c0e458a031114cce0c084157780e3a527d26e21e4e1b7aa0745dd2c0c5",
+        "path": "/home/__compress_data/xushijie/OG_ea_v3_s2_pool/experiments/execution_aligned/ea_v2_cube_mechanism_v1/manifests/normalizer_train_only.npz",
+        "sha256": "d4f912c0e458a031114cce0c084157780e3a527d26e21e4e1b7aa0745dd2c0c5"
+      },
+      "s2_zip": {
+        "exists": true,
+        "expected": "eca9c4a922752563f9068ab79009574ea4591709430bf68922bc92defef1337d",
+        "path": "/home/__compress_data/xushijie/OG_ea_v3_s2_pool/experiments/execution_aligned/ea_v3_s2_root_candidate_pool_v1/package/ea_v3_s2_lightweight.zip",
+        "sha256": "eca9c4a922752563f9068ab79009574ea4591709430bf68922bc92defef1337d"
+      },
+      "train": {
+        "exists": true,
+        "expected": "a73d1a33d029cedb8bc170ef94791ec585fa2d9450096f4f2a02b8cfbcf608c9",
+        "path": "/home/__compress_data/xushijie/ea_v2_cube_data/cube-double-play-v0.npz",
+        "sha256": "a73d1a33d029cedb8bc170ef94791ec585fa2d9450096f4f2a02b8cfbcf608c9"
+      },
+      "validation": {
+        "exists": true,
+        "expected": "b1fcdf4bd40750351a58d0d491d6be198366ce898f0c6a2e4cb5db331966013e",
+        "path": "/home/__compress_data/xushijie/ea_v2_cube_data/cube-double-play-v0-val.npz",
+        "sha256": "b1fcdf4bd40750351a58d0d491d6be198366ce898f0c6a2e4cb5db331966013e"
+      }
+    },
+    "ogbench_commit": "1d4140997f60c52c6fb0702ec100dc988b18c548",
+    "s2_expected": "eba81e0ac662ecd93a29814d1b4c7e611465fa2b",
+    "s2_head": "eba81e0ac662ecd93a29814d1b4c7e611465fa2b",
+    "s2_protocol_freeze_present": true
+  },
+  "failures": []
+}

@@ -1,0 +1,22 @@
+{
+  "actor_pairwise_max_abs": 0.0,
+  "actor_sha256_identical": true,
+  "backends": [
+    "cpu",
+    "cpu"
+  ],
+  "corpus_dir": "/home/__compress_data/xushijie/OG_ea_v3_runtime_qualification/experiments/execution_aligned/ea_v3_runtime_qualification_v1/corpus",
+  "jax_enable_x64": [
+    false,
+    false
+  ],
+  "matches_q0_cpu_actor_sha256": true,
+  "matches_q0_cpu_value_sha256": true,
+  "n_actor": 70,
+  "n_processes": 2,
+  "n_value": 84,
+  "status": "PASS",
+  "tag": "pre_s3",
+  "value_pairwise_max_abs": 0.0,
+  "value_sha256_identical": true
+}

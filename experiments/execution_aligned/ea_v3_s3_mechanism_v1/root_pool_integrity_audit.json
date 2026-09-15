@@ -1,0 +1,12 @@
+{
+  "extra": [],
+  "mismatches": [],
+  "missing": [],
+  "n_extra": 0,
+  "n_inventory": 1580,
+  "n_mismatch": 0,
+  "n_missing": 0,
+  "read_only": true,
+  "s2_root_store": "/home/__compress_data/xushijie/ea_v3_root_store/ea_v3_s2_root_candidate_pool_v1",
+  "s3_writes_to_s2_store": false
+}

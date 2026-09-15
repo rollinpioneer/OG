@@ -1,0 +1,13 @@
+{
+  "canonical_candidate": "train_source_endpoint_original_array",
+  "identity_sha256": "d4445f3c86c34d82b0d0a3c24aae72517703e2440b766618886e42b47bfb7013",
+  "n_candidates": 560,
+  "n_episodes": 1000,
+  "n_fail": 0,
+  "n_ok": 560,
+  "n_rows": 70,
+  "n_train": 1001000,
+  "npz_ok": true,
+  "re_retrieved": false,
+  "re_sorted": false
+}

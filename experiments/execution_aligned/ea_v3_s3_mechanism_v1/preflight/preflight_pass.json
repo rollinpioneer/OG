@@ -1,0 +1,13 @@
+{
+  "env_step_used": false,
+  "ideal_value_array_sha256": "81bd6af46890bf8c93ba6b03ec37f3a58723873e34b5ee750f809b4d7ea1519a",
+  "n_candidates": 560,
+  "n_legal": 70,
+  "n_legal_deep": 35,
+  "protocol_id": "ea_v3_s3_mechanism_v1",
+  "runtime_identity_sha256": "ce7dad6d2f2a9d8ec7dde9faa5ef6477b2cbd60da0a86c8ab9785549c24cf9e8",
+  "s4_unlocked": false,
+  "stage": "S3-P",
+  "status": "PREFLIGHT_PASS",
+  "training_performed": false
+}

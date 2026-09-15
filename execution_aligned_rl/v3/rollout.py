@@ -55,6 +55,7 @@ def rollout_segment(
     identity: dict | None = None,
     step_counter: dict | None = None,
     probe_goal=None,
+    stop_on_success: bool = False,
 ) -> dict:
     if steps < 0:
         raise ValueError("steps must be >= 0")
@@ -102,7 +103,8 @@ def rollout_segment(
         measured["step_proxy"] = None
         recorded.append(measured)
         obs = next_obs
-        if terminated or truncated:
+        success_flag = bool(measured.get("success"))
+        if terminated or truncated or (stop_on_success and success_flag):
             break
 
     trace = {
