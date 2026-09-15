@@ -1,0 +1,36 @@
+{
+  "batch_size": 1024,
+  "checkpoint_rule": [
+    "drop_nonfinite_or_range_violation",
+    "drop_monotonic_violation_gt_0.10",
+    "min_validation_bellman_mse",
+    "tie_earlier_checkpoint"
+  ],
+  "checkpoint_steps": [
+    100000,
+    200000,
+    300000,
+    400000
+  ],
+  "gradient_clip": 10.0,
+  "learning_rate": 0.0003,
+  "max_gpu_hours": 24,
+  "max_storage_gib": 80,
+  "max_training_runs": 12,
+  "max_updates_per_run": 400000,
+  "methods_trained": [
+    "B1",
+    "B2",
+    "B3",
+    "B4"
+  ],
+  "new_env_steps": 0,
+  "optimizer": "Adam",
+  "s3_labels_not_loaded_until_seal": true,
+  "seeds": [
+    4101,
+    4102,
+    4103
+  ],
+  "updates": 400000
+}

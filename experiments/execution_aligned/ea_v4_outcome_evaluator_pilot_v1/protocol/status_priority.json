@@ -1,0 +1,17 @@
+{
+  "engineering": [
+    "EA40_HOLD_OFFLINE_SUPPORT",
+    "EA41_HOLD_DATA_LEAKAGE",
+    "EA41_HOLD_TRAINING_INSTABILITY",
+    "EA41_HOLD_ASSET_MISMATCH",
+    "EA41_HOLD_BUDGET",
+    "EA41_HOLD_ENGINEERING"
+  ],
+  "engineering_holds_outrank_science": true,
+  "fresh_confirmation_unlocked": false,
+  "science_exclusive_order": [
+    "EA41_EVALUATOR_PILOT_SIGNAL",
+    "EA41_TAIL_EVALUATOR_SIGNAL_ONLY",
+    "EA41_EVALUATOR_NO_SIGNAL"
+  ]
+}

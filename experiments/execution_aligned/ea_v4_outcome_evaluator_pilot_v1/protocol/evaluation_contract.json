@@ -1,0 +1,30 @@
+{
+  "beta": 1.0,
+  "bootstrap_repetitions": 10000,
+  "bootstrap_seed": 350301,
+  "cpu_final_inference": true,
+  "m": 5,
+  "n_candidates": 8,
+  "n_deep": 35,
+  "no_env_step": true,
+  "primary_worker": "A",
+  "references": {
+    "DIRECT_35": [
+      14,
+      35
+    ],
+    "IDEAL": [
+      15,
+      35
+    ],
+    "ORACLE_FULL": [
+      21,
+      35
+    ],
+    "ORACLE_PROXY": [
+      10,
+      35
+    ]
+  },
+  "report_all_seeds_and_ensemble": true
+}

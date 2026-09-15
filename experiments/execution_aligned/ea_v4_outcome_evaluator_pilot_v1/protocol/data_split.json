@@ -1,0 +1,57 @@
+{
+  "R_jitter_integers": true,
+  "R_values": [
+    20,
+    40,
+    80,
+    160,
+    250,
+    375,
+    500
+  ],
+  "cross_episode_transitions_forbidden": true,
+  "g_mix": {
+    "other_episode_random": 0.25,
+    "same_episode_future": 0.75
+  },
+  "g_offsets": [
+    1,
+    2,
+    5,
+    10,
+    20,
+    40,
+    80,
+    160,
+    320
+  ],
+  "j_values": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "k": 20,
+  "non_success_episode_end": "RIGHT_CENSORED",
+  "s3_labels_readable_before_seal": false,
+  "s3_role": "evaluation_only_after_training_seal",
+  "sampler_seed_base": 4100,
+  "success_end": "absorbing_success",
+  "train_file": "/home/__compress_data/xushijie/ea_v2_cube_data/cube-double-play-v0.npz",
+  "train_role": "offline_training_only",
+  "val_file": "/home/__compress_data/xushijie/ea_v2_cube_data/cube-double-play-v0-val.npz",
+  "val_role": "checkpoint_selection_and_offline_diagnostics",
+  "z_mix": {
+    "random_legal_k20_endpoint": 0.25,
+    "same_episode_future_endpoint": 0.75
+  },
+  "z_offsets": [
+    1,
+    5,
+    10,
+    20,
+    40
+  ]
+}

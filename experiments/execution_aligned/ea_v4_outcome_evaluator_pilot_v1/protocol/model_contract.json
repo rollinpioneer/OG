@@ -1,0 +1,45 @@
+{
+  "B0": "frozen_gciql_value_V_z_g_no_training",
+  "B1_inputs": [
+    "o",
+    "a",
+    "z",
+    "g",
+    "j",
+    "R"
+  ],
+  "B2_inputs": [
+    "o",
+    "a",
+    "g",
+    "R"
+  ],
+  "B3_inputs": [
+    "o",
+    "a",
+    "z",
+    "g",
+    "j"
+  ],
+  "B4_inputs": [
+    "o",
+    "a",
+    "z",
+    "g",
+    "j",
+    "R"
+  ],
+  "B5": "derived_from_B4_three_seed_ensemble_beta_1.0",
+  "activation": "relu",
+  "hidden_dims": [
+    512,
+    512,
+    512
+  ],
+  "input_normalization": "train_only",
+  "layer_norm": true,
+  "output": "sigmoid_probability_in_0_1",
+  "primary_loss": "mse",
+  "target_network": true,
+  "target_tau": 0.005
+}

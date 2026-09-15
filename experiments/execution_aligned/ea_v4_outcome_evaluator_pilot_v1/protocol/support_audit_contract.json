@@ -1,0 +1,33 @@
+{
+  "action_bounds": [
+    -1.0,
+    1.0
+  ],
+  "behavior_reference": "official_validation_recorded_actions",
+  "distance": "state_l2_on_normalized_obs_then_min_action_l2_among_neighbors",
+  "gate_p99_frac_max": 0.25,
+  "high_risk_band": [
+    0.1,
+    0.25
+  ],
+  "k_neighbors": 64,
+  "normalizer": "train_only",
+  "query_sets": [
+    "official_validation",
+    "s3_root_candidate_decision_states"
+  ],
+  "report": [
+    "median",
+    "p90",
+    "p95",
+    "p99",
+    "frac_over_behavior_p95",
+    "frac_over_behavior_p99",
+    "finite_bounds"
+  ],
+  "s3_query_uses_labels": false,
+  "target_queries": [
+    "pi_g",
+    "pi_z"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "analysis_kind": "offline_evaluator_pilot_not_preregistered_confirmation",
+  "baseline_commit": "75d24793febba9bbdd040b0bef3b09fe3e1cba64",
+  "beta_lcb": 1.0,
+  "canonical_runtime_eval": "CPU_SINGLE_THREAD",
+  "checkpoint_sha256": "12f7bd7ed9f909039dd6e3e3c44cd226bf765cf7d959396001e469dbbcbc3d87",
+  "expected_runtime_identity_sha256": "ce7dad6d2f2a9d8ec7dde9faa5ef6477b2cbd60da0a86c8ab9785549c24cf9e8",
+  "forbidden": [
+    "env.step",
+    "s3_labels_in_train_or_val_or_ckpt",
+    "modify_gciql",
+    "new_roots",
+    "new_candidates",
+    "policy_training",
+    "fresh_env_confirmation"
+  ],
+  "fresh_confirmation_unlocked": false,
+  "horizon_max": 500,
+  "m": 5,
+  "methods": [
+    "B0_IQL_IDEAL",
+    "B1_BEHAVIOR_WINDOW_SUCCESS",
+    "B2_FB_FQE_TAIL",
+    "B3_FB_FQE_COMPOSITE_NO_R",
+    "B4_FB_FQE_COMPOSITE",
+    "B5_SELECTIVE_DELTA_LCB"
+  ],
+  "new_environment_steps": 0,
+  "normalizer_sha256": "d4f912c0e458a031114cce0c084157780e3a527d26e21e4e1b7aa0745dd2c0c5",
+  "ogbench_commit": "1d4140997f60c52c6fb0702ec100dc988b18c548",
+  "policy_training_authorized": false,
+  "postmortem_status_preserved": "EA35X_POSTMORTEM_COMPLETE",
+  "protocol_id": "ea_v4_outcome_evaluator_pilot_v1",
+  "protocol_name": "EA-V4 Outcome-Aligned Evaluator Pilot v1",
+  "s3_labels_training_eligible": false,
+  "s3_status_preserved": "EA35_GAP_EXISTS_PROXY_MISALIGNED",
+  "s4_unlocked": false,
+  "seeds": [
+    4101,
+    4102,
+    4103
+  ],
+  "train_sha256": "a73d1a33d029cedb8bc170ef94791ec585fa2d9450096f4f2a02b8cfbcf608c9",
+  "training_device": "GPU_allowed_offline_only",
+  "validation_sha256": "b1fcdf4bd40750351a58d0d491d6be198366ce898f0c6a2e4cb5db331966013e"
+}
