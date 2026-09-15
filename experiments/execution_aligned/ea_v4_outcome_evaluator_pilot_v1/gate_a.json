@@ -1,0 +1,17 @@
+{
+  "bounds_ok": true,
+  "high_risk": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "over_p99": [
+    0.016213786213786215,
+    0.015754245754245753,
+    0.02857142857142857,
+    0.02857142857142857
+  ],
+  "p99_max": 0.25,
+  "status": "EA40_SUPPORT_AND_DATA_PASS"
+}

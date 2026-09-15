@@ -1,0 +1,9 @@
+{
+  "far_failure_1000": true,
+  "note": "90680-step agreement reused from sealed postmortem audit JSON, not S3 jsonl success fields",
+  "postmortem_agreement_rate": 1.0,
+  "postmortem_n_steps": 90680,
+  "s3_raw_labels_loaded_for_training": false,
+  "self_success_1000": true,
+  "status": "PASS"
+}

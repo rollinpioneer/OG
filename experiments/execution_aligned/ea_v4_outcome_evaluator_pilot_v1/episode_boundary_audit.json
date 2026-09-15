@@ -1,0 +1,18 @@
+{
+  "train": {
+    "cross_episode_nonlast": 0,
+    "episode_cover_ok": true,
+    "n_episodes": 1000,
+    "n_last": 1000,
+    "n_transitions": 1001000,
+    "split": "train"
+  },
+  "val": {
+    "cross_episode_nonlast": 0,
+    "episode_cover_ok": true,
+    "n_episodes": 100,
+    "n_last": 100,
+    "n_transitions": 100100,
+    "split": "val"
+  }
+}
