@@ -1,0 +1,87 @@
+{
+  "baseline_commit": "fd8dc5366a76f8df1e6f6baf146a25d52f379324",
+  "candidates": {
+    "dedup": "original_endpoint_dtype_and_bytes",
+    "distance": "exact_37d_normalized_rms",
+    "forbidden": [
+      "gaussian_prior",
+      "value_ranking",
+      "env_results",
+      "candidate_rollout",
+      "proxy",
+      "full_success",
+      "validation",
+      "ann"
+    ],
+    "k": 20,
+    "legal_windows": 981000,
+    "n_per_legal_root": 8,
+    "normalizer": "train_only_frozen",
+    "result_source": "DATA_REAL",
+    "source": "train_only",
+    "tie_break": "original_start_index_ascending"
+  },
+  "canonical_runtime": "CPU_SINGLE_THREAD",
+  "comparator": "comparator_contract_v2",
+  "cpu_env": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "JAX_ENABLE_X64": "0",
+    "JAX_PLATFORMS": "cpu",
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "XLA_FLAGS": null
+  },
+  "expected_runtime_identity_sha256": "ce7dad6d2f2a9d8ec7dde9faa5ef6477b2cbd60da0a86c8ab9785549c24cf9e8",
+  "forbidden": [
+    "S3",
+    "Phase_C",
+    "Phase_D",
+    "Phase_E",
+    "Phase_F",
+    "P_1",
+    "P_MH",
+    "EXEC",
+    "training",
+    "modify_checkpoint",
+    "GPU_CURRENT"
+  ],
+  "gates": {
+    "external_control_step_budget": 80000,
+    "legal_deep_min": 30,
+    "legal_deep_per_task_min": 5,
+    "legal_deep_planned": 40,
+    "legal_min": 60,
+    "legal_per_task_min": 8,
+    "legal_planned": 80,
+    "negative_tests": 9
+  },
+  "protocol_id": "ea_v3_s2_root_candidate_pool_v1",
+  "protocol_name": "EA-V3 S2 Root and Candidate Pool v1",
+  "qualification_probe": {
+    "index_formula": "stable_int('ea34:qualification-target:<root_id>') % n_train",
+    "n_train": 1001000,
+    "steps": 5,
+    "unrelated_to_candidates": true
+  },
+  "restore": "BOOTSTRAP_PREFIX_REPLAY",
+  "roots": {
+    "decision_step_rule": "(0,125,250)[j mod 3]",
+    "id_end": 720079,
+    "id_start": 720000,
+    "n_planned": 80,
+    "no_replace_ineligible": true,
+    "per_task": 16,
+    "reset_seeds": "692000-692079",
+    "sentinel_apoola": [
+      720000,
+      720001,
+      720002,
+      720003,
+      720004
+    ]
+  },
+  "scope": [
+    "S2"
+  ]
+}

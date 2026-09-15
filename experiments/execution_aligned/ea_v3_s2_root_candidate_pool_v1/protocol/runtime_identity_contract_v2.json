@@ -1,0 +1,28 @@
+{
+  "compare_v2_sha256": "65af4d2f7c6982c5eb3e118787db45da6c59eb0857a0bb33fe94e7c104889c0a",
+  "excluded_from_hash": [
+    "CPU scaling MHz",
+    "CPU MHz",
+    "BogoMIPS",
+    "pid",
+    "timestamps",
+    "wall time",
+    "utilization",
+    "memory load",
+    "role"
+  ],
+  "expected_runtime_identity_sha256": "ce7dad6d2f2a9d8ec7dde9faa5ef6477b2cbd60da0a86c8ab9785549c24cf9e8",
+  "included": [
+    "canonical_env",
+    "cpu_stable architecture/vendor/model/family/model/stepping",
+    "python/packages",
+    "checkpoint/data sha256",
+    "ogbench commit",
+    "jax backend/devices/x64/matmul",
+    "no_xla_flags",
+    "comparator_contract_v2_sha256"
+  ],
+  "lscpu_raw": "diagnostics_only",
+  "reused_from": "ea_v3_cpu_s1_qualification_v1 R0",
+  "schema": "runtime_identity_v2"
+}

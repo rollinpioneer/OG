@@ -1,0 +1,807 @@
+{
+  "n_train_observations": 1001000,
+  "protocol_id": "ea_v3_s2_root_candidate_pool_v1",
+  "roots": [
+    {
+      "deep_key": "00a9b625b81b5d4473e3a0296ca8a64b3d2cc2d16309b57fcba786c81d2e62de",
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "qualification_target_index": 87925,
+      "reset_seed": 692000,
+      "root_id": 720000,
+      "task_id": 1,
+      "task_index_within_task": 0
+    },
+    {
+      "deep_key": "378ca46af8f104da4e0ce5e0aa7234b7f245c4c51e9717304a509f652c4de515",
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "qualification_target_index": 922427,
+      "reset_seed": 692001,
+      "root_id": 720001,
+      "task_id": 1,
+      "task_index_within_task": 1
+    },
+    {
+      "deep_key": "e3aaba9274701fe0bd2a2615f38d9c0cd1ff11969023e3fe3508e92c3792e460",
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "qualification_target_index": 67714,
+      "reset_seed": 692002,
+      "root_id": 720002,
+      "task_id": 1,
+      "task_index_within_task": 2
+    },
+    {
+      "deep_key": "dc61533ebfc23fee6edb4218a036b2a24b8cec7b08a6aaf2b8cbce0cda19648a",
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "qualification_target_index": 762367,
+      "reset_seed": 692003,
+      "root_id": 720003,
+      "task_id": 1,
+      "task_index_within_task": 3
+    },
+    {
+      "deep_key": "d0969edbac6ee167138ce06aaa576c15c2fc3b010fe04aebce4924e410449544",
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "qualification_target_index": 595472,
+      "reset_seed": 692004,
+      "root_id": 720004,
+      "task_id": 1,
+      "task_index_within_task": 4
+    },
+    {
+      "deep_key": "eeed0d0471d6dadec3e0baae31638c365932b3dfaf082380b164437fa9c7cc1a",
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "qualification_target_index": 977812,
+      "reset_seed": 692005,
+      "root_id": 720005,
+      "task_id": 1,
+      "task_index_within_task": 5
+    },
+    {
+      "deep_key": "7b9487165499e450fe5f774656fe840296bfae3e4b6ef7593beb73e8ca92f3b3",
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "qualification_target_index": 232694,
+      "reset_seed": 692006,
+      "root_id": 720006,
+      "task_id": 1,
+      "task_index_within_task": 6
+    },
+    {
+      "deep_key": "9d8a8d49e87dbbfcfd2915bdf45adbb80c21caebdc1e70e48c5fa33475e7e863",
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "qualification_target_index": 254237,
+      "reset_seed": 692007,
+      "root_id": 720007,
+      "task_id": 1,
+      "task_index_within_task": 7
+    },
+    {
+      "deep_key": "c33bddfbb2eceda32d3fe359063210dbf3afce444e96365dd8566de21fb6fe4e",
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "qualification_target_index": 757477,
+      "reset_seed": 692008,
+      "root_id": 720008,
+      "task_id": 1,
+      "task_index_within_task": 8
+    },
+    {
+      "deep_key": "fb1f1ff9a2504e78a87559008c18f9a74a4aad2717828989c9d251c4afa30921",
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "qualification_target_index": 35090,
+      "reset_seed": 692009,
+      "root_id": 720009,
+      "task_id": 1,
+      "task_index_within_task": 9
+    },
+    {
+      "deep_key": "0e325b56c581555ea8f33f1146ad1cb1763de4f97fc6ba1f45aa37d3fd3c5363",
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "qualification_target_index": 841149,
+      "reset_seed": 692010,
+      "root_id": 720010,
+      "task_id": 1,
+      "task_index_within_task": 10
+    },
+    {
+      "deep_key": "9a84c76f32ccfdedda4f088f93e2ac26f4fb3b2c428b5179f7dfd206d5973b16",
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "qualification_target_index": 455595,
+      "reset_seed": 692011,
+      "root_id": 720011,
+      "task_id": 1,
+      "task_index_within_task": 11
+    },
+    {
+      "deep_key": "36cc319020b8afd1c72e68a6d8f572bdaa06fe1eb1e46acea54895c000b0eb8d",
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "qualification_target_index": 761047,
+      "reset_seed": 692012,
+      "root_id": 720012,
+      "task_id": 1,
+      "task_index_within_task": 12
+    },
+    {
+      "deep_key": "5eda543b7fd5c942ecb03b2aa66a4d5ea97e2f4bca091718e15cc9eee5357549",
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "qualification_target_index": 185778,
+      "reset_seed": 692013,
+      "root_id": 720013,
+      "task_id": 1,
+      "task_index_within_task": 13
+    },
+    {
+      "deep_key": "732cd5fe0e1497d374a7138e7a21319b7226998e6d1b2ae2f4e31b475763a625",
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "qualification_target_index": 350971,
+      "reset_seed": 692014,
+      "root_id": 720014,
+      "task_id": 1,
+      "task_index_within_task": 14
+    },
+    {
+      "deep_key": "92101121376fb3369bf791f64003d8c988bf241335ac2284d26632beb4bc80f8",
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "qualification_target_index": 293602,
+      "reset_seed": 692015,
+      "root_id": 720015,
+      "task_id": 1,
+      "task_index_within_task": 15
+    },
+    {
+      "deep_key": "d40c6efd13fb81b9e41319ea4d965b3122a9f4143f4ebeb50fbbd617435786d3",
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "qualification_target_index": 190764,
+      "reset_seed": 692016,
+      "root_id": 720016,
+      "task_id": 2,
+      "task_index_within_task": 0
+    },
+    {
+      "deep_key": "6491abdc007b68a51e1950deb21c06e8e3e84f6e61671c55cb7cbfec8c7eb54d",
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "qualification_target_index": 581829,
+      "reset_seed": 692017,
+      "root_id": 720017,
+      "task_id": 2,
+      "task_index_within_task": 1
+    },
+    {
+      "deep_key": "a524e3851b9adf2c50304c2d2dd7d34e3aff6cc4f21df8e6f490b5a950a731b2",
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "qualification_target_index": 945588,
+      "reset_seed": 692018,
+      "root_id": 720018,
+      "task_id": 2,
+      "task_index_within_task": 2
+    },
+    {
+      "deep_key": "cf593428f3c02a7983b7170ee3f12ca2572aaba3a11dcadbf99ace74b61f8507",
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "qualification_target_index": 338790,
+      "reset_seed": 692019,
+      "root_id": 720019,
+      "task_id": 2,
+      "task_index_within_task": 3
+    },
+    {
+      "deep_key": "bb6d147ff59b46deef8ced2a7a623938471571cdb245e55ad3c04b48a610b497",
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "qualification_target_index": 654724,
+      "reset_seed": 692020,
+      "root_id": 720020,
+      "task_id": 2,
+      "task_index_within_task": 4
+    },
+    {
+      "deep_key": "167c6d72fb7ba00abc4733eb091bf4f9dca70b80aab04ca26e2bd45d465639c0",
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "qualification_target_index": 725300,
+      "reset_seed": 692021,
+      "root_id": 720021,
+      "task_id": 2,
+      "task_index_within_task": 5
+    },
+    {
+      "deep_key": "aed7902aea198fadfb17bfc1e3a83e12688e88637442521bdd9d7e68e783cf77",
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "qualification_target_index": 898180,
+      "reset_seed": 692022,
+      "root_id": 720022,
+      "task_id": 2,
+      "task_index_within_task": 6
+    },
+    {
+      "deep_key": "324daf1f131aacf98bb8d47964eb4d97154dd737246c4827ce110daffab086e4",
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "qualification_target_index": 842903,
+      "reset_seed": 692023,
+      "root_id": 720023,
+      "task_id": 2,
+      "task_index_within_task": 7
+    },
+    {
+      "deep_key": "4f3566e384cb7b5da9df5a1f05ea473e941dc4cdfd87e34e03fb50957245b8e2",
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "qualification_target_index": 806991,
+      "reset_seed": 692024,
+      "root_id": 720024,
+      "task_id": 2,
+      "task_index_within_task": 8
+    },
+    {
+      "deep_key": "478564def1ff2e4616438915319489e493959cd3ab31ff29c509863ecf8251d0",
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "qualification_target_index": 37368,
+      "reset_seed": 692025,
+      "root_id": 720025,
+      "task_id": 2,
+      "task_index_within_task": 9
+    },
+    {
+      "deep_key": "f5ac584d0e52659864b71aae3a97a1141dd60d47e1b3bf2237b514e39fd89d19",
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "qualification_target_index": 825948,
+      "reset_seed": 692026,
+      "root_id": 720026,
+      "task_id": 2,
+      "task_index_within_task": 10
+    },
+    {
+      "deep_key": "f9b72c9fa3dcef17e85cccf4510b94265591a436e342bb2dab0b522fb0f8f5f2",
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "qualification_target_index": 581908,
+      "reset_seed": 692027,
+      "root_id": 720027,
+      "task_id": 2,
+      "task_index_within_task": 11
+    },
+    {
+      "deep_key": "dfea5746346f59ee6b08ad287154468ada397a2389806772ef9bfdc54579c396",
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "qualification_target_index": 445745,
+      "reset_seed": 692028,
+      "root_id": 720028,
+      "task_id": 2,
+      "task_index_within_task": 12
+    },
+    {
+      "deep_key": "fbc2b1ff659919946270f8b189ba59f931e2e8df6b580cd12f025e47653521e8",
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "qualification_target_index": 759596,
+      "reset_seed": 692029,
+      "root_id": 720029,
+      "task_id": 2,
+      "task_index_within_task": 13
+    },
+    {
+      "deep_key": "e31d4d3c481145b58f48d386d1b94371038b35a157003fd10d6ee352a971b7b1",
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "qualification_target_index": 386686,
+      "reset_seed": 692030,
+      "root_id": 720030,
+      "task_id": 2,
+      "task_index_within_task": 14
+    },
+    {
+      "deep_key": "146753385651ed6a04524abbf4d0553870f1d511f4a1cc11c519ba66878db8f9",
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "qualification_target_index": 280891,
+      "reset_seed": 692031,
+      "root_id": 720031,
+      "task_id": 2,
+      "task_index_within_task": 15
+    },
+    {
+      "deep_key": "6c57dd4c28c3fcd852ed39322846f902e0ee005d96ed698b7f7ee2185cc2a452",
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "qualification_target_index": 299585,
+      "reset_seed": 692032,
+      "root_id": 720032,
+      "task_id": 3,
+      "task_index_within_task": 0
+    },
+    {
+      "deep_key": "4cbc3558e798525d44481c182a3683b71b3ba4f99364c5c342efbe000dc4bed2",
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "qualification_target_index": 16953,
+      "reset_seed": 692033,
+      "root_id": 720033,
+      "task_id": 3,
+      "task_index_within_task": 1
+    },
+    {
+      "deep_key": "2f4d622d4287e5e8f08af45659330436510f9eec4c8767f864c664723b2b4eea",
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "qualification_target_index": 366759,
+      "reset_seed": 692034,
+      "root_id": 720034,
+      "task_id": 3,
+      "task_index_within_task": 2
+    },
+    {
+      "deep_key": "952877c470a2dcc234a4434fed8e996878b4d35dc06751d719748b0bf65c1c27",
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "qualification_target_index": 173497,
+      "reset_seed": 692035,
+      "root_id": 720035,
+      "task_id": 3,
+      "task_index_within_task": 3
+    },
+    {
+      "deep_key": "78879b921da9cac58b4f9c3de04d1b83e2b99098d685329c48f340da76dd5244",
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "qualification_target_index": 798935,
+      "reset_seed": 692036,
+      "root_id": 720036,
+      "task_id": 3,
+      "task_index_within_task": 4
+    },
+    {
+      "deep_key": "7fca99d429c56897af6556d89f554a158089928472e8a5091537036be8d3df52",
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "qualification_target_index": 596627,
+      "reset_seed": 692037,
+      "root_id": 720037,
+      "task_id": 3,
+      "task_index_within_task": 5
+    },
+    {
+      "deep_key": "13362fa1fbd7a3b3a6ae2dd9362769d86d3eb580c5cb775f3bffdbe72873da8f",
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "qualification_target_index": 610086,
+      "reset_seed": 692038,
+      "root_id": 720038,
+      "task_id": 3,
+      "task_index_within_task": 6
+    },
+    {
+      "deep_key": "475faad56147ceec57b071ca087f56bdcecac1a866f7928a120262e336a629e2",
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "qualification_target_index": 403180,
+      "reset_seed": 692039,
+      "root_id": 720039,
+      "task_id": 3,
+      "task_index_within_task": 7
+    },
+    {
+      "deep_key": "7ff7cfcd76bf9b860721b398ada60fec6c41abe73219db6f557461fc9960c5dd",
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "qualification_target_index": 844926,
+      "reset_seed": 692040,
+      "root_id": 720040,
+      "task_id": 3,
+      "task_index_within_task": 8
+    },
+    {
+      "deep_key": "b555f01fb9ef095649be43ac63c14ae34eb1763737192f6097dd4f04487c4929",
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "qualification_target_index": 150714,
+      "reset_seed": 692041,
+      "root_id": 720041,
+      "task_id": 3,
+      "task_index_within_task": 9
+    },
+    {
+      "deep_key": "5a647a6dd6ae83a0212c1d234cc90b339db03019cfdc13829133766f9554a9a5",
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "qualification_target_index": 234353,
+      "reset_seed": 692042,
+      "root_id": 720042,
+      "task_id": 3,
+      "task_index_within_task": 10
+    },
+    {
+      "deep_key": "94d0361dfb5a881ccc18c5a3c9c24d5a574cc37f00528dddfaae24318b44ec5f",
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "qualification_target_index": 958030,
+      "reset_seed": 692043,
+      "root_id": 720043,
+      "task_id": 3,
+      "task_index_within_task": 11
+    },
+    {
+      "deep_key": "5f9c8f5af6a0dd7ca03ead8d4c9f0e95de135cac623354948a170910e6fec802",
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "qualification_target_index": 325311,
+      "reset_seed": 692044,
+      "root_id": 720044,
+      "task_id": 3,
+      "task_index_within_task": 12
+    },
+    {
+      "deep_key": "a059c3b2ae88bf3a3b65767b04cf52dcc2e1e5a61660192fe2667b59ffeb7774",
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "qualification_target_index": 154759,
+      "reset_seed": 692045,
+      "root_id": 720045,
+      "task_id": 3,
+      "task_index_within_task": 13
+    },
+    {
+      "deep_key": "4762a2200e78fcb16fa73b28394a1bee3b1a5b9a0a067446d8672ff8bfda1042",
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "qualification_target_index": 370338,
+      "reset_seed": 692046,
+      "root_id": 720046,
+      "task_id": 3,
+      "task_index_within_task": 14
+    },
+    {
+      "deep_key": "d1cd79d362f80e2fc9e20b0af603183eb5afe7ae19b4cb8ad5d1798155f559ef",
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "qualification_target_index": 843409,
+      "reset_seed": 692047,
+      "root_id": 720047,
+      "task_id": 3,
+      "task_index_within_task": 15
+    },
+    {
+      "deep_key": "f3c2d8eb06e5b0f09b0dad762bb6e0fbe9b0f16640810d2217ebf75202412694",
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "qualification_target_index": 82869,
+      "reset_seed": 692048,
+      "root_id": 720048,
+      "task_id": 4,
+      "task_index_within_task": 0
+    },
+    {
+      "deep_key": "f8bcb223cc3a2686036e74b21697546671a008105e70c731713539165866b9eb",
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "qualification_target_index": 476548,
+      "reset_seed": 692049,
+      "root_id": 720049,
+      "task_id": 4,
+      "task_index_within_task": 1
+    },
+    {
+      "deep_key": "b75eeb9fa95686c5477f1d14b7be64bd6c06561e91351751333c7c0794fc2ad2",
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "qualification_target_index": 180103,
+      "reset_seed": 692050,
+      "root_id": 720050,
+      "task_id": 4,
+      "task_index_within_task": 2
+    },
+    {
+      "deep_key": "9f21228a1fe72d3bc8e1730a4510f15d51a4fb98a6b795a4b04dd147e91b5ba4",
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "qualification_target_index": 99728,
+      "reset_seed": 692051,
+      "root_id": 720051,
+      "task_id": 4,
+      "task_index_within_task": 3
+    },
+    {
+      "deep_key": "0d613db8862ccaba28beda55cf436449bf038be73ef1c4c236ea9c6b66606a4b",
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "qualification_target_index": 774061,
+      "reset_seed": 692052,
+      "root_id": 720052,
+      "task_id": 4,
+      "task_index_within_task": 4
+    },
+    {
+      "deep_key": "5e9c75e3b59a88c226b351a54e4930f4d450f02382a4eb43d9af9655f942ecbb",
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "qualification_target_index": 59426,
+      "reset_seed": 692053,
+      "root_id": 720053,
+      "task_id": 4,
+      "task_index_within_task": 5
+    },
+    {
+      "deep_key": "3c32ac13afb138c5759ff9f03b8338d8c4a9f4dede6bb69c385887c348edcbc9",
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "qualification_target_index": 194679,
+      "reset_seed": 692054,
+      "root_id": 720054,
+      "task_id": 4,
+      "task_index_within_task": 6
+    },
+    {
+      "deep_key": "56894c33734cae0e157e9d65ceaffcf084438034d0817befcf4590eee69f2f53",
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "qualification_target_index": 804079,
+      "reset_seed": 692055,
+      "root_id": 720055,
+      "task_id": 4,
+      "task_index_within_task": 7
+    },
+    {
+      "deep_key": "822416c7252dfee0adbd9970088808241064677a4dd46273453f16507b3d5dcb",
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "qualification_target_index": 23462,
+      "reset_seed": 692056,
+      "root_id": 720056,
+      "task_id": 4,
+      "task_index_within_task": 8
+    },
+    {
+      "deep_key": "2168e44d6f6590eb34fb8e86a0d2fbe3d39ce4eeef1e5045fdfaff470aacc5cf",
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "qualification_target_index": 262572,
+      "reset_seed": 692057,
+      "root_id": 720057,
+      "task_id": 4,
+      "task_index_within_task": 9
+    },
+    {
+      "deep_key": "5d06192c43531460dbd3be0e6f30cfb8d4d437d0bb94982dfae1fbcd685bc3a5",
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "qualification_target_index": 393406,
+      "reset_seed": 692058,
+      "root_id": 720058,
+      "task_id": 4,
+      "task_index_within_task": 10
+    },
+    {
+      "deep_key": "b5b8b617ed0de58e8fe38f6bf96b4e2d82e9d2646f05dae27cee8c7863f1a83f",
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "qualification_target_index": 638385,
+      "reset_seed": 692059,
+      "root_id": 720059,
+      "task_id": 4,
+      "task_index_within_task": 11
+    },
+    {
+      "deep_key": "135617f243a6dc1e4fbd2338c1d29eebae504a309f5260fdec667b39e2ae70ea",
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "qualification_target_index": 883705,
+      "reset_seed": 692060,
+      "root_id": 720060,
+      "task_id": 4,
+      "task_index_within_task": 12
+    },
+    {
+      "deep_key": "1b90051e1788c2efbcf9eefae0b0ee1b1d27d4c74e38877f61d8b11816fff0d9",
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "qualification_target_index": 618557,
+      "reset_seed": 692061,
+      "root_id": 720061,
+      "task_id": 4,
+      "task_index_within_task": 13
+    },
+    {
+      "deep_key": "36f4f4a2bec79124bc4773870f86ad4cb15bbe2ee8b23a67fea10cbc3dd08c96",
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "qualification_target_index": 563130,
+      "reset_seed": 692062,
+      "root_id": 720062,
+      "task_id": 4,
+      "task_index_within_task": 14
+    },
+    {
+      "deep_key": "dde2739a21b98667186073dd414f2e298c8e89095f2af4b4526494616292cc35",
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "qualification_target_index": 838369,
+      "reset_seed": 692063,
+      "root_id": 720063,
+      "task_id": 4,
+      "task_index_within_task": 15
+    },
+    {
+      "deep_key": "960915f320053dd9cdefa1f8d9f8fc6d9dcf1d070bc3649cbf00b90cb2bce452",
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "qualification_target_index": 261191,
+      "reset_seed": 692064,
+      "root_id": 720064,
+      "task_id": 5,
+      "task_index_within_task": 0
+    },
+    {
+      "deep_key": "dcf47ea5fa2ad8512252fc4ead20d9b340aa5bd4ce940b925e9919c4527449af",
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "qualification_target_index": 738550,
+      "reset_seed": 692065,
+      "root_id": 720065,
+      "task_id": 5,
+      "task_index_within_task": 1
+    },
+    {
+      "deep_key": "078085cd68f3e342c6ce84054d09e697b2632cc2fd7bedf1a01e7521255379d1",
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "qualification_target_index": 64469,
+      "reset_seed": 692066,
+      "root_id": 720066,
+      "task_id": 5,
+      "task_index_within_task": 2
+    },
+    {
+      "deep_key": "2f83db56f4d09f8cab8bf83af56f356e6f335d11b2aa267fc53fe4c7dc93dccc",
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "qualification_target_index": 601935,
+      "reset_seed": 692067,
+      "root_id": 720067,
+      "task_id": 5,
+      "task_index_within_task": 3
+    },
+    {
+      "deep_key": "e6eb23289758f1e2c8fcb4b6a804e37570748898bd7528bb33163084265dfea8",
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "qualification_target_index": 367563,
+      "reset_seed": 692068,
+      "root_id": 720068,
+      "task_id": 5,
+      "task_index_within_task": 4
+    },
+    {
+      "deep_key": "339b3eb5f3ccf9420cbe290e26b5667ca40c61aab64eaca2e490e47234f1e6d7",
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "qualification_target_index": 343263,
+      "reset_seed": 692069,
+      "root_id": 720069,
+      "task_id": 5,
+      "task_index_within_task": 5
+    },
+    {
+      "deep_key": "71fb55a861fa453302e2059d44029c983d696b1eb67983db6cf02bf4cbae8429",
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "qualification_target_index": 900822,
+      "reset_seed": 692070,
+      "root_id": 720070,
+      "task_id": 5,
+      "task_index_within_task": 6
+    },
+    {
+      "deep_key": "5c3074c019ed28d41ad9b78e4fd00809bce95987d2780f50ce1af783c5221ada",
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "qualification_target_index": 432407,
+      "reset_seed": 692071,
+      "root_id": 720071,
+      "task_id": 5,
+      "task_index_within_task": 7
+    },
+    {
+      "deep_key": "beb49aa26aaafb31610e3276e98a5e04c4170b451250746f6e9b3ca26c36acff",
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "qualification_target_index": 64128,
+      "reset_seed": 692072,
+      "root_id": 720072,
+      "task_id": 5,
+      "task_index_within_task": 8
+    },
+    {
+      "deep_key": "83e2ca2dbcfd286b2d6ae1c2accccd6ea4c09c998089bfcaa953ed63fcae716a",
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "qualification_target_index": 941994,
+      "reset_seed": 692073,
+      "root_id": 720073,
+      "task_id": 5,
+      "task_index_within_task": 9
+    },
+    {
+      "deep_key": "5acfec343bdcbfee1dc80b685a865fae5c7d8a15d1365f39a2cfa2f4828219a3",
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "qualification_target_index": 591470,
+      "reset_seed": 692074,
+      "root_id": 720074,
+      "task_id": 5,
+      "task_index_within_task": 10
+    },
+    {
+      "deep_key": "265001ed3297323867e944912cd5dedab94d7810791dc1e860410b1a18aafac4",
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "qualification_target_index": 588575,
+      "reset_seed": 692075,
+      "root_id": 720075,
+      "task_id": 5,
+      "task_index_within_task": 11
+    },
+    {
+      "deep_key": "0e0e25cb8c9dd6196eca35aa7d6277408c672a18571a8119dc0eeae0d0974e7a",
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "qualification_target_index": 561888,
+      "reset_seed": 692076,
+      "root_id": 720076,
+      "task_id": 5,
+      "task_index_within_task": 12
+    },
+    {
+      "deep_key": "502873538cf27fd4b49601b709b8c82b618a02fd55214d959590c792f18e28a2",
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "qualification_target_index": 241548,
+      "reset_seed": 692077,
+      "root_id": 720077,
+      "task_id": 5,
+      "task_index_within_task": 13
+    },
+    {
+      "deep_key": "035bc5b7baca9735b843b6f07e60aebcdb87f2ae4185e93ec7475a8f3e413e01",
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "qualification_target_index": 644681,
+      "reset_seed": 692078,
+      "root_id": 720078,
+      "task_id": 5,
+      "task_index_within_task": 14
+    },
+    {
+      "deep_key": "111fd0fe47cb7fbbf42958afac95eee9795e8caf8b04d3a7924feaaf5c6b4131",
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "qualification_target_index": 563851,
+      "reset_seed": 692079,
+      "root_id": 720079,
+      "task_id": 5,
+      "task_index_within_task": 15
+    }
+  ],
+  "train_sha256": "a73d1a33d029cedb8bc170ef94791ec585fa2d9450096f4f2a02b8cfbcf608c9"
+}

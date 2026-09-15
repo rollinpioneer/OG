@@ -1,0 +1,14 @@
+{
+  "ann": false,
+  "chunked_exact": true,
+  "dataset": "cube-double-play-v0 train npz",
+  "dedup_key": "endpoint_observation.tobytes() + str(dtype) + str(shape)",
+  "distance": "sqrt(mean((normalize(start_obs)-normalize(decision_obs))**2)) over 37 dims, train-only mean/std, rtol=0",
+  "k": 20,
+  "legal_window_count": 981000,
+  "n_candidates": 8,
+  "normalizer_file": "experiments/execution_aligned/ea_v2_cube_mechanism_v1/manifests/normalizer_train_only.npz",
+  "normalizer_sha256": "d4f912c0e458a031114cce0c084157780e3a527d26e21e4e1b7aa0745dd2c0c5",
+  "protocol_id": "ea_v3_s2_root_candidate_pool_v1",
+  "tie_break": "smaller original start index wins"
+}
