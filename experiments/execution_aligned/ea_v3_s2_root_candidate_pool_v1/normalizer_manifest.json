@@ -1,0 +1,7 @@
+{
+  "applied_to_actor_value": false,
+  "applied_to_retrieval_distance": true,
+  "file": "experiments/execution_aligned/ea_v2_cube_mechanism_v1/manifests/normalizer_train_only.npz",
+  "sha256": "d4f912c0e458a031114cce0c084157780e3a527d26e21e4e1b7aa0745dd2c0c5",
+  "source": "official_training_only"
+}

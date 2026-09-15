@@ -1,0 +1,122 @@
+{
+  "contract": "comparator_contract_v2",
+  "failures": [],
+  "fields": {
+    "act": {
+      "error": null,
+      "limit": 1e-06,
+      "max_abs_diff": 0.0,
+      "rtol": 0.0,
+      "status": "PASS"
+    },
+    "action": {
+      "reason": "D0_no_action",
+      "status": "NOT_APPLICABLE"
+    },
+    "ctrl": {
+      "error": null,
+      "limit": 1e-06,
+      "max_abs_diff": 0.0,
+      "rtol": 0.0,
+      "status": "PASS"
+    },
+    "cube_obs_19_37": {
+      "error": null,
+      "limit": 1e-06,
+      "max_abs_diff": 0.0,
+      "rtol": 0.0,
+      "status": "PASS"
+    },
+    "elapsed_steps": {
+      "agree": true,
+      "left": 0,
+      "right": 0,
+      "status": "PASS"
+    },
+    "full_proxy": {
+      "reason": "D0_no_rollout",
+      "status": "NOT_APPLICABLE"
+    },
+    "goal_observation": {
+      "error": null,
+      "limit": 0.0,
+      "max_abs_diff": 0.0,
+      "rtol": 0.0,
+      "status": "PASS"
+    },
+    "integration": {
+      "error": null,
+      "limit": 1e-06,
+      "max_abs_diff": 0.0,
+      "rtol": 0.0,
+      "status": "PASS"
+    },
+    "observation": {
+      "error": null,
+      "limit": 1e-06,
+      "max_abs_diff": 0.0,
+      "rtol": 0.0,
+      "status": "PASS"
+    },
+    "proxy": {
+      "reason": "D0_no_rollout",
+      "status": "NOT_APPLICABLE"
+    },
+    "qpos": {
+      "error": null,
+      "limit": 1e-06,
+      "max_abs_diff": 0.0,
+      "rtol": 0.0,
+      "status": "PASS"
+    },
+    "qvel": {
+      "error": null,
+      "limit": 1e-06,
+      "max_abs_diff": 0.0,
+      "rtol": 0.0,
+      "status": "PASS"
+    },
+    "robot_obs_0_19": {
+      "error": null,
+      "limit": 1e-06,
+      "max_abs_diff": 0.0,
+      "rtol": 0.0,
+      "status": "PASS"
+    },
+    "success": {
+      "agree": true,
+      "left": false,
+      "right": false,
+      "status": "PASS"
+    },
+    "task_id": {
+      "agree": true,
+      "left": 5,
+      "right": 5,
+      "status": "PASS"
+    },
+    "terminated": {
+      "left": null,
+      "reason": "D0_unified_NA_when_not_both_explicit",
+      "right": null,
+      "status": "NOT_APPLICABLE"
+    },
+    "truncated": {
+      "left": null,
+      "reason": "D0_unified_NA_when_not_both_explicit",
+      "right": null,
+      "status": "NOT_APPLICABLE"
+    },
+    "warmstart": {
+      "error": null,
+      "limit": 1e-06,
+      "max_abs_diff": 0.0,
+      "rtol": 0.0,
+      "status": "PASS"
+    }
+  },
+  "first_divergent_step": null,
+  "phase": "D0",
+  "rtol": 0.0,
+  "status": "PASS"
+}

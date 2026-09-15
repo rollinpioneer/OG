@@ -1,0 +1,12 @@
+{
+  "sentinels": [
+    {
+      "d0_after": "PASS",
+      "root_id": 720000
+    },
+    {
+      "d0_after": "PASS",
+      "root_id": 720003
+    }
+  ]
+}

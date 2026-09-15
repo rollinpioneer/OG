@@ -1,0 +1,24 @@
+{
+  "continued_after_terminal": false,
+  "elapsed_steps_start": 125,
+  "full_proxy": -80.01188286995307,
+  "goal_sha256": "680dc7e8d6f0cdc49b76a7de056f08f82794a8de7085bbe2c4a8ad9431f07840",
+  "identity": {
+    "protocol_id": "ea_v3_s2_root_candidate_pool_v1",
+    "root_id": 720068,
+    "tag": "primary",
+    "task_id": 5,
+    "test": "D3",
+    "worker": "A"
+  },
+  "key_schedule": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "n_steps": 5,
+  "probe_goal_sha256": "785ecf35488198217b083dc3277edbe8c86e26301135c5df32917ba6fa79ca7b",
+  "status": "OK"
+}

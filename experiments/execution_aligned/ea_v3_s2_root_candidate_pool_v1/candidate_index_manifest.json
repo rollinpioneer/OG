@@ -1,0 +1,6 @@
+{
+  "dedup": "endpoint_dtype_shape_tobytes",
+  "endpoint_offset": 20,
+  "starts_count": 981000,
+  "tie_break": "start_index_ascending"
+}

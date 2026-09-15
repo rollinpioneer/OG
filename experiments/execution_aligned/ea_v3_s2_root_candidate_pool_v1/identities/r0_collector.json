@@ -1,0 +1,72 @@
+{
+  "applied_env": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "JAX_ENABLE_X64": "0",
+    "JAX_PLATFORMS": "cpu",
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "XLA_FLAGS": null
+  },
+  "canonical_env": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "JAX_ENABLE_X64": "0",
+    "JAX_PLATFORMS": "cpu",
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "checkpoint_sha256": "12f7bd7ed9f909039dd6e3e3c44cd226bf765cf7d959396001e469dbbcbc3d87",
+  "comparator_contract": "v2",
+  "comparator_contract_v2_sha256": "65af4d2f7c6982c5eb3e118787db45da6c59eb0857a0bb33fe94e7c104889c0a",
+  "cpu_stable": {
+    "Architecture": "x86_64",
+    "Byte Order": "Little Endian",
+    "CPU family": "6",
+    "CPU op-mode(s)": "32-bit, 64-bit",
+    "CPU(s)": "112",
+    "Core(s) per socket": "28",
+    "Flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect wbnoinvd dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req vnmi avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid fsrm md_clear pconfig flush_l1d arch_capabilities",
+    "L1d cache": "2.6 MiB (56 instances)",
+    "L1i cache": "1.8 MiB (56 instances)",
+    "L2 cache": "70 MiB (56 instances)",
+    "L3 cache": "84 MiB (2 instances)",
+    "Model": "106",
+    "Model name": "Intel(R) Xeon(R) Gold 6330 CPU @ 2.00GHz",
+    "NUMA node(s)": "2",
+    "Socket(s)": "2",
+    "Stepping": "6",
+    "Thread(s) per core": "2",
+    "Vendor ID": "GenuineIntel",
+    "Virtualization": "VT-x"
+  },
+  "executable": "/home/xushijie/.conda/envs/og-ea-v2/bin/python",
+  "glibc": "glibc 2.39",
+  "jax_default_backend": "cpu",
+  "jax_default_matmul_precision": "None",
+  "jax_devices": [
+    "cpu:0"
+  ],
+  "jax_enable_x64": false,
+  "jax_version": "0.10.2",
+  "jaxlib_version": "0.10.2",
+  "no_xla_flags": true,
+  "ogbench_commit": "1d4140997f60c52c6fb0702ec100dc988b18c548",
+  "packages": {
+    "dm-control": "1.0.46",
+    "flax": "0.12.8",
+    "gymnasium": "1.3.0",
+    "jax": "0.10.2",
+    "jaxlib": "0.10.2",
+    "mujoco": "3.13.0",
+    "numpy": "2.4.6",
+    "ogbench": "1.2.1"
+  },
+  "platform": "Linux-7.2.2-1.el10.elrepo.x86_64-x86_64-with-glibc2.39",
+  "protocol_id": "ea_v3_cpu_s1_qualification_v1",
+  "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+  "role": "r0_collector",
+  "runtime_identity_sha256": "ce7dad6d2f2a9d8ec7dde9faa5ef6477b2cbd60da0a86c8ab9785549c24cf9e8",
+  "schema": "runtime_identity_v2",
+  "train_sha256": "a73d1a33d029cedb8bc170ef94791ec585fa2d9450096f4f2a02b8cfbcf608c9"
+}

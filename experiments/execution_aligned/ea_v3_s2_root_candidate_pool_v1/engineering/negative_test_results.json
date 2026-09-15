@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "detail": "ValueError: hash mismatch for goal_observation.npy: 174aad0b5c7bcc3ae81fdd935e71ade03e69faaa7f43360a46222492d080a22c != de37ee0e42b340f9e2af1153b4726cb3adce86f73312d49f8983b8669125402f",
+      "detected": true,
+      "expected": "hash_failure",
+      "name": "byte_flip_root_file"
+    },
+    {
+      "detected": true,
+      "expected": "GOAL_ENCODING",
+      "name": "replace_37d_goal_keep_task",
+      "reasons": [
+        "GOAL_ENCODING"
+      ],
+      "status": "FAIL"
+    },
+    {
+      "detected": true,
+      "expected": "ELAPSED_START",
+      "name": "elapsed_plus_one",
+      "status": "FAIL"
+    },
+    {
+      "detected": true,
+      "expected": "LENGTH_MISMATCH",
+      "name": "drop_last_step",
+      "status": "FAIL"
+    },
+    {
+      "detected": true,
+      "expected": "NONFINITE",
+      "name": "nan_observation",
+      "status": "FAIL"
+    },
+    {
+      "detected": true,
+      "expected": "action threshold",
+      "name": "action_bias",
+      "status": "FAIL"
+    },
+    {
+      "detected": true,
+      "expected": "TERMINATION_PROTOCOL",
+      "name": "continue_after_terminal",
+      "status": "FAIL"
+    },
+    {
+      "detected": true,
+      "expected": "IDENTITY_root_id",
+      "name": "wrong_root_identity",
+      "status": "FAIL"
+    },
+    {
+      "detected": true,
+      "expected": "identity_sha256_change",
+      "left": "ce7dad6d2f2a9d8ec7dde9faa5ef6477b2cbd60da0a86c8ab9785549c24cf9e8",
+      "name": "runtime_identity_mismatch",
+      "right": "95541890788db1ef3cc978bb39042dfb1bf6d8791d33530d741f7b55b8af995e"
+    }
+  ],
+  "n_cases": 9,
+  "passed_cases": 9,
+  "status": "PASS"
+}

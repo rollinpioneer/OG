@@ -1,0 +1,725 @@
+{
+  "protocol_id": "ea_v3_s2_root_candidate_pool_v1",
+  "roots": [
+    {
+      "d3_target_index": 87925,
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "reset_seed": 692000,
+      "root_id": 720000,
+      "set": "formal",
+      "task_id": 1
+    },
+    {
+      "d3_target_index": 922427,
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "reset_seed": 692001,
+      "root_id": 720001,
+      "set": "formal",
+      "task_id": 1
+    },
+    {
+      "d3_target_index": 67714,
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "reset_seed": 692002,
+      "root_id": 720002,
+      "set": "formal",
+      "task_id": 1
+    },
+    {
+      "d3_target_index": 762367,
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "reset_seed": 692003,
+      "root_id": 720003,
+      "set": "formal",
+      "task_id": 1
+    },
+    {
+      "d3_target_index": 595472,
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "reset_seed": 692004,
+      "root_id": 720004,
+      "set": "formal",
+      "task_id": 1
+    },
+    {
+      "d3_target_index": 977812,
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "reset_seed": 692005,
+      "root_id": 720005,
+      "set": "formal",
+      "task_id": 1
+    },
+    {
+      "d3_target_index": 232694,
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "reset_seed": 692006,
+      "root_id": 720006,
+      "set": "formal",
+      "task_id": 1
+    },
+    {
+      "d3_target_index": 254237,
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "reset_seed": 692007,
+      "root_id": 720007,
+      "set": "formal",
+      "task_id": 1
+    },
+    {
+      "d3_target_index": 757477,
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "reset_seed": 692008,
+      "root_id": 720008,
+      "set": "formal",
+      "task_id": 1
+    },
+    {
+      "d3_target_index": 35090,
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "reset_seed": 692009,
+      "root_id": 720009,
+      "set": "formal",
+      "task_id": 1
+    },
+    {
+      "d3_target_index": 841149,
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "reset_seed": 692010,
+      "root_id": 720010,
+      "set": "formal",
+      "task_id": 1
+    },
+    {
+      "d3_target_index": 455595,
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "reset_seed": 692011,
+      "root_id": 720011,
+      "set": "formal",
+      "task_id": 1
+    },
+    {
+      "d3_target_index": 761047,
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "reset_seed": 692012,
+      "root_id": 720012,
+      "set": "formal",
+      "task_id": 1
+    },
+    {
+      "d3_target_index": 185778,
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "reset_seed": 692013,
+      "root_id": 720013,
+      "set": "formal",
+      "task_id": 1
+    },
+    {
+      "d3_target_index": 350971,
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "reset_seed": 692014,
+      "root_id": 720014,
+      "set": "formal",
+      "task_id": 1
+    },
+    {
+      "d3_target_index": 293602,
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "reset_seed": 692015,
+      "root_id": 720015,
+      "set": "formal",
+      "task_id": 1
+    },
+    {
+      "d3_target_index": 190764,
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "reset_seed": 692016,
+      "root_id": 720016,
+      "set": "formal",
+      "task_id": 2
+    },
+    {
+      "d3_target_index": 581829,
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "reset_seed": 692017,
+      "root_id": 720017,
+      "set": "formal",
+      "task_id": 2
+    },
+    {
+      "d3_target_index": 945588,
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "reset_seed": 692018,
+      "root_id": 720018,
+      "set": "formal",
+      "task_id": 2
+    },
+    {
+      "d3_target_index": 338790,
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "reset_seed": 692019,
+      "root_id": 720019,
+      "set": "formal",
+      "task_id": 2
+    },
+    {
+      "d3_target_index": 654724,
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "reset_seed": 692020,
+      "root_id": 720020,
+      "set": "formal",
+      "task_id": 2
+    },
+    {
+      "d3_target_index": 725300,
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "reset_seed": 692021,
+      "root_id": 720021,
+      "set": "formal",
+      "task_id": 2
+    },
+    {
+      "d3_target_index": 898180,
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "reset_seed": 692022,
+      "root_id": 720022,
+      "set": "formal",
+      "task_id": 2
+    },
+    {
+      "d3_target_index": 842903,
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "reset_seed": 692023,
+      "root_id": 720023,
+      "set": "formal",
+      "task_id": 2
+    },
+    {
+      "d3_target_index": 806991,
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "reset_seed": 692024,
+      "root_id": 720024,
+      "set": "formal",
+      "task_id": 2
+    },
+    {
+      "d3_target_index": 37368,
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "reset_seed": 692025,
+      "root_id": 720025,
+      "set": "formal",
+      "task_id": 2
+    },
+    {
+      "d3_target_index": 825948,
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "reset_seed": 692026,
+      "root_id": 720026,
+      "set": "formal",
+      "task_id": 2
+    },
+    {
+      "d3_target_index": 581908,
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "reset_seed": 692027,
+      "root_id": 720027,
+      "set": "formal",
+      "task_id": 2
+    },
+    {
+      "d3_target_index": 445745,
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "reset_seed": 692028,
+      "root_id": 720028,
+      "set": "formal",
+      "task_id": 2
+    },
+    {
+      "d3_target_index": 759596,
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "reset_seed": 692029,
+      "root_id": 720029,
+      "set": "formal",
+      "task_id": 2
+    },
+    {
+      "d3_target_index": 386686,
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "reset_seed": 692030,
+      "root_id": 720030,
+      "set": "formal",
+      "task_id": 2
+    },
+    {
+      "d3_target_index": 280891,
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "reset_seed": 692031,
+      "root_id": 720031,
+      "set": "formal",
+      "task_id": 2
+    },
+    {
+      "d3_target_index": 299585,
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "reset_seed": 692032,
+      "root_id": 720032,
+      "set": "formal",
+      "task_id": 3
+    },
+    {
+      "d3_target_index": 16953,
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "reset_seed": 692033,
+      "root_id": 720033,
+      "set": "formal",
+      "task_id": 3
+    },
+    {
+      "d3_target_index": 366759,
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "reset_seed": 692034,
+      "root_id": 720034,
+      "set": "formal",
+      "task_id": 3
+    },
+    {
+      "d3_target_index": 173497,
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "reset_seed": 692035,
+      "root_id": 720035,
+      "set": "formal",
+      "task_id": 3
+    },
+    {
+      "d3_target_index": 798935,
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "reset_seed": 692036,
+      "root_id": 720036,
+      "set": "formal",
+      "task_id": 3
+    },
+    {
+      "d3_target_index": 596627,
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "reset_seed": 692037,
+      "root_id": 720037,
+      "set": "formal",
+      "task_id": 3
+    },
+    {
+      "d3_target_index": 610086,
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "reset_seed": 692038,
+      "root_id": 720038,
+      "set": "formal",
+      "task_id": 3
+    },
+    {
+      "d3_target_index": 403180,
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "reset_seed": 692039,
+      "root_id": 720039,
+      "set": "formal",
+      "task_id": 3
+    },
+    {
+      "d3_target_index": 844926,
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "reset_seed": 692040,
+      "root_id": 720040,
+      "set": "formal",
+      "task_id": 3
+    },
+    {
+      "d3_target_index": 150714,
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "reset_seed": 692041,
+      "root_id": 720041,
+      "set": "formal",
+      "task_id": 3
+    },
+    {
+      "d3_target_index": 234353,
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "reset_seed": 692042,
+      "root_id": 720042,
+      "set": "formal",
+      "task_id": 3
+    },
+    {
+      "d3_target_index": 958030,
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "reset_seed": 692043,
+      "root_id": 720043,
+      "set": "formal",
+      "task_id": 3
+    },
+    {
+      "d3_target_index": 325311,
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "reset_seed": 692044,
+      "root_id": 720044,
+      "set": "formal",
+      "task_id": 3
+    },
+    {
+      "d3_target_index": 154759,
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "reset_seed": 692045,
+      "root_id": 720045,
+      "set": "formal",
+      "task_id": 3
+    },
+    {
+      "d3_target_index": 370338,
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "reset_seed": 692046,
+      "root_id": 720046,
+      "set": "formal",
+      "task_id": 3
+    },
+    {
+      "d3_target_index": 843409,
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "reset_seed": 692047,
+      "root_id": 720047,
+      "set": "formal",
+      "task_id": 3
+    },
+    {
+      "d3_target_index": 82869,
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "reset_seed": 692048,
+      "root_id": 720048,
+      "set": "formal",
+      "task_id": 4
+    },
+    {
+      "d3_target_index": 476548,
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "reset_seed": 692049,
+      "root_id": 720049,
+      "set": "formal",
+      "task_id": 4
+    },
+    {
+      "d3_target_index": 180103,
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "reset_seed": 692050,
+      "root_id": 720050,
+      "set": "formal",
+      "task_id": 4
+    },
+    {
+      "d3_target_index": 99728,
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "reset_seed": 692051,
+      "root_id": 720051,
+      "set": "formal",
+      "task_id": 4
+    },
+    {
+      "d3_target_index": 774061,
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "reset_seed": 692052,
+      "root_id": 720052,
+      "set": "formal",
+      "task_id": 4
+    },
+    {
+      "d3_target_index": 59426,
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "reset_seed": 692053,
+      "root_id": 720053,
+      "set": "formal",
+      "task_id": 4
+    },
+    {
+      "d3_target_index": 194679,
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "reset_seed": 692054,
+      "root_id": 720054,
+      "set": "formal",
+      "task_id": 4
+    },
+    {
+      "d3_target_index": 804079,
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "reset_seed": 692055,
+      "root_id": 720055,
+      "set": "formal",
+      "task_id": 4
+    },
+    {
+      "d3_target_index": 23462,
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "reset_seed": 692056,
+      "root_id": 720056,
+      "set": "formal",
+      "task_id": 4
+    },
+    {
+      "d3_target_index": 262572,
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "reset_seed": 692057,
+      "root_id": 720057,
+      "set": "formal",
+      "task_id": 4
+    },
+    {
+      "d3_target_index": 393406,
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "reset_seed": 692058,
+      "root_id": 720058,
+      "set": "formal",
+      "task_id": 4
+    },
+    {
+      "d3_target_index": 638385,
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "reset_seed": 692059,
+      "root_id": 720059,
+      "set": "formal",
+      "task_id": 4
+    },
+    {
+      "d3_target_index": 883705,
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "reset_seed": 692060,
+      "root_id": 720060,
+      "set": "formal",
+      "task_id": 4
+    },
+    {
+      "d3_target_index": 618557,
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "reset_seed": 692061,
+      "root_id": 720061,
+      "set": "formal",
+      "task_id": 4
+    },
+    {
+      "d3_target_index": 563130,
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "reset_seed": 692062,
+      "root_id": 720062,
+      "set": "formal",
+      "task_id": 4
+    },
+    {
+      "d3_target_index": 838369,
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "reset_seed": 692063,
+      "root_id": 720063,
+      "set": "formal",
+      "task_id": 4
+    },
+    {
+      "d3_target_index": 261191,
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "reset_seed": 692064,
+      "root_id": 720064,
+      "set": "formal",
+      "task_id": 5
+    },
+    {
+      "d3_target_index": 738550,
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "reset_seed": 692065,
+      "root_id": 720065,
+      "set": "formal",
+      "task_id": 5
+    },
+    {
+      "d3_target_index": 64469,
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "reset_seed": 692066,
+      "root_id": 720066,
+      "set": "formal",
+      "task_id": 5
+    },
+    {
+      "d3_target_index": 601935,
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "reset_seed": 692067,
+      "root_id": 720067,
+      "set": "formal",
+      "task_id": 5
+    },
+    {
+      "d3_target_index": 367563,
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "reset_seed": 692068,
+      "root_id": 720068,
+      "set": "formal",
+      "task_id": 5
+    },
+    {
+      "d3_target_index": 343263,
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "reset_seed": 692069,
+      "root_id": 720069,
+      "set": "formal",
+      "task_id": 5
+    },
+    {
+      "d3_target_index": 900822,
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "reset_seed": 692070,
+      "root_id": 720070,
+      "set": "formal",
+      "task_id": 5
+    },
+    {
+      "d3_target_index": 432407,
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "reset_seed": 692071,
+      "root_id": 720071,
+      "set": "formal",
+      "task_id": 5
+    },
+    {
+      "d3_target_index": 64128,
+      "is_deep": false,
+      "planned_decision_step": 250,
+      "reset_seed": 692072,
+      "root_id": 720072,
+      "set": "formal",
+      "task_id": 5
+    },
+    {
+      "d3_target_index": 941994,
+      "is_deep": false,
+      "planned_decision_step": 0,
+      "reset_seed": 692073,
+      "root_id": 720073,
+      "set": "formal",
+      "task_id": 5
+    },
+    {
+      "d3_target_index": 591470,
+      "is_deep": false,
+      "planned_decision_step": 125,
+      "reset_seed": 692074,
+      "root_id": 720074,
+      "set": "formal",
+      "task_id": 5
+    },
+    {
+      "d3_target_index": 588575,
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "reset_seed": 692075,
+      "root_id": 720075,
+      "set": "formal",
+      "task_id": 5
+    },
+    {
+      "d3_target_index": 561888,
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "reset_seed": 692076,
+      "root_id": 720076,
+      "set": "formal",
+      "task_id": 5
+    },
+    {
+      "d3_target_index": 241548,
+      "is_deep": true,
+      "planned_decision_step": 125,
+      "reset_seed": 692077,
+      "root_id": 720077,
+      "set": "formal",
+      "task_id": 5
+    },
+    {
+      "d3_target_index": 644681,
+      "is_deep": true,
+      "planned_decision_step": 250,
+      "reset_seed": 692078,
+      "root_id": 720078,
+      "set": "formal",
+      "task_id": 5
+    },
+    {
+      "d3_target_index": 563851,
+      "is_deep": true,
+      "planned_decision_step": 0,
+      "reset_seed": 692079,
+      "root_id": 720079,
+      "set": "formal",
+      "task_id": 5
+    }
+  ]
+}
