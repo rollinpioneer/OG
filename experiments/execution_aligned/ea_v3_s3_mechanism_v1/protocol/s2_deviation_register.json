@@ -1,0 +1,31 @@
+{
+  "blocking": false,
+  "items": [
+    {
+      "description": "S2 root IDs are task-blocked rather than interleaved; 720000-720004 are not five tasks. Per-task counts and decision-step mix unchanged.",
+      "id": "S2_ROOT_ID_BLOCKING",
+      "s3_action": "Use cross-task sentinels 720000,720016,720032,720048,720064; do not modify S2."
+    },
+    {
+      "description": "S2 A-pool-A only had legal 720000 and 720003, both task 1.",
+      "id": "S2_APOOLA_TASK1_ONLY",
+      "s3_action": "New five-task sentinel D3 before/after full S3 workload."
+    },
+    {
+      "description": "S2 candidate builder ran in the finalizer process; retrieval was offline NumPy.",
+      "id": "S2_CANDIDATE_BUILDER_IN_FINALIZER",
+      "s3_action": "No re-retrieval. Use frozen audit indices only."
+    },
+    {
+      "description": "candidate_retrieval_audit.json has start/end/distance/hash but not source episode or original dtype.",
+      "id": "S2_AUDIT_MISSING_EPISODE_DTYPE",
+      "s3_action": "S3-P provenance reconstructs episode id and original dtype/shape from frozen train terminals."
+    },
+    {
+      "description": "candidates.npz stores float64 numeric copies. Canonical identity is the original train endpoint, not the NPZ bytes.",
+      "id": "S2_CANDIDATES_NPZ_FLOAT64",
+      "s3_action": "Execute from source endpoint arrays; NPZ is consistency replica only."
+    }
+  ],
+  "protocol_id": "ea_v3_s3_mechanism_v1"
+}

@@ -1,0 +1,23 @@
+{
+  "bootstrap_repetitions": 10000,
+  "bootstrap_seed": 350301,
+  "denominators": {
+    "legal_deep_roots": 35,
+    "legal_roots": 70
+  },
+  "full_distinguishable_min": 9,
+  "ideal_full_miss_min": 5,
+  "proxy_paired_net_success_gain_min": 0,
+  "selectors": [
+    "IDEAL",
+    "ORACLE_PROXY_DIAG",
+    "ORACLE_FULL_DIAG",
+    "UNIFORM_EXPECTATION",
+    "DIRECT"
+  ],
+  "tie_break": "smallest_candidate_id",
+  "unit": "root",
+  "value_tolerance": 0.5495205402374268,
+  "wrong_selection_min_count": 7,
+  "wrong_selection_min_rate": 0.1
+}

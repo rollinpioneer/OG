@@ -1,0 +1,75 @@
+{
+  "assets": {
+    "checkpoint_sha256": "12f7bd7ed9f909039dd6e3e3c44cd226bf765cf7d959396001e469dbbcbc3d87",
+    "normalizer_sha256": "d4f912c0e458a031114cce0c084157780e3a527d26e21e4e1b7aa0745dd2c0c5",
+    "ogbench_commit": "1d4140997f60c52c6fb0702ec100dc988b18c548",
+    "train_sha256": "a73d1a33d029cedb8bc170ef94791ec585fa2d9450096f4f2a02b8cfbcf608c9",
+    "validation_sha256": "b1fcdf4bd40750351a58d0d491d6be198366ce898f0c6a2e4cb5db331966013e"
+  },
+  "baseline_commit": "eba81e0ac662ecd93a29814d1b4c7e611465fa2b",
+  "canonical_candidate": "train_source_endpoint_original_array",
+  "canonical_runtime": "CPU_SINGLE_THREAD",
+  "comparator": "comparator_contract_v2",
+  "cpu_env": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "JAX_ENABLE_X64": "0",
+    "JAX_PLATFORMS": "cpu",
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "XLA_FLAGS": null
+  },
+  "discount": 0.99,
+  "expected_runtime_identity_sha256": "ce7dad6d2f2a9d8ec7dde9faa5ef6477b2cbd60da0a86c8ab9785549c24cf9e8",
+  "external_control_step_budget": 800000,
+  "forbidden": [
+    "S4",
+    "Phase_C",
+    "P_1",
+    "P_MH",
+    "EXEC",
+    "training",
+    "modify_s2_pool",
+    "GPU_CURRENT",
+    "replace_roots_or_candidates"
+  ],
+  "ideal_tie_break": "smallest_candidate_id",
+  "k": 20,
+  "keys": {
+    "candidate": "ea35:candidate:<root_id>:<candidate_id>:<step>",
+    "direct": "ea35:direct:<root_id>:<step>",
+    "sentinel": "ea35:sentinel:<root_id>:<step>",
+    "tail": "ea35:tail:<root_id>:<candidate_id>:<step>",
+    "worker_id_in_key": false
+  },
+  "m": 5,
+  "max_episode_steps": 500,
+  "n_candidates": 8,
+  "n_legal_deep_roots": 35,
+  "n_legal_roots": 70,
+  "protocol_id": "ea_v3_s3_mechanism_v1",
+  "protocol_name": "EA-V3 S3 Mechanism v1",
+  "proxy_formula": "sum_{i=0}^{L-1} gamma^i * (r_env_i - 1) + gamma^L * b_L * V(o_L, g); b_L=0 if terminated or truncated else 1",
+  "restore": "BOOTSTRAP_PREFIX_REPLAY",
+  "result_source": "ENV_EVALUATED",
+  "s2_protocol_freeze": "3d9a4efd5d01baf9508ce6042e59f403ab339fdf",
+  "s2_readonly": {
+    "candidates_npz_sha256": "23ab9c91674f5c08d269452dc8a13589b8fb99de2ffb3af93dd8b52c2a977028",
+    "experiment_rel": "experiments/execution_aligned/ea_v3_s2_root_candidate_pool_v1",
+    "repo": "/home/__compress_data/xushijie/OG_ea_v3_s2_pool",
+    "root_store": "/home/__compress_data/xushijie/ea_v3_root_store/ea_v3_s2_root_candidate_pool_v1",
+    "s2_zip_sha256": "eca9c4a922752563f9068ab79009574ea4591709430bf68922bc92defef1337d"
+  },
+  "scope": [
+    "S3"
+  ],
+  "sentinels": [
+    720000,
+    720016,
+    720032,
+    720048,
+    720064
+  ],
+  "training_eligible": false,
+  "value_tolerance": 0.5495205402374268
+}

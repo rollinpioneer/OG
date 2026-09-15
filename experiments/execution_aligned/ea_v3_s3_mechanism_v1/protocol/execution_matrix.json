@@ -1,0 +1,25 @@
+{
+  "budget": 800000,
+  "candidates_per_root": 8,
+  "deep_branch_count": 560,
+  "deep_branches": "35*8*2=560",
+  "direct_count": 140,
+  "direct_pursues_exact_final_goal": true,
+  "direct_traces": "70*2=140",
+  "legal_deep_roots": 35,
+  "legal_roots": 70,
+  "m": 5,
+  "rebuild_each_branch": true,
+  "restore": "BOOTSTRAP_PREFIX_REPLAY",
+  "short_branch_count": 1120,
+  "short_branches": "70*8*2=1120",
+  "standalone_deep_prefix_must_match": true,
+  "worker_A": {
+    "candidate_order": "0_to_7",
+    "root_order": "ascending"
+  },
+  "worker_B": {
+    "candidate_order": "7_to_0",
+    "root_order": "descending"
+  }
+}
