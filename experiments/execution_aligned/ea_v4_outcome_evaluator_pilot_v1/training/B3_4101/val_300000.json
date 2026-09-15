@@ -1,0 +1,11 @@
+{
+  "finite": true,
+  "in_range": true,
+  "method": "B3",
+  "monotonic_violation": 0.0,
+  "path": "/home/__compress_data/xushijie/OG_ea_v4_outcome_pilot/experiments/execution_aligned/ea_v4_outcome_evaluator_pilot_v1/training/B3_4101/params_300000.msgpack",
+  "seed": 4101,
+  "sha256": "e0ed86cd0f1d7aaafc86639d3c46c4db313509876af010464e063d75c0a688b7",
+  "update": 300000,
+  "val_bellman_mse": 1.231436185378243e-05
+}

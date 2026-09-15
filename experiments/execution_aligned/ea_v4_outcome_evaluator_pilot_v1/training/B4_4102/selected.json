@@ -1,0 +1,60 @@
+{
+  "all": [
+    {
+      "finite": true,
+      "in_range": true,
+      "method": "B4",
+      "monotonic_violation": 0.0146484375,
+      "path": "/home/__compress_data/xushijie/OG_ea_v4_outcome_pilot/experiments/execution_aligned/ea_v4_outcome_evaluator_pilot_v1/training/B4_4102/params_100000.msgpack",
+      "seed": 4102,
+      "sha256": "b8dd49efc120306cd49ee2965d8941159a3f0d2ec66fec84c67ab46c074358d2",
+      "update": 100000,
+      "val_bellman_mse": 8.552498897529404e-06
+    },
+    {
+      "finite": true,
+      "in_range": true,
+      "method": "B4",
+      "monotonic_violation": 0.021484375,
+      "path": "/home/__compress_data/xushijie/OG_ea_v4_outcome_pilot/experiments/execution_aligned/ea_v4_outcome_evaluator_pilot_v1/training/B4_4102/params_200000.msgpack",
+      "seed": 4102,
+      "sha256": "a5a1a22e0909ed2970583b436094934f829d2cf1909add0b71885d93ebfc48b4",
+      "update": 200000,
+      "val_bellman_mse": 8.041389982338387e-06
+    },
+    {
+      "finite": true,
+      "in_range": true,
+      "method": "B4",
+      "monotonic_violation": 0.017578125,
+      "path": "/home/__compress_data/xushijie/OG_ea_v4_outcome_pilot/experiments/execution_aligned/ea_v4_outcome_evaluator_pilot_v1/training/B4_4102/params_300000.msgpack",
+      "seed": 4102,
+      "sha256": "a072081a0b3969e27d6ccdc962271d4d55d279aeb4f0d96dcb1a55446b6ba28a",
+      "update": 300000,
+      "val_bellman_mse": 8.666948332347602e-06
+    },
+    {
+      "finite": true,
+      "in_range": true,
+      "method": "B4",
+      "monotonic_violation": 0.0244140625,
+      "path": "/home/__compress_data/xushijie/OG_ea_v4_outcome_pilot/experiments/execution_aligned/ea_v4_outcome_evaluator_pilot_v1/training/B4_4102/params_400000.msgpack",
+      "seed": 4102,
+      "sha256": "a4f3d82eca1f73a0c75587101ad63b2e9ab1c76514c4b800dd8c124a5e8ec86c",
+      "update": 400000,
+      "val_bellman_mse": 1.3007774370521474e-05
+    }
+  ],
+  "selected": {
+    "finite": true,
+    "in_range": true,
+    "method": "B4",
+    "monotonic_violation": 0.021484375,
+    "path": "/home/__compress_data/xushijie/OG_ea_v4_outcome_pilot/experiments/execution_aligned/ea_v4_outcome_evaluator_pilot_v1/training/B4_4102/params_200000.msgpack",
+    "seed": 4102,
+    "sha256": "a5a1a22e0909ed2970583b436094934f829d2cf1909add0b71885d93ebfc48b4",
+    "update": 200000,
+    "val_bellman_mse": 8.041389982338387e-06
+  },
+  "unstable": false
+}

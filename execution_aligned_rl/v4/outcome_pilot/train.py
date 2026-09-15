@@ -115,6 +115,7 @@ class Sampler:
             bw = hit.any(axis=1).astype(np.float32)
             bw_mask = np.where((bw < 0.5) & (rem < R.astype(np.int32)), 0.0, 1.0).astype(np.float32)
         return {
+            "idx": idx.astype(np.int32),
             "o": np.asarray(o, dtype=np.float32),
             "a": np.asarray(a, dtype=np.float32),
             "o2": np.asarray(o2, dtype=np.float32),
@@ -127,6 +128,34 @@ class Sampler:
             "bw": bw,
             "bw_mask": bw_mask,
         }
+
+
+def make_b1_window(jnp, jit, obs, ep_end):
+    center = jnp.asarray([0.425, 0.0, 0.0], dtype=jnp.float32)
+    cube = jnp.stack(
+        [obs[..., 19:22] / 10.0 + center, obs[..., 28:31] / 10.0 + center],
+        axis=-2,
+    )
+    n = obs.shape[0]
+    offsets = jnp.arange(1, MAX_H + 1, dtype=jnp.int32)
+    ep_end_j = jnp.asarray(ep_end)
+
+    @jit
+    def fn(idx, g, R):
+        rem = ep_end_j[idx] - idx
+        horizon = jnp.minimum(R.astype(jnp.int32), rem)
+        pos = jnp.clip(idx[:, None] + offsets[None, :], 0, n - 1)
+        xyz = cube[pos]
+        g0 = g[..., 19:22] / 10.0 + center
+        g1 = g[..., 28:31] / 10.0 + center
+        gxyz = jnp.stack([g0, g1], axis=-2)[:, None, :, :]
+        dist = jnp.linalg.norm(xyz - gxyz, axis=-1)
+        hit = jnp.all(dist <= 0.04, axis=-1) & (offsets[None, :] <= horizon[:, None])
+        bw = hit.any(axis=1).astype(jnp.float32)
+        bw_mask = jnp.where((bw < 0.5) & (rem < R.astype(jnp.int32)), 0.0, 1.0)
+        return bw, bw_mask
+
+    return fn
 
 
 def hash_batch(batch: dict) -> str:
@@ -261,7 +290,9 @@ def train_one(method: str, seed: int, gpu: str, updates=None, ckpt_steps=None) -
         saved = vsamp.rng.bit_generator.state
         vsamp.rng = np.random.default_rng(seed + 77777)
         for _ in range(VAL_BATCHES):
-            b = vsamp.sample(BATCH, with_behavior_window=need_bw)
+            b = vsamp.sample(BATCH, with_behavior_window=False)
+            if method == "B1":
+                b = fill_b1(b)
             j = np.zeros_like(b["j"]) if method == "B2" else b["j"]
             x = pack_np(b["o"], b["a"], b["z"], b["g"], j, b["R"])
             p = np.asarray(apply_prob(state.params, jnp.asarray(x)))
@@ -299,11 +330,27 @@ def train_one(method: str, seed: int, gpu: str, updates=None, ckpt_steps=None) -
             "monotonic_violation": mono,
         }
 
+    b1_window = None
+    if method == "B1":
+        print("COMPILE_B1_WINDOW", flush=True)
+        b1_window = make_b1_window(jnp, jax.jit, jnp.asarray(samp.ds["obs"]), samp.ds["ep_end"])
+        warm = samp.sample(BATCH, with_behavior_window=False)
+        _ = b1_window(jnp.asarray(warm["idx"]), jnp.asarray(warm["g"]), jnp.asarray(warm["R"]))
+
+    def fill_b1(b):
+        if b1_window is None:
+            return b
+        bw, bw_mask = b1_window(jnp.asarray(b["idx"]), jnp.asarray(b["g"]), jnp.asarray(b["R"]))
+        b["bw"] = np.asarray(bw, dtype=np.float32)
+        b["bw_mask"] = np.asarray(bw_mask, dtype=np.float32)
+        return b
+
     print("LOOP_START", {"updates": updates, "ckpt": ckpt_steps}, flush=True)
     metrics = []
     for u in range(1, updates + 1):
-        b = samp.sample(BATCH, with_behavior_window=need_bw)
+        b = samp.sample(BATCH, with_behavior_window=False)
         if method == "B1":
+            b = fill_b1(b)
             x = pack_np(b["o"], b["a"], b["z"], b["g"], b["j"], b["R"])
             state, tgt, loss = supervised_step(
                 state, tgt, jnp.asarray(x), jnp.asarray(b["bw"]), jnp.asarray(b["bw_mask"])

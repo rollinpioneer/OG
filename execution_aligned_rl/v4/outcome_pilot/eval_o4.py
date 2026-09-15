@@ -69,6 +69,36 @@ def choose(scores, tie_small=True):
     return int(np.argmax(scores))
 
 
+def min_action_l2_chunked(q_obs_n, q_act, corpus_n, corpus_act, k=64, q_chunk=16, c_chunk=25000):
+    q_obs_n = np.asarray(q_obs_n, dtype=np.float32)
+    q_act = np.asarray(q_act, dtype=np.float32)
+    corpus_n = np.asarray(corpus_n, dtype=np.float32)
+    corpus_act = np.asarray(corpus_act, dtype=np.float32)
+    Q = q_obs_n.shape[0]
+    out = np.empty((Q,), dtype=np.float32)
+    c2 = np.sum(corpus_n * corpus_n, axis=1)
+    for qs in range(0, Q, q_chunk):
+        q = q_obs_n[qs : qs + q_chunk]
+        B = q.shape[0]
+        best_d = np.full((B, k), np.inf, dtype=np.float32)
+        best_i = np.zeros((B, k), dtype=np.int32)
+        q2 = np.sum(q * q, axis=1, keepdims=True)
+        for cs in range(0, corpus_n.shape[0], c_chunk):
+            c = corpus_n[cs : cs + c_chunk]
+            d = q2 + c2[cs : cs + c.shape[0]][None, :] - 2.0 * (q @ c.T)
+            idx = np.arange(c.shape[0], dtype=np.int32) + np.int32(cs)
+            comb_d = np.concatenate([best_d, d], axis=1)
+            comb_i = np.concatenate([best_i, np.broadcast_to(idx, d.shape)], axis=1)
+            sel = np.argpartition(comb_d, kth=k - 1, axis=1)[:, :k]
+            best_d = np.take_along_axis(comb_d, sel, axis=1)
+            best_i = np.take_along_axis(comb_i, sel, axis=1)
+        neigh_a = corpus_act[best_i]
+        diff = neigh_a - q_act[qs : qs + B, None, :]
+        out[qs : qs + B] = np.sqrt((diff ** 2).sum(-1)).min(axis=1)
+        print({"support_nn_q": int(qs + B), "Q": Q}, flush=True)
+    return out
+
+
 def load_labels(deep_ids):
     table = {}
     with (S3_EXP / "mechanism_root_table.jsonl").open() as f:
@@ -179,13 +209,10 @@ def bootstrap_ci(rows, selected, rng):
 def gate_status(ens, b5, seed_sel, b2, rows):
     # exclusive science statuses after engineering holds already passed
     b4 = ens["B4"]
-    ok_b4 = (
-        b4["success"] >= 15
-        and (b4.get("root_pairwise_auc") is not None)
-        and (b2.get("root_pairwise_auc") is not None)
-        and b4["root_pairwise_auc"] > b2["root_pairwise_auc"]
-        and b4["root_pairwise_auc"] > ens["B3"]["root_pairwise_auc"]
-    )
+    b4_auc = b4.get("root_pairwise_auc") or 0.0
+    b2_auc = b2.get("root_pairwise_auc") or 0.0
+    b3_auc = ens["B3"].get("root_pairwise_auc") or 0.0
+    ok_b4 = b4["success"] >= 15 and b4_auc > b2_auc and b4_auc > b3_auc
     ok_b5 = (
         b5["success"] >= 17
         and b5["rescue"] >= 3
@@ -371,6 +398,27 @@ def main():
         {"B0": b0, "B5": b5, **{k: ensemble[k] for k in ensemble}, "references": REF},
     )
     dump_json(exp / "bootstrap_intervals.json", boot)
+    audit = load_json(exp / "target_action_support_audit.json")
+    p99 = float(audit["behavior_p99"])
+    train_npz = np.load(TRAIN_FILE, allow_pickle=False)
+    tobs_n = (np.asarray(train_npz["observations"], dtype=np.float32) - mean) / np.where(std == 0, 1.0, std)
+    tact = np.asarray(train_npz["actions"], dtype=np.float32)
+    q_o = np.concatenate([np.repeat(((r["obs"] - mean) / np.where(std == 0, 1.0, std))[None], 8, axis=0) for r in rows], axis=0)
+    q_a = np.concatenate([r["a_z"] for r in rows], axis=0)
+    d_l2 = min_action_l2_chunked(q_o, q_a, tobs_n, tact, k=64)
+    over = d_l2 > p99
+    support_rows = []
+    for i, r in enumerate(rows):
+        sl = slice(i * 8, (i + 1) * 8)
+        support_rows.append({"root_id": r["root_id"], "min_l2": d_l2[sl].tolist(), "over_p99": over[sl].tolist()})
+    dump_json(exp / "support_stratified_results.json", {
+        "behavior_p99": p99,
+        "frac_over_p99": float(np.mean(over)),
+        "n_over_p99": int(over.sum()),
+        "rows": support_rows,
+        "note": "candidate pi_z action support vs train K=64; used for rescue source check",
+    })
+
     dump_json(
         exp / "ablation_summary.json",
         {

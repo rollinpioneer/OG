@@ -1,0 +1,20 @@
+{
+  "batch": 1024,
+  "keys": [
+    "R",
+    "a",
+    "bw",
+    "bw_mask",
+    "c2",
+    "censored",
+    "g",
+    "idx",
+    "j",
+    "o",
+    "o2",
+    "z"
+  ],
+  "method": "B1",
+  "seed": 4102,
+  "sha256": "f557fb73240a5f1b7a0b3c1a1fe01cd1bf4191b52ad45a13152e10c4453e0d87"
+}
