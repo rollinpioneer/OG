@@ -1,0 +1,11 @@
+{
+  "protocol_id": "offline_contextual_rankability_v1",
+  "stage": "N0_N1",
+  "baseline_commit": "b4829ad31c292eda82712af782ea3b203b386005",
+  "branch": "exp/offline-contextual-rankability-v1",
+  "authorized": ["research_line_closure", "literature_map", "problem_formulation", "identifiability_assumptions", "rankability_metrics", "synthetic_benchmark_spec", "novelty_boundary", "go_no_go"],
+  "forbidden": ["env.step", "model_training", "new_roots", "new_candidates", "fit_any_rule_on_s3_labels", "synthetic_experiment_execution", "fresh_environment_confirmation", "fqe_retraining", "beta_tuning", "checkpoint_reselection"],
+  "new_environment_steps": 0,
+  "s3_labels_training_eligible": false,
+  "n2_unlocked": false
+}

@@ -1,0 +1,29 @@
+{
+  "closed_line": "EA-V1 to EA-V4 subgoal-correction and outcome-evaluator chain",
+  "closure_status": "CLOSED",
+  "human_review_accepted": "EA41_EVALUATOR_NO_SIGNAL",
+  "closure_commit": "b4829ad31c292eda82712af782ea3b203b386005",
+  "forbidden_after_closure": [
+    "train_or_retune_FQE",
+    "tune_beta",
+    "add_seeds_to_ea_v4",
+    "modify_checkpoint_selection",
+    "fresh_environment_confirmation",
+    "phase_C_to_F",
+    "P_1",
+    "P_MH",
+    "EXEC",
+    "proxy_as_decision_target"
+  ],
+  "entries": [
+    {"id": "EA-V2", "branch": "exp/ea-v2-cube-mechanism-v1", "commit": "7714e33958dd6ab7d8a1ddf894dca1eb88a69b17", "role": "official Cube/GCIQL freeze and mechanism baseline", "status": "ASSET_FROZEN", "read_only": true},
+    {"id": "EA-V3-S0S1-GPU", "branch": "exp/ea-v3-materialized-roots-v1", "commit": "6fea6044d3ad12b9d77b75702d881c2eedd6ce64", "role": "first materialized-root engineering pilot", "status": "EA3_HOLD_TRACE_MISMATCH", "read_only": true},
+    {"id": "EA-V3-Q0Q1", "branch": "exp/ea-v3-runtime-qualification-v1", "commit": "78ed06e720bdf3634b564bf52b0f86f97d3cae8e", "role": "cross-process actor/value numerics", "status": "GPU_CURRENT_NOT_DETERMINISTIC; CPU_SINGLE_THREAD_BIT_IDENTICAL", "read_only": true},
+    {"id": "EA-V3-Q2", "branch": "exp/ea-v3-cpu-runtime-adoption-v1", "commit": "7b9698cbae9807d9cbb61b44cbcbf872a24331b4", "role": "canonical CPU runtime capability", "status": "EA32_CPU_CAPABILITY_PASS", "read_only": true},
+    {"id": "EA-V3-S1-CPU", "branch": "exp/ea-v3-cpu-s1-qualification-v1", "commit": "fd8dc5366a76f8df1e6f6baf146a25d52f379324", "role": "CPU S1 reconstruction qualification", "status": "EA33_CPU_S1_QUALIFIED", "read_only": true},
+    {"id": "EA-V3-S2", "branch": "exp/ea-v3-s2-root-candidate-pool-v1", "commit": "eba81e0ac662ecd93a29814d1b4c7e611465fa2b", "note": "formal pool lock commit fd8dc53 baseline for S2 creation; lock commit recorded in S2 worktree", "role": "formal root and DATA_REAL candidate pool", "status": "EA34_ROOT_AND_CANDIDATE_POOL_LOCKED", "read_only": true},
+    {"id": "EA-V3-S3", "branch": "exp/ea-v3-s3-mechanism-v1", "commit": "3882a7d7e8028f3416af17e6827a2e7c13c3fc0f", "role": "mechanism evaluation of candidate selection", "status": "EA35_GAP_EXISTS_PROXY_MISALIGNED", "read_only": true, "key_numbers": {"IDEAL": "15/35", "ORACLE_FULL": "21/35", "ORACLE_PROXY": "10/35", "DIRECT_35": "14/35"}},
+    {"id": "EA-V3-S3-POSTMORTEM", "branch": "exp/ea-v3-s3-postmortem-v1", "commit": "75d24793febba9bbdd040b0bef3b09fe3e1cba64", "role": "proxy misalignment postmortem", "status": "EA35X_POSTMORTEM_COMPLETE", "read_only": true},
+    {"id": "EA-V4", "branch": "exp/ea-v4-outcome-evaluator-pilot-v1", "commit": "b4829ad31c292eda82712af782ea3b203b386005", "role": "offline finite-budget composite evaluator pilot", "status": "EA41_EVALUATOR_NO_SIGNAL", "read_only": true, "key_numbers": {"B0": "15/35", "B4": "11/35", "B5": "15/35 net 0"}}
+  ]
+}

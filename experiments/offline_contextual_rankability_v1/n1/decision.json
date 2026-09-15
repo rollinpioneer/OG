@@ -1,0 +1,15 @@
+{
+  "status": "RANKABILITY_DIRECTION_GO",
+  "scope": "N0_N1_only",
+  "n2_unlocked": false,
+  "fresh_confirmation_unlocked": false,
+  "new_environment_evaluation_authorized": false,
+  "policy_training_authorized": false,
+  "s4_unlocked": false,
+  "fqe_retraining_authorized": false,
+  "new_environment_steps": 0,
+  "human_review": null,
+  "baseline_commit": "b4829ad31c292eda82712af782ea3b203b386005",
+  "closed_line_status": "EA41_EVALUATOR_NO_SIGNAL",
+  "reason": "Pairwise sign identification of root-conditioned composite policies is a well-posed weaker question than EA-V4 absolute FQE selection. It is authorized only as a future synthetic identifiability program, not as Cube training or environment confirmation."
+}

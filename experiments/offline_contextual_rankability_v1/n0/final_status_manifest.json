@@ -1,0 +1,30 @@
+{
+  "document": "final_status_manifest",
+  "ea_v1_v4_method_chain": "CLOSED",
+  "accepted_terminal_status": "EA41_EVALUATOR_NO_SIGNAL",
+  "what_failed": [
+    "five-step proxy as a decision target (ORACLE_PROXY 10/35, net negative vs IDEAL)",
+    "absolute FQE of composite finite-budget success as a deployable selector (B4 11/35, B5 net 0)",
+    "GPU_CURRENT cross-process actor/value determinism"
+  ],
+  "what_remains_true": [
+    "complete-task oracle gap exists: ORACLE_FULL 21/35 > IDEAL 15/35",
+    "public obs/goal reconstruct official Cube success 90680/90680",
+    "CPU_SINGLE_THREAD actor/value is bit-identical across fresh processes",
+    "formal DATA_REAL candidate pool is locked and reconstructible"
+  ],
+  "locks": {
+    "fresh_confirmation_unlocked": false,
+    "new_environment_evaluation_authorized": false,
+    "policy_training_authorized": false,
+    "s4_unlocked": false,
+    "fqe_retraining_authorized": false,
+    "n2_unlocked": false,
+    "new_environment_steps": 0
+  },
+  "new_line": {
+    "name": "offline_contextual_rankability",
+    "protocol_id": "offline_contextual_rankability_v1",
+    "authorized_now": "N0_plus_N1_only"
+  }
+}
