@@ -1,0 +1,54 @@
+{
+  "applied_env": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "JAX_ENABLE_X64": "0",
+    "JAX_PLATFORMS": "cpu",
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "XLA_FLAGS": null
+  },
+  "canonical_cpu_env": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "JAX_ENABLE_X64": "0",
+    "JAX_PLATFORMS": "cpu",
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "checkpoint_file": "/home/__compress_data/xushijie/og_runs/ea_v2_cube_mechanism_v1/checkpoints/gciql_seed0/params_1000000.pkl",
+  "checkpoint_sha256": "12f7bd7ed9f909039dd6e3e3c44cd226bf765cf7d959396001e469dbbcbc3d87",
+  "cpu_runtime_environment_sha256": "a5cf86cbb83a40d6f20872616797f9595f075e56c5537b52eeb4f9a1ab59531a",
+  "executable": "/home/xushijie/.conda/envs/og-ea-v2/bin/python",
+  "glibc": "glibc 2.39",
+  "jax_default_backend": "cpu",
+  "jax_default_matmul_precision": "None",
+  "jax_devices": [
+    "cpu:0"
+  ],
+  "jax_enable_x64": false,
+  "jax_version": "0.10.2",
+  "jaxlib_version": "0.10.2",
+  "lscpu": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           52 bits physical, 57 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  112\nOn-line CPU(s) list:                     0-111\nVendor ID:                               GenuineIntel\nModel name:                              Intel(R) Xeon(R) Gold 6330 CPU @ 2.00GHz\nCPU family:                              6\nModel:                                   106\nThread(s) per core:                      2\nCore(s) per socket:                      28\nSocket(s):                               2\nStepping:                                6\nCPU(s) scaling MHz:                      33%\nCPU max MHz:                             3100.0000\nCPU min MHz:                             800.0000\nBogoMIPS:                                4000.00\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect wbnoinvd dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req vnmi avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid fsrm md_clear pconfig flush_l1d arch_capabilities\nVirtualization:                          VT-x\nL1d cache:                               2.6 MiB (56 instances)\nL1i cache:                               1.8 MiB (56 instances)\nL2 cache:                                70 MiB (56 instances)\nL3 cache:                                84 MiB (2 instances)\nNUMA node(s):                            2\nNUMA node0 CPU(s):                       0-27,56-83\nNUMA node1 CPU(s):                       28-55,84-111\nVulnerability Gather data sampling:      Mitigation; Microcode\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Mitigation; Aligned branch/return thunks\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Mitigation; Clear CPU buffers; SMT vulnerable\nVulnerability Old microcode:             Vulnerable\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Not affected\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS SW sequence; BHI SW loop, KVM SW loop\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected",
+  "no_xla_flags": true,
+  "ogbench_commit": "1d4140997f60c52c6fb0702ec100dc988b18c548",
+  "packages": {
+    "dm-control": "1.0.46",
+    "flax": "0.12.8",
+    "gymnasium": "1.3.0",
+    "jax": "0.10.2",
+    "jaxlib": "0.10.2",
+    "mujoco": "3.13.0",
+    "numpy": "2.4.6",
+    "ogbench": "1.2.1",
+    "python": null
+  },
+  "platform": "Linux-7.2.2-1.el10.elrepo.x86_64-x86_64-with-glibc2.39",
+  "platform_release": "7.2.2-1.el10.elrepo.x86_64",
+  "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+  "q0_branch": "exp/ea-v3-runtime-qualification-v1",
+  "q0_commit": "78ed06e720bdf3634b564bf52b0f86f97d3cae8e",
+  "s1_commit": "6fea6044d3ad12b9d77b75702d881c2eedd6ce64",
+  "train_sha256": "a73d1a33d029cedb8bc170ef94791ec585fa2d9450096f4f2a02b8cfbcf608c9",
+  "validation_holds": []
+}

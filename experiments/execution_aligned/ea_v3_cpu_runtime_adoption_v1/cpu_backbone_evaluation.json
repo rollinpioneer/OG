@@ -1,0 +1,58 @@
+{
+  "bounds_action_rate": 1.0,
+  "capability_pass": true,
+  "cpu_runtime_environment_sha256": "b8d4eb30be90192d86d2041e7403c987ed62a7f5624b7e4c0488fa6e9d6d689f",
+  "episodes_per_task": 50,
+  "eval_gaussian": null,
+  "finite_action_rate": 1.0,
+  "gpu_reference_overall_success": 0.36,
+  "gpu_reference_role": "engineering_qualification_only",
+  "n_actions": 99349,
+  "n_episodes": 250,
+  "nonzero_success_tasks": 4,
+  "numpy_seed_before_eval": 0,
+  "overall_success": 0.356,
+  "result_source": "ENV_EVALUATED",
+  "runtime": "CPU_SINGLE_THREAD",
+  "tasks": {
+    "task1": {
+      "n_episodes": 50,
+      "n_success_episodes": 30,
+      "official_stats_success": 0.6,
+      "result_source": "ENV_EVALUATED",
+      "success": 0.6
+    },
+    "task2": {
+      "n_episodes": 50,
+      "n_success_episodes": 28,
+      "official_stats_success": 0.56,
+      "result_source": "ENV_EVALUATED",
+      "success": 0.56
+    },
+    "task3": {
+      "n_episodes": 50,
+      "n_success_episodes": 20,
+      "official_stats_success": 0.4,
+      "result_source": "ENV_EVALUATED",
+      "success": 0.4
+    },
+    "task4": {
+      "n_episodes": 50,
+      "n_success_episodes": 0,
+      "official_stats_success": 0.0,
+      "result_source": "ENV_EVALUATED",
+      "success": 0.0
+    },
+    "task5": {
+      "n_episodes": 50,
+      "n_success_episodes": 11,
+      "official_stats_success": 0.22,
+      "result_source": "ENV_EVALUATED",
+      "success": 0.22
+    }
+  },
+  "temperature": 0.0,
+  "training_eligible": false,
+  "training_performed": false,
+  "wall_seconds": 291.580851316452
+}

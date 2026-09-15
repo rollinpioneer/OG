@@ -1,0 +1,64 @@
+{
+  "baseline_commit": "78ed06e720bdf3634b564bf52b0f86f97d3cae8e",
+  "canonical_cpu_env": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "JAX_ENABLE_X64": "0",
+    "JAX_PLATFORMS": "cpu",
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "eval": {
+    "checkpoint_rule": "fixed_final_checkpoint",
+    "dataset_id": "cube-double-play-v0",
+    "episodes_per_task": 50,
+    "eval_gaussian": null,
+    "numpy_seed_before_eval": 0,
+    "tasks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "temperature": 0.0,
+    "training": false
+  },
+  "evaluator": "official ogbench impls.utils.evaluation.evaluate",
+  "forbidden": [
+    "S1_retry",
+    "S2",
+    "S3",
+    "Phase_C",
+    "Phase_D",
+    "Phase_E",
+    "Phase_F",
+    "P_1",
+    "P_MH",
+    "EXEC",
+    "new_xla_flags_without_q0"
+  ],
+  "gates": {
+    "action_bounds_rate": 1.0,
+    "action_finite_rate": 1.0,
+    "episodes_per_task": 50,
+    "gpu_reference_overall_success": 0.36,
+    "min_tasks_with_nonzero_success": 4,
+    "n_episodes_total": 250,
+    "n_tasks": 5,
+    "overall_success_min": 0.26,
+    "pre_post_pairwise_action_max_abs": 0.0,
+    "pre_post_pairwise_value_max_abs": 0.0
+  },
+  "gpu_reference_overall_success": 0.36,
+  "gpu_reference_role": "engineering_qualification_only",
+  "inference_recheck_processes": 2,
+  "jax_enable_x64": false,
+  "no_new_xla_flags": true,
+  "protocol_id": "ea_v3_cpu_runtime_adoption_v1",
+  "protocol_name": "EA-V3 CPU Runtime Adoption v1",
+  "q0_corpus_readonly": true,
+  "scope": [
+    "Q2"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "bounds_action_rate": 1.0,
+  "cpu_runtime_environment_sha256": "a5cf86cbb83a40d6f20872616797f9595f075e56c5537b52eeb4f9a1ab59531a",
+  "env_step_calls": "official_evaluator_250_episodes",
+  "finite_action_rate": 1.0,
+  "gpu_reference_overall_success": 0.36,
+  "holds": [],
+  "human_review": null,
+  "nonzero_success_tasks": 4,
+  "overall_success": 0.356,
+  "phase_c_unlocked": false,
+  "post_eval": "PASS",
+  "pre_eval": "PASS",
+  "protocol_id": "ea_v3_cpu_runtime_adoption_v1",
+  "s1_retry_run": false,
+  "s2_unlocked": false,
+  "stage": "Q2",
+  "status": "EA32_CPU_CAPABILITY_PASS",
+  "training_performed": false
+}
