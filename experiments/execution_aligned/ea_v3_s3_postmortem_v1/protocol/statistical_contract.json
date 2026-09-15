@@ -1,0 +1,26 @@
+{
+  "bootstrap_repetitions": 10000,
+  "bootstrap_seed": 350301,
+  "deep_population": "fixed_35_deep_roots_stratified_by_task",
+  "deep_task_counts": {
+    "1": 5,
+    "2": 6,
+    "3": 8,
+    "4": 8,
+    "5": 8
+  },
+  "direct_70_is_descriptive_only": true,
+  "forbidden_units": [
+    "candidate",
+    "worker",
+    "transition"
+  ],
+  "historical_bootstrap_path": "experiments/execution_aligned/ea_v3_s3_mechanism_v1/bootstrap_intervals.json",
+  "historical_bootstrap_retained": true,
+  "independent_unit": "root",
+  "paired_selectors_share_bootstrap_indices": true,
+  "report_count_and_rate_differences": true,
+  "same_denominator_required_for_selector_deltas": true,
+  "supplement_name": "fixed_deep_supplement",
+  "wrong_selection_population": "all_70_legal_roots_stratified_by_task"
+}

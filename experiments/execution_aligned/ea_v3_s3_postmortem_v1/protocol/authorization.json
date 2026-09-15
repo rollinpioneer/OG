@@ -1,0 +1,39 @@
+{
+  "allowed_final_status": [
+    "EA35X_POSTMORTEM_COMPLETE",
+    "EA35X_HOLD_ANALYSIS_INTEGRITY",
+    "EA35X_HOLD_RUNTIME_IDENTITY",
+    "EA35X_HOLD_ANALYSIS_BUDGET",
+    "EA35X_HOLD_REQUIRED_INPUT_MISSING"
+  ],
+  "authorized_scope": [
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6"
+  ],
+  "extra_support_actor_queries_max": 512,
+  "gpu": 0,
+  "method_training_authorized": false,
+  "new_derived_outputs_gib_max": 5,
+  "new_environment_evaluation_authorized": false,
+  "new_environment_steps": 0,
+  "q0_corpus_queries_counted_separately": true,
+  "s4_unlocked": false,
+  "training_updates": 0,
+  "unauthorized": [
+    "sections_11_14",
+    "S4",
+    "Phase_C",
+    "P_1",
+    "P_MH",
+    "EXEC",
+    "training",
+    "new_environment_evaluation"
+  ],
+  "unique_extra_value_queries_max": 10000,
+  "wall_clock_hours_max": 4
+}

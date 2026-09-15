@@ -1,0 +1,43 @@
+{
+  "candidate_pursuit_steps": 5,
+  "epsilon_historical": 0.5495205402374268,
+  "epsilon_switch_only": true,
+  "forbid_using_step_proxy_as_Jh": true,
+  "gamma": 0.99,
+  "horizon_is_not_new_candidate_execution_length": true,
+  "horizons": [
+    1,
+    5,
+    10,
+    20,
+    40,
+    80
+  ],
+  "j5_must_match_s3_proxy_atol": 1e-05,
+  "known_outcome_codes": {
+    "irreversible_failure": -1,
+    "success": 1,
+    "unresolved": 0
+  },
+  "known_outcome_tie_break": "prefer_IDEAL_if_in_max_group_else_smallest_id",
+  "no_epsilon_scan": true,
+  "primary_worker": "A",
+  "selectors_compared_in_p4": [
+    "always_IDEAL",
+    "unconditional_ORACLE_PROXY",
+    "epsilon_switch"
+  ],
+  "shared_unresolved_pairs": [
+    [
+      5,
+      20
+    ],
+    [
+      5,
+      40
+    ]
+  ],
+  "step_proxy_is_full_proxy_copy": true,
+  "unresolved_min_roots": 12,
+  "unresolved_min_tasks": 3
+}

@@ -1,0 +1,38 @@
+{
+  "checkpoint_dir": "/home/__compress_data/xushijie/og_runs/ea_v2_cube_mechanism_v1/checkpoints/gciql_seed0",
+  "checkpoint_file": "/home/__compress_data/xushijie/og_runs/ea_v2_cube_mechanism_v1/checkpoints/gciql_seed0/params_1000000.pkl",
+  "dataset_dir": "/home/__compress_data/xushijie/ea_v2_cube_data",
+  "missing_trace_policy": "HOLD_do_not_impute_or_rerollout",
+  "n_candidates": 8,
+  "n_deep_per_worker": 280,
+  "n_direct_per_worker": 70,
+  "n_legal_deep_roots": 35,
+  "n_legal_roots": 70,
+  "n_short_per_worker": 560,
+  "official_source": "/home/__compress_data/xushijie/og_runs/ea_v2_v1/src/ogbench",
+  "q0_experiment_rel": "experiments/execution_aligned/ea_v3_runtime_qualification_v1",
+  "q0_repo": "/home/__compress_data/xushijie/OG_ea_v3_runtime_qualification",
+  "read_only_s2_store": true,
+  "read_only_s3": true,
+  "required_jsonl": [
+    "short_branch_results_A.jsonl",
+    "short_branch_results_B.jsonl",
+    "deep_branch_results_A.jsonl",
+    "deep_branch_results_B.jsonl",
+    "direct_results_A.jsonl",
+    "direct_results_B.jsonl"
+  ],
+  "required_trace_kinds": [
+    "short",
+    "deep",
+    "deep_prefix",
+    "direct"
+  ],
+  "s2_experiment": "/home/__compress_data/xushijie/OG_ea_v3_s2_pool/experiments/execution_aligned/ea_v3_s2_root_candidate_pool_v1",
+  "s2_repo": "/home/__compress_data/xushijie/OG_ea_v3_s2_pool",
+  "s2_root_store": "/home/__compress_data/xushijie/ea_v3_root_store/ea_v3_s2_root_candidate_pool_v1",
+  "s3_experiment": "/home/__compress_data/xushijie/OG_ea_v3_s3_mechanism/experiments/execution_aligned/ea_v3_s3_mechanism_v1",
+  "s3_repo": "/home/__compress_data/xushijie/OG_ea_v3_s3_mechanism",
+  "s3_traces": "/home/__compress_data/xushijie/OG_ea_v3_s3_mechanism/experiments/execution_aligned/ea_v3_s3_mechanism_v1/traces",
+  "train_file": "/home/__compress_data/xushijie/ea_v2_cube_data/cube-double-play-v0.npz"
+}
