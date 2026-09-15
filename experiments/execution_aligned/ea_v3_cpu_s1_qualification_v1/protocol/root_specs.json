@@ -1,0 +1,276 @@
+{
+  "n_train": 1001000,
+  "protocol_id": "ea_v3_cpu_s1_qualification_v1",
+  "roots": [
+    {
+      "d3_index_source": "frozen_gpu_s1_manifest",
+      "d3_target_index": 169551,
+      "planned_decision_step": 0,
+      "reset_seed": 690000,
+      "root_id": 710000,
+      "set": "regression",
+      "task_id": 1
+    },
+    {
+      "d3_index_source": "frozen_gpu_s1_manifest",
+      "d3_target_index": 503979,
+      "planned_decision_step": 125,
+      "reset_seed": 690001,
+      "root_id": 710001,
+      "set": "regression",
+      "task_id": 1
+    },
+    {
+      "d3_index_source": "frozen_gpu_s1_manifest",
+      "d3_target_index": 636637,
+      "planned_decision_step": 250,
+      "reset_seed": 690002,
+      "root_id": 710002,
+      "set": "regression",
+      "task_id": 1
+    },
+    {
+      "d3_index_source": "frozen_gpu_s1_manifest",
+      "d3_target_index": 746779,
+      "planned_decision_step": 0,
+      "reset_seed": 690003,
+      "root_id": 710003,
+      "set": "regression",
+      "task_id": 2
+    },
+    {
+      "d3_index_source": "frozen_gpu_s1_manifest",
+      "d3_target_index": 134916,
+      "planned_decision_step": 125,
+      "reset_seed": 690004,
+      "root_id": 710004,
+      "set": "regression",
+      "task_id": 2
+    },
+    {
+      "d3_index_source": "frozen_gpu_s1_manifest",
+      "d3_target_index": 188033,
+      "planned_decision_step": 250,
+      "reset_seed": 690005,
+      "root_id": 710005,
+      "set": "regression",
+      "task_id": 2
+    },
+    {
+      "d3_index_source": "frozen_gpu_s1_manifest",
+      "d3_target_index": 500535,
+      "planned_decision_step": 0,
+      "reset_seed": 690006,
+      "root_id": 710006,
+      "set": "regression",
+      "task_id": 3
+    },
+    {
+      "d3_index_source": "frozen_gpu_s1_manifest",
+      "d3_target_index": 793569,
+      "planned_decision_step": 125,
+      "reset_seed": 690007,
+      "root_id": 710007,
+      "set": "regression",
+      "task_id": 3
+    },
+    {
+      "d3_index_source": "frozen_gpu_s1_manifest",
+      "d3_target_index": 701708,
+      "planned_decision_step": 250,
+      "reset_seed": 690008,
+      "root_id": 710008,
+      "set": "regression",
+      "task_id": 3
+    },
+    {
+      "d3_index_source": "frozen_gpu_s1_manifest",
+      "d3_target_index": 951344,
+      "planned_decision_step": 0,
+      "reset_seed": 690009,
+      "root_id": 710009,
+      "set": "regression",
+      "task_id": 4
+    },
+    {
+      "d3_index_source": "frozen_gpu_s1_manifest",
+      "d3_target_index": 561938,
+      "planned_decision_step": 125,
+      "reset_seed": 690010,
+      "root_id": 710010,
+      "set": "regression",
+      "task_id": 4
+    },
+    {
+      "d3_index_source": "frozen_gpu_s1_manifest",
+      "d3_target_index": 209653,
+      "planned_decision_step": 250,
+      "reset_seed": 690011,
+      "root_id": 710011,
+      "set": "regression",
+      "task_id": 4
+    },
+    {
+      "d3_index_source": "frozen_gpu_s1_manifest",
+      "d3_target_index": 347568,
+      "planned_decision_step": 0,
+      "reset_seed": 690012,
+      "root_id": 710012,
+      "set": "regression",
+      "task_id": 5
+    },
+    {
+      "d3_index_source": "frozen_gpu_s1_manifest",
+      "d3_target_index": 390915,
+      "planned_decision_step": 125,
+      "reset_seed": 690013,
+      "root_id": 710013,
+      "set": "regression",
+      "task_id": 5
+    },
+    {
+      "d3_index_source": "frozen_gpu_s1_manifest",
+      "d3_target_index": 629870,
+      "planned_decision_step": 250,
+      "reset_seed": 690014,
+      "root_id": 710014,
+      "set": "regression",
+      "task_id": 5
+    },
+    {
+      "d3_index_source": "ea3-cpu-s1-v1:d3-endpoint:711000",
+      "d3_target_index": 387265,
+      "planned_decision_step": 0,
+      "reset_seed": 691000,
+      "root_id": 711000,
+      "set": "holdout",
+      "task_id": 1
+    },
+    {
+      "d3_index_source": "ea3-cpu-s1-v1:d3-endpoint:711001",
+      "d3_target_index": 380788,
+      "planned_decision_step": 125,
+      "reset_seed": 691001,
+      "root_id": 711001,
+      "set": "holdout",
+      "task_id": 1
+    },
+    {
+      "d3_index_source": "ea3-cpu-s1-v1:d3-endpoint:711002",
+      "d3_target_index": 883223,
+      "planned_decision_step": 250,
+      "reset_seed": 691002,
+      "root_id": 711002,
+      "set": "holdout",
+      "task_id": 1
+    },
+    {
+      "d3_index_source": "ea3-cpu-s1-v1:d3-endpoint:711003",
+      "d3_target_index": 36476,
+      "planned_decision_step": 0,
+      "reset_seed": 691003,
+      "root_id": 711003,
+      "set": "holdout",
+      "task_id": 2
+    },
+    {
+      "d3_index_source": "ea3-cpu-s1-v1:d3-endpoint:711004",
+      "d3_target_index": 553149,
+      "planned_decision_step": 125,
+      "reset_seed": 691004,
+      "root_id": 711004,
+      "set": "holdout",
+      "task_id": 2
+    },
+    {
+      "d3_index_source": "ea3-cpu-s1-v1:d3-endpoint:711005",
+      "d3_target_index": 272990,
+      "planned_decision_step": 250,
+      "reset_seed": 691005,
+      "root_id": 711005,
+      "set": "holdout",
+      "task_id": 2
+    },
+    {
+      "d3_index_source": "ea3-cpu-s1-v1:d3-endpoint:711006",
+      "d3_target_index": 163002,
+      "planned_decision_step": 0,
+      "reset_seed": 691006,
+      "root_id": 711006,
+      "set": "holdout",
+      "task_id": 3
+    },
+    {
+      "d3_index_source": "ea3-cpu-s1-v1:d3-endpoint:711007",
+      "d3_target_index": 588333,
+      "planned_decision_step": 125,
+      "reset_seed": 691007,
+      "root_id": 711007,
+      "set": "holdout",
+      "task_id": 3
+    },
+    {
+      "d3_index_source": "ea3-cpu-s1-v1:d3-endpoint:711008",
+      "d3_target_index": 150212,
+      "planned_decision_step": 250,
+      "reset_seed": 691008,
+      "root_id": 711008,
+      "set": "holdout",
+      "task_id": 3
+    },
+    {
+      "d3_index_source": "ea3-cpu-s1-v1:d3-endpoint:711009",
+      "d3_target_index": 419919,
+      "planned_decision_step": 0,
+      "reset_seed": 691009,
+      "root_id": 711009,
+      "set": "holdout",
+      "task_id": 4
+    },
+    {
+      "d3_index_source": "ea3-cpu-s1-v1:d3-endpoint:711010",
+      "d3_target_index": 56236,
+      "planned_decision_step": 125,
+      "reset_seed": 691010,
+      "root_id": 711010,
+      "set": "holdout",
+      "task_id": 4
+    },
+    {
+      "d3_index_source": "ea3-cpu-s1-v1:d3-endpoint:711011",
+      "d3_target_index": 629997,
+      "planned_decision_step": 250,
+      "reset_seed": 691011,
+      "root_id": 711011,
+      "set": "holdout",
+      "task_id": 4
+    },
+    {
+      "d3_index_source": "ea3-cpu-s1-v1:d3-endpoint:711012",
+      "d3_target_index": 752698,
+      "planned_decision_step": 0,
+      "reset_seed": 691012,
+      "root_id": 711012,
+      "set": "holdout",
+      "task_id": 5
+    },
+    {
+      "d3_index_source": "ea3-cpu-s1-v1:d3-endpoint:711013",
+      "d3_target_index": 723342,
+      "planned_decision_step": 125,
+      "reset_seed": 691013,
+      "root_id": 711013,
+      "set": "holdout",
+      "task_id": 5
+    },
+    {
+      "d3_index_source": "ea3-cpu-s1-v1:d3-endpoint:711014",
+      "d3_target_index": 309764,
+      "planned_decision_step": 250,
+      "reset_seed": 691014,
+      "root_id": 711014,
+      "set": "holdout",
+      "task_id": 5
+    }
+  ]
+}

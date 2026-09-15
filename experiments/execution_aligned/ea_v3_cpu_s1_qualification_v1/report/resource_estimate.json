@@ -1,0 +1,11 @@
+{
+  "budget": 60000,
+  "external_control_steps": 11316,
+  "holdout_legal": 13,
+  "regression_legal": 14,
+  "reset_internal_steps": 192,
+  "result_source": "ENV_EVALUATED",
+  "runtime": "CPU_SINGLE_THREAD",
+  "training_eligible": false,
+  "training_performed": false
+}

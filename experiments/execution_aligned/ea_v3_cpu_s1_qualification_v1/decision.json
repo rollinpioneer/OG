@@ -1,0 +1,55 @@
+{
+  "external_control_steps": 11316,
+  "gpu_used_for_roots": false,
+  "holdout_coverage": {
+    "decision_steps_present": [
+      0,
+      125,
+      250
+    ],
+    "ineligible": [
+      711001,
+      711005
+    ],
+    "legal": 13,
+    "ok": true,
+    "planned": 15,
+    "tasks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "human_review": null,
+  "negative_tests": "PASS",
+  "phase_c_unlocked": false,
+  "protocol_id": "ea_v3_cpu_s1_qualification_v1",
+  "regression_coverage": {
+    "decision_steps_present": [
+      0,
+      125,
+      250
+    ],
+    "ineligible": [
+      710005
+    ],
+    "legal": 14,
+    "ok": true,
+    "planned": 15,
+    "tasks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "runtime": "CPU_SINGLE_THREAD",
+  "runtime_identity_sha256": "ce7dad6d2f2a9d8ec7dde9faa5ef6477b2cbd60da0a86c8ab9785549c24cf9e8",
+  "s2_unlocked": false,
+  "stage": "R0_S1_CPU",
+  "status": "EA33_CPU_S1_QUALIFIED",
+  "training_performed": false
+}

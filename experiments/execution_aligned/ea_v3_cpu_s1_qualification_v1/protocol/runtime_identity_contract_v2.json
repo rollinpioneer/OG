@@ -1,0 +1,25 @@
+{
+  "excluded_from_hash": [
+    "CPU scaling MHz",
+    "CPU MHz",
+    "BogoMIPS",
+    "pid",
+    "timestamps",
+    "wall time",
+    "utilization",
+    "memory load",
+    "role"
+  ],
+  "included": [
+    "canonical_env",
+    "cpu_stable architecture/vendor/model/family/model/stepping",
+    "python/packages",
+    "checkpoint/data sha256",
+    "ogbench commit",
+    "jax backend/devices/x64/matmul",
+    "no_xla_flags",
+    "comparator_contract_v2_sha256"
+  ],
+  "lscpu_raw": "diagnostics_only",
+  "schema": "runtime_identity_v2"
+}

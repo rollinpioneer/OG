@@ -1,0 +1,120 @@
+{
+  "counters": {
+    "external_control_steps": 3863,
+    "reset_internal_steps": 66,
+    "resets": 33,
+    "runtime_identity_sha256": "ce7dad6d2f2a9d8ec7dde9faa5ef6477b2cbd60da0a86c8ab9785549c24cf9e8",
+    "worker_id": "A"
+  },
+  "results": [
+    {
+      "d0_status": "PASS",
+      "root_id": 710000
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 710001
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 710002
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 710003
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 710004
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 710006
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 710007
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 710008
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 710009
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 710010
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 710011
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 710012
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 710013
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 710014
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 711000
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 711002
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 711003
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 711004
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 711006
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 711007
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 711008
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 711009
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 711010
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 711011
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 711012
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 711013
+    },
+    {
+      "d0_status": "PASS",
+      "root_id": 711014
+    }
+  ],
+  "wall_seconds": 27.7228844165802
+}

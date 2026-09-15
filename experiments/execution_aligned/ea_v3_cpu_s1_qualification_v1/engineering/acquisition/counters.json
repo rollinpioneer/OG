@@ -1,0 +1,7 @@
+{
+  "external_control_steps": 3590,
+  "reset_internal_steps": 60,
+  "resets": 30,
+  "runtime_identity_sha256": "ce7dad6d2f2a9d8ec7dde9faa5ef6477b2cbd60da0a86c8ab9785549c24cf9e8",
+  "wall_seconds": 15.713500499725342
+}

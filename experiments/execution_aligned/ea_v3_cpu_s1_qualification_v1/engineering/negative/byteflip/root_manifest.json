@@ -1,0 +1,21 @@
+{
+  "actual_prefix_length": 0,
+  "d3_target_index": 169551,
+  "d3_target_sha256": "9ce9d64c99e7880b62cacb475ff8af13c4e59306d4a76d79ac50f1baf9dca2a1",
+  "decision_elapsed_steps": 0,
+  "decision_success": false,
+  "goal_sha256": "c8b1165320ad96a4e2d76e0eb522655b3d07f512f6133c441d7215c8341df8fe",
+  "ineligible_reason": null,
+  "legal": true,
+  "planned_decision_step": 0,
+  "probe_full_proxy": -73.82222708870506,
+  "probe_steps": 5,
+  "protocol_id": "ea_v3_cpu_s1_qualification_v1",
+  "reset_seed": 690000,
+  "result_source": "ENV_EVALUATED",
+  "root_id": 710000,
+  "runtime": "CPU_SINGLE_THREAD",
+  "set": "regression",
+  "task_id": 1,
+  "training_eligible": false
+}

@@ -1,0 +1,116 @@
+{
+  "budget_external_control_steps": 60000,
+  "canonical_runtime": "CPU_SINGLE_THREAD",
+  "comparator": "comparator_contract_v2",
+  "cpu_env": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "JAX_ENABLE_X64": "0",
+    "JAX_PLATFORMS": "cpu",
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "forbidden": [
+    "S2",
+    "S3",
+    "Phase_C",
+    "P_1",
+    "P_MH",
+    "EXEC",
+    "GPU_CURRENT",
+    "train",
+    "modify_checkpoint"
+  ],
+  "gates": {
+    "aba_sets": [
+      "regression",
+      "holdout"
+    ],
+    "all_five_tasks_each_set": true,
+    "holdout_legal_min": 10,
+    "holdout_requires_legal_125_and_250": true,
+    "negative_tests": 9,
+    "regression_legal_min": 10
+  },
+  "holdout": {
+    "d3_target_index_formula": "stable_int('ea3-cpu-s1-v1:d3-endpoint:{root_id}') % n_train",
+    "reset_seeds": [
+      691000,
+      691001,
+      691002,
+      691003,
+      691004,
+      691005,
+      691006,
+      691007,
+      691008,
+      691009,
+      691010,
+      691011,
+      691012,
+      691013,
+      691014
+    ],
+    "root_ids": [
+      711000,
+      711001,
+      711002,
+      711003,
+      711004,
+      711005,
+      711006,
+      711007,
+      711008,
+      711009,
+      711010,
+      711011,
+      711012,
+      711013,
+      711014
+    ]
+  },
+  "no_new_xla_flags": true,
+  "protocol_id": "ea_v3_cpu_s1_qualification_v1",
+  "regression": {
+    "d3_target_index_source": "frozen_gpu_s1_manifest",
+    "reset_seeds": [
+      690000,
+      690001,
+      690002,
+      690003,
+      690004,
+      690005,
+      690006,
+      690007,
+      690008,
+      690009,
+      690010,
+      690011,
+      690012,
+      690013,
+      690014
+    ],
+    "root_ids": [
+      710000,
+      710001,
+      710002,
+      710003,
+      710004,
+      710005,
+      710006,
+      710007,
+      710008,
+      710009,
+      710010,
+      710011,
+      710012,
+      710013,
+      710014
+    ]
+  },
+  "restore": "BOOTSTRAP_PREFIX_REPLAY",
+  "scope": [
+    "R0",
+    "S1-CPU"
+  ]
+}
