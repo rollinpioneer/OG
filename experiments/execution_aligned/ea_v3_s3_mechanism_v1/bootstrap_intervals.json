@@ -1,0 +1,26 @@
+{
+  "distinguishable": {
+    "hi": 24.0,
+    "lo": 11.0,
+    "mean": 17.0159
+  },
+  "ideal_miss": {
+    "hi": 11.0,
+    "lo": 2.0,
+    "mean": 5.9689
+  },
+  "paired_net_gain": {
+    "hi": -1.0,
+    "lo": -9.0,
+    "mean": -5.0025
+  },
+  "repetitions": 10000,
+  "seed": 350301,
+  "stratified_by_task": true,
+  "unit": "root",
+  "wrong_selection_rate": {
+    "hi": 0.22857142857142856,
+    "lo": 0.07142857142857142,
+    "mean": 0.14280714285714285
+  }
+}

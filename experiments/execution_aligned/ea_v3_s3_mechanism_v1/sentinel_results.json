@@ -1,0 +1,245 @@
+{
+  "n_pass": 15,
+  "rows": [
+    {
+      "first_divergent_step": null,
+      "full_proxy": {
+        "error": null,
+        "limit": 1e-05,
+        "max_abs_diff": 0.0,
+        "status": "PASS"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "pair": "pre_post",
+      "reasons": [],
+      "root_id": 720000,
+      "status": "PASS",
+      "worker": "A"
+    },
+    {
+      "first_divergent_step": null,
+      "full_proxy": {
+        "error": null,
+        "limit": 1e-05,
+        "max_abs_diff": 0.0,
+        "status": "PASS"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "pair": "pre_post",
+      "reasons": [],
+      "root_id": 720000,
+      "status": "PASS",
+      "worker": "B"
+    },
+    {
+      "first_divergent_step": null,
+      "full_proxy": {
+        "error": null,
+        "limit": 1e-05,
+        "max_abs_diff": 0.0,
+        "status": "PASS"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "pair": "pre",
+      "reasons": [],
+      "root_id": 720000,
+      "status": "PASS",
+      "worker": "A_vs_B"
+    },
+    {
+      "first_divergent_step": null,
+      "full_proxy": {
+        "error": null,
+        "limit": 1e-05,
+        "max_abs_diff": 0.0,
+        "status": "PASS"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "pair": "pre_post",
+      "reasons": [],
+      "root_id": 720016,
+      "status": "PASS",
+      "worker": "A"
+    },
+    {
+      "first_divergent_step": null,
+      "full_proxy": {
+        "error": null,
+        "limit": 1e-05,
+        "max_abs_diff": 0.0,
+        "status": "PASS"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "pair": "pre_post",
+      "reasons": [],
+      "root_id": 720016,
+      "status": "PASS",
+      "worker": "B"
+    },
+    {
+      "first_divergent_step": null,
+      "full_proxy": {
+        "error": null,
+        "limit": 1e-05,
+        "max_abs_diff": 0.0,
+        "status": "PASS"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "pair": "pre",
+      "reasons": [],
+      "root_id": 720016,
+      "status": "PASS",
+      "worker": "A_vs_B"
+    },
+    {
+      "first_divergent_step": null,
+      "full_proxy": {
+        "error": null,
+        "limit": 1e-05,
+        "max_abs_diff": 0.0,
+        "status": "PASS"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "pair": "pre_post",
+      "reasons": [],
+      "root_id": 720032,
+      "status": "PASS",
+      "worker": "A"
+    },
+    {
+      "first_divergent_step": null,
+      "full_proxy": {
+        "error": null,
+        "limit": 1e-05,
+        "max_abs_diff": 0.0,
+        "status": "PASS"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "pair": "pre_post",
+      "reasons": [],
+      "root_id": 720032,
+      "status": "PASS",
+      "worker": "B"
+    },
+    {
+      "first_divergent_step": null,
+      "full_proxy": {
+        "error": null,
+        "limit": 1e-05,
+        "max_abs_diff": 0.0,
+        "status": "PASS"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "pair": "pre",
+      "reasons": [],
+      "root_id": 720032,
+      "status": "PASS",
+      "worker": "A_vs_B"
+    },
+    {
+      "first_divergent_step": null,
+      "full_proxy": {
+        "error": null,
+        "limit": 1e-05,
+        "max_abs_diff": 0.0,
+        "status": "PASS"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "pair": "pre_post",
+      "reasons": [],
+      "root_id": 720048,
+      "status": "PASS",
+      "worker": "A"
+    },
+    {
+      "first_divergent_step": null,
+      "full_proxy": {
+        "error": null,
+        "limit": 1e-05,
+        "max_abs_diff": 0.0,
+        "status": "PASS"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "pair": "pre_post",
+      "reasons": [],
+      "root_id": 720048,
+      "status": "PASS",
+      "worker": "B"
+    },
+    {
+      "first_divergent_step": null,
+      "full_proxy": {
+        "error": null,
+        "limit": 1e-05,
+        "max_abs_diff": 0.0,
+        "status": "PASS"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "pair": "pre",
+      "reasons": [],
+      "root_id": 720048,
+      "status": "PASS",
+      "worker": "A_vs_B"
+    },
+    {
+      "first_divergent_step": null,
+      "full_proxy": {
+        "error": null,
+        "limit": 1e-05,
+        "max_abs_diff": 0.0,
+        "status": "PASS"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "pair": "pre_post",
+      "reasons": [],
+      "root_id": 720064,
+      "status": "PASS",
+      "worker": "A"
+    },
+    {
+      "first_divergent_step": null,
+      "full_proxy": {
+        "error": null,
+        "limit": 1e-05,
+        "max_abs_diff": 0.0,
+        "status": "PASS"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "pair": "pre_post",
+      "reasons": [],
+      "root_id": 720064,
+      "status": "PASS",
+      "worker": "B"
+    },
+    {
+      "first_divergent_step": null,
+      "full_proxy": {
+        "error": null,
+        "limit": 1e-05,
+        "max_abs_diff": 0.0,
+        "status": "PASS"
+      },
+      "n_steps_a": 5,
+      "n_steps_b": 5,
+      "pair": "pre",
+      "reasons": [],
+      "root_id": 720064,
+      "status": "PASS",
+      "worker": "A_vs_B"
+    }
+  ]
+}

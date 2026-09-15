@@ -1,0 +1,28 @@
+{
+  "engineering_holds": [],
+  "external_control_steps": 412726,
+  "gates": {
+    "dist_ok": true,
+    "distinguishable": 17,
+    "distinguishable_min": 9,
+    "gain_ok": false,
+    "ideal_miss": 6,
+    "ideal_miss_min": 5,
+    "miss_ok": true,
+    "paired_net_gain": -5,
+    "paired_net_gain_min": 0,
+    "wrong_ok": true,
+    "wrong_selection_count": 10,
+    "wrong_selection_min_count": 7,
+    "wrong_selection_rate": 0.14285714285714285
+  },
+  "human_review": null,
+  "phase_c_unlocked": false,
+  "protocol_id": "ea_v3_s3_mechanism_v1",
+  "research_metrics_valid": true,
+  "runtime_identity_sha256": "ce7dad6d2f2a9d8ec7dde9faa5ef6477b2cbd60da0a86c8ab9785549c24cf9e8",
+  "s4_unlocked": false,
+  "stage": "S3",
+  "status": "EA35_GAP_EXISTS_PROXY_MISALIGNED",
+  "training_performed": false
+}
