@@ -1,0 +1,189 @@
+{
+  "B0": {
+    "candidate_auroc": 0.5670097132284921,
+    "candidate_brier": 4728.742312329113,
+    "distinguishable_ranking_accuracy": 0.6470588235294118,
+    "harm": 0,
+    "intervention": 0,
+    "n": 35,
+    "n_distinguishable": 17,
+    "n_distinguishable_for_auc": 17,
+    "name": "B0",
+    "net": 0,
+    "per_task": {
+      "1": 0.8,
+      "2": 0.6666666666666666,
+      "3": 0.5,
+      "4": 0.25,
+      "5": 0.125
+    },
+    "per_task_success_counts": {
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 2,
+      "5": 1
+    },
+    "rescue": 0,
+    "root_pairwise_auc": 0.5489145658263306,
+    "success": 15,
+    "success_rate": 0.42857142857142855
+  },
+  "B1": {
+    "candidate_auroc": 0.5545212765957447,
+    "candidate_brier": 0.32793837712078916,
+    "distinguishable_ranking_accuracy": 0.29411764705882354,
+    "harm": 8,
+    "intervention": 26,
+    "n": 35,
+    "n_distinguishable": 17,
+    "n_distinguishable_for_auc": 17,
+    "name": "B1_ens",
+    "net": -6,
+    "per_task": {
+      "1": 0.4,
+      "2": 0.3333333333333333,
+      "3": 0.5,
+      "4": 0.125,
+      "5": 0.0
+    },
+    "per_task_success_counts": {
+      "1": 2,
+      "2": 2,
+      "3": 4,
+      "4": 1,
+      "5": 0
+    },
+    "rescue": 2,
+    "root_pairwise_auc": 0.4566176470588235,
+    "success": 9,
+    "success_rate": 0.2571428571428571
+  },
+  "B2": {
+    "candidate_auroc": 0.658822849213691,
+    "candidate_brier": 0.6389456138953569,
+    "distinguishable_ranking_accuracy": 0.29411764705882354,
+    "harm": 8,
+    "intervention": 31,
+    "n": 35,
+    "n_distinguishable": 17,
+    "n_distinguishable_for_auc": 17,
+    "name": "B2_ens",
+    "net": -6,
+    "per_task": {
+      "1": 0.2,
+      "2": 0.5,
+      "3": 0.375,
+      "4": 0.25,
+      "5": 0.0
+    },
+    "per_task_success_counts": {
+      "1": 1,
+      "2": 3,
+      "3": 3,
+      "4": 2,
+      "5": 0
+    },
+    "rescue": 2,
+    "root_pairwise_auc": 0.4688725490196079,
+    "success": 9,
+    "success_rate": 0.2571428571428571
+  },
+  "B3": {
+    "candidate_auroc": 0.5351526364477336,
+    "candidate_brier": 0.5156125032198602,
+    "distinguishable_ranking_accuracy": 0.47058823529411764,
+    "harm": 5,
+    "intervention": 23,
+    "n": 35,
+    "n_distinguishable": 17,
+    "n_distinguishable_for_auc": 17,
+    "name": "B3_ens",
+    "net": -3,
+    "per_task": {
+      "1": 0.2,
+      "2": 0.6666666666666666,
+      "3": 0.5,
+      "4": 0.25,
+      "5": 0.125
+    },
+    "per_task_success_counts": {
+      "1": 1,
+      "2": 4,
+      "3": 4,
+      "4": 2,
+      "5": 1
+    },
+    "rescue": 2,
+    "root_pairwise_auc": 0.5047268907563025,
+    "success": 12,
+    "success_rate": 0.34285714285714286
+  },
+  "B4": {
+    "candidate_auroc": 0.5238783533765032,
+    "candidate_brier": 0.5144734642742677,
+    "distinguishable_ranking_accuracy": 0.4117647058823529,
+    "harm": 6,
+    "intervention": 26,
+    "n": 35,
+    "n_distinguishable": 17,
+    "n_distinguishable_for_auc": 17,
+    "name": "B4_ens",
+    "net": -4,
+    "per_task": {
+      "1": 0.4,
+      "2": 0.5,
+      "3": 0.625,
+      "4": 0.125,
+      "5": 0.0
+    },
+    "per_task_success_counts": {
+      "1": 2,
+      "2": 3,
+      "3": 5,
+      "4": 1,
+      "5": 0
+    },
+    "rescue": 2,
+    "root_pairwise_auc": 0.46302521008403363,
+    "success": 11,
+    "success_rate": 0.3142857142857143
+  },
+  "B5": {
+    "candidate_auroc": 0.5238783533765032,
+    "candidate_brier": 0.5144734642742677,
+    "distinguishable_ranking_accuracy": 0.4117647058823529,
+    "harm": 1,
+    "intervention": 6,
+    "n": 35,
+    "n_distinguishable": 17,
+    "n_distinguishable_for_auc": 17,
+    "name": "B5",
+    "net": 0,
+    "per_task": {
+      "1": 0.8,
+      "2": 0.6666666666666666,
+      "3": 0.625,
+      "4": 0.25,
+      "5": 0.0
+    },
+    "per_task_success_counts": {
+      "1": 4,
+      "2": 4,
+      "3": 5,
+      "4": 2,
+      "5": 0
+    },
+    "rescue": 1,
+    "root_pairwise_auc": 0.46302521008403363,
+    "success": 15,
+    "success_rate": 0.42857142857142855
+  },
+  "references": {
+    "DIRECT_35": 14,
+    "IDEAL": 15,
+    "N": 35,
+    "ORACLE_FULL": 21,
+    "ORACLE_PROXY": 10
+  }
+}

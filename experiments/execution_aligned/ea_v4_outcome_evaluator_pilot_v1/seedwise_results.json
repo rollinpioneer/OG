@@ -1,0 +1,658 @@
+{
+  "B1": {
+    "4101": {
+      "candidate_auroc": 0.5911193339500462,
+      "candidate_brier": 0.3271529785719875,
+      "distinguishable_ranking_accuracy": 0.4117647058823529,
+      "harm": 6,
+      "intervention": 31,
+      "n": 35,
+      "n_distinguishable": 17,
+      "n_distinguishable_for_auc": 17,
+      "name": "B1_4101",
+      "net": -4,
+      "per_task": {
+        "1": 0.4,
+        "2": 0.3333333333333333,
+        "3": 0.625,
+        "4": 0.125,
+        "5": 0.125
+      },
+      "per_task_success_counts": {
+        "1": 2,
+        "2": 2,
+        "3": 5,
+        "4": 1,
+        "5": 1
+      },
+      "rescue": 2,
+      "root_pairwise_auc": 0.4477240896358543,
+      "selective": {
+        "harm": 6,
+        "intervention": 31,
+        "n": 35,
+        "name": "B1_4101_sel",
+        "net": -4,
+        "per_task": {
+          "1": 0.4,
+          "2": 0.3333333333333333,
+          "3": 0.625,
+          "4": 0.125,
+          "5": 0.125
+        },
+        "per_task_success_counts": {
+          "1": 2,
+          "2": 2,
+          "3": 5,
+          "4": 1,
+          "5": 1
+        },
+        "rescue": 2,
+        "success": 11,
+        "success_rate": 0.3142857142857143
+      },
+      "success": 11,
+      "success_rate": 0.3142857142857143
+    },
+    "4102": {
+      "candidate_auroc": 0.49838112858464384,
+      "candidate_brier": 0.32813172691638154,
+      "distinguishable_ranking_accuracy": 0.5294117647058824,
+      "harm": 5,
+      "intervention": 25,
+      "n": 35,
+      "n_distinguishable": 17,
+      "n_distinguishable_for_auc": 17,
+      "name": "B1_4102",
+      "net": -2,
+      "per_task": {
+        "1": 0.6,
+        "2": 0.6666666666666666,
+        "3": 0.5,
+        "4": 0.25,
+        "5": 0.0
+      },
+      "per_task_success_counts": {
+        "1": 3,
+        "2": 4,
+        "3": 4,
+        "4": 2,
+        "5": 0
+      },
+      "rescue": 3,
+      "root_pairwise_auc": 0.592016806722689,
+      "selective": {
+        "harm": 5,
+        "intervention": 25,
+        "n": 35,
+        "name": "B1_4102_sel",
+        "net": -2,
+        "per_task": {
+          "1": 0.6,
+          "2": 0.6666666666666666,
+          "3": 0.5,
+          "4": 0.25,
+          "5": 0.0
+        },
+        "per_task_success_counts": {
+          "1": 3,
+          "2": 4,
+          "3": 4,
+          "4": 2,
+          "5": 0
+        },
+        "rescue": 3,
+        "success": 13,
+        "success_rate": 0.37142857142857144
+      },
+      "success": 13,
+      "success_rate": 0.37142857142857144
+    },
+    "4103": {
+      "candidate_auroc": 0.5767807585568918,
+      "candidate_brier": 0.3285462989266936,
+      "distinguishable_ranking_accuracy": 0.7058823529411765,
+      "harm": 4,
+      "intervention": 33,
+      "n": 35,
+      "n_distinguishable": 17,
+      "n_distinguishable_for_auc": 17,
+      "name": "B1_4103",
+      "net": 1,
+      "per_task": {
+        "1": 0.4,
+        "2": 1.0,
+        "3": 0.625,
+        "4": 0.125,
+        "5": 0.25
+      },
+      "per_task_success_counts": {
+        "1": 2,
+        "2": 6,
+        "3": 5,
+        "4": 1,
+        "5": 2
+      },
+      "rescue": 5,
+      "root_pairwise_auc": 0.571813725490196,
+      "selective": {
+        "harm": 4,
+        "intervention": 33,
+        "n": 35,
+        "name": "B1_4103_sel",
+        "net": 1,
+        "per_task": {
+          "1": 0.4,
+          "2": 1.0,
+          "3": 0.625,
+          "4": 0.125,
+          "5": 0.25
+        },
+        "per_task_success_counts": {
+          "1": 2,
+          "2": 6,
+          "3": 5,
+          "4": 1,
+          "5": 2
+        },
+        "rescue": 5,
+        "success": 16,
+        "success_rate": 0.45714285714285713
+      },
+      "success": 16,
+      "success_rate": 0.45714285714285713
+    }
+  },
+  "B2": {
+    "4101": {
+      "candidate_auroc": 0.6406105457909343,
+      "candidate_brier": 0.6424126943365465,
+      "distinguishable_ranking_accuracy": 0.29411764705882354,
+      "harm": 8,
+      "intervention": 31,
+      "n": 35,
+      "n_distinguishable": 17,
+      "n_distinguishable_for_auc": 17,
+      "name": "B2_4101",
+      "net": -6,
+      "per_task": {
+        "1": 0.2,
+        "2": 0.5,
+        "3": 0.375,
+        "4": 0.25,
+        "5": 0.0
+      },
+      "per_task_success_counts": {
+        "1": 1,
+        "2": 3,
+        "3": 3,
+        "4": 2,
+        "5": 0
+      },
+      "rescue": 2,
+      "root_pairwise_auc": 0.5060224089635854,
+      "selective": {
+        "harm": 7,
+        "intervention": 30,
+        "n": 35,
+        "name": "B2_4101_sel",
+        "net": -5,
+        "per_task": {
+          "1": 0.4,
+          "2": 0.5,
+          "3": 0.375,
+          "4": 0.25,
+          "5": 0.0
+        },
+        "per_task_success_counts": {
+          "1": 2,
+          "2": 3,
+          "3": 3,
+          "4": 2,
+          "5": 0
+        },
+        "rescue": 2,
+        "success": 10,
+        "success_rate": 0.2857142857142857
+      },
+      "success": 9,
+      "success_rate": 0.2571428571428571
+    },
+    "4102": {
+      "candidate_auroc": 0.6620605920444034,
+      "candidate_brier": 0.6229743644541225,
+      "distinguishable_ranking_accuracy": 0.17647058823529413,
+      "harm": 9,
+      "intervention": 28,
+      "n": 35,
+      "n_distinguishable": 17,
+      "n_distinguishable_for_auc": 17,
+      "name": "B2_4102",
+      "net": -8,
+      "per_task": {
+        "1": 0.2,
+        "2": 0.16666666666666666,
+        "3": 0.5,
+        "4": 0.125,
+        "5": 0.0
+      },
+      "per_task_success_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 4,
+        "4": 1,
+        "5": 0
+      },
+      "rescue": 1,
+      "root_pairwise_auc": 0.4245798319327731,
+      "selective": {
+        "harm": 9,
+        "intervention": 28,
+        "n": 35,
+        "name": "B2_4102_sel",
+        "net": -8,
+        "per_task": {
+          "1": 0.2,
+          "2": 0.16666666666666666,
+          "3": 0.5,
+          "4": 0.125,
+          "5": 0.0
+        },
+        "per_task_success_counts": {
+          "1": 1,
+          "2": 1,
+          "3": 4,
+          "4": 1,
+          "5": 0
+        },
+        "rescue": 1,
+        "success": 7,
+        "success_rate": 0.2
+      },
+      "success": 7,
+      "success_rate": 0.2
+    },
+    "4103": {
+      "candidate_auroc": 0.6030874190564293,
+      "candidate_brier": 0.6528346285107903,
+      "distinguishable_ranking_accuracy": 0.35294117647058826,
+      "harm": 7,
+      "intervention": 32,
+      "n": 35,
+      "n_distinguishable": 17,
+      "n_distinguishable_for_auc": 17,
+      "name": "B2_4103",
+      "net": -5,
+      "per_task": {
+        "1": 0.6,
+        "2": 0.5,
+        "3": 0.25,
+        "4": 0.25,
+        "5": 0.0
+      },
+      "per_task_success_counts": {
+        "1": 3,
+        "2": 3,
+        "3": 2,
+        "4": 2,
+        "5": 0
+      },
+      "rescue": 2,
+      "root_pairwise_auc": 0.440546218487395,
+      "selective": {
+        "harm": 7,
+        "intervention": 32,
+        "n": 35,
+        "name": "B2_4103_sel",
+        "net": -5,
+        "per_task": {
+          "1": 0.6,
+          "2": 0.5,
+          "3": 0.25,
+          "4": 0.25,
+          "5": 0.0
+        },
+        "per_task_success_counts": {
+          "1": 3,
+          "2": 3,
+          "3": 2,
+          "4": 2,
+          "5": 0
+        },
+        "rescue": 2,
+        "success": 10,
+        "success_rate": 0.2857142857142857
+      },
+      "success": 10,
+      "success_rate": 0.2857142857142857
+    }
+  },
+  "B3": {
+    "4101": {
+      "candidate_auroc": 0.5446924144310823,
+      "candidate_brier": 0.4206853602953973,
+      "distinguishable_ranking_accuracy": 0.5294117647058824,
+      "harm": 4,
+      "intervention": 26,
+      "n": 35,
+      "n_distinguishable": 17,
+      "n_distinguishable_for_auc": 17,
+      "name": "B3_4101",
+      "net": -2,
+      "per_task": {
+        "1": 0.4,
+        "2": 0.6666666666666666,
+        "3": 0.5,
+        "4": 0.25,
+        "5": 0.125
+      },
+      "per_task_success_counts": {
+        "1": 2,
+        "2": 4,
+        "3": 4,
+        "4": 2,
+        "5": 1
+      },
+      "rescue": 2,
+      "root_pairwise_auc": 0.4845588235294117,
+      "selective": {
+        "harm": 4,
+        "intervention": 26,
+        "n": 35,
+        "name": "B3_4101_sel",
+        "net": -2,
+        "per_task": {
+          "1": 0.4,
+          "2": 0.6666666666666666,
+          "3": 0.5,
+          "4": 0.25,
+          "5": 0.125
+        },
+        "per_task_success_counts": {
+          "1": 2,
+          "2": 4,
+          "3": 4,
+          "4": 2,
+          "5": 1
+        },
+        "rescue": 2,
+        "success": 13,
+        "success_rate": 0.37142857142857144
+      },
+      "success": 13,
+      "success_rate": 0.37142857142857144
+    },
+    "4102": {
+      "candidate_auroc": 0.5212187789084182,
+      "candidate_brier": 0.5540134247672822,
+      "distinguishable_ranking_accuracy": 0.4117647058823529,
+      "harm": 7,
+      "intervention": 22,
+      "n": 35,
+      "n_distinguishable": 17,
+      "n_distinguishable_for_auc": 17,
+      "name": "B3_4102",
+      "net": -4,
+      "per_task": {
+        "1": 0.2,
+        "2": 0.8333333333333334,
+        "3": 0.5,
+        "4": 0.125,
+        "5": 0.0
+      },
+      "per_task_success_counts": {
+        "1": 1,
+        "2": 5,
+        "3": 4,
+        "4": 1,
+        "5": 0
+      },
+      "rescue": 3,
+      "root_pairwise_auc": 0.4693977591036415,
+      "selective": {
+        "harm": 7,
+        "intervention": 22,
+        "n": 35,
+        "name": "B3_4102_sel",
+        "net": -4,
+        "per_task": {
+          "1": 0.2,
+          "2": 0.8333333333333334,
+          "3": 0.5,
+          "4": 0.125,
+          "5": 0.0
+        },
+        "per_task_success_counts": {
+          "1": 1,
+          "2": 5,
+          "3": 4,
+          "4": 1,
+          "5": 0
+        },
+        "rescue": 3,
+        "success": 11,
+        "success_rate": 0.3142857142857143
+      },
+      "success": 11,
+      "success_rate": 0.3142857142857143
+    },
+    "4103": {
+      "candidate_auroc": 0.5010985198889917,
+      "candidate_brier": 0.6503599604036493,
+      "distinguishable_ranking_accuracy": 0.6470588235294118,
+      "harm": 3,
+      "intervention": 24,
+      "n": 35,
+      "n_distinguishable": 17,
+      "n_distinguishable_for_auc": 17,
+      "name": "B3_4103",
+      "net": 0,
+      "per_task": {
+        "1": 0.6,
+        "2": 0.6666666666666666,
+        "3": 0.625,
+        "4": 0.125,
+        "5": 0.25
+      },
+      "per_task_success_counts": {
+        "1": 3,
+        "2": 4,
+        "3": 5,
+        "4": 1,
+        "5": 2
+      },
+      "rescue": 3,
+      "root_pairwise_auc": 0.578186274509804,
+      "selective": {
+        "harm": 3,
+        "intervention": 24,
+        "n": 35,
+        "name": "B3_4103_sel",
+        "net": 0,
+        "per_task": {
+          "1": 0.6,
+          "2": 0.6666666666666666,
+          "3": 0.625,
+          "4": 0.125,
+          "5": 0.25
+        },
+        "per_task_success_counts": {
+          "1": 3,
+          "2": 4,
+          "3": 5,
+          "4": 1,
+          "5": 2
+        },
+        "rescue": 3,
+        "success": 15,
+        "success_rate": 0.42857142857142855
+      },
+      "success": 15,
+      "success_rate": 0.42857142857142855
+    }
+  },
+  "B4": {
+    "4101": {
+      "candidate_auroc": 0.530527289546716,
+      "candidate_brier": 0.4342381783252144,
+      "distinguishable_ranking_accuracy": 0.35294117647058826,
+      "harm": 7,
+      "intervention": 26,
+      "n": 35,
+      "n_distinguishable": 17,
+      "n_distinguishable_for_auc": 17,
+      "name": "B4_4101",
+      "net": -5,
+      "per_task": {
+        "1": 0.4,
+        "2": 0.5,
+        "3": 0.5,
+        "4": 0.125,
+        "5": 0.0
+      },
+      "per_task_success_counts": {
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 1,
+        "5": 0
+      },
+      "rescue": 2,
+      "root_pairwise_auc": 0.4551470588235294,
+      "selective": {
+        "harm": 7,
+        "intervention": 26,
+        "n": 35,
+        "name": "B4_4101_sel",
+        "net": -5,
+        "per_task": {
+          "1": 0.4,
+          "2": 0.5,
+          "3": 0.5,
+          "4": 0.125,
+          "5": 0.0
+        },
+        "per_task_success_counts": {
+          "1": 2,
+          "2": 3,
+          "3": 4,
+          "4": 1,
+          "5": 0
+        },
+        "rescue": 2,
+        "success": 10,
+        "success_rate": 0.2857142857142857
+      },
+      "success": 10,
+      "success_rate": 0.2857142857142857
+    },
+    "4102": {
+      "candidate_auroc": 0.5063598519888992,
+      "candidate_brier": 0.5484528646012602,
+      "distinguishable_ranking_accuracy": 0.47058823529411764,
+      "harm": 5,
+      "intervention": 24,
+      "n": 35,
+      "n_distinguishable": 17,
+      "n_distinguishable_for_auc": 17,
+      "name": "B4_4102",
+      "net": -3,
+      "per_task": {
+        "1": 0.4,
+        "2": 0.6666666666666666,
+        "3": 0.625,
+        "4": 0.125,
+        "5": 0.0
+      },
+      "per_task_success_counts": {
+        "1": 2,
+        "2": 4,
+        "3": 5,
+        "4": 1,
+        "5": 0
+      },
+      "rescue": 2,
+      "root_pairwise_auc": 0.5553221288515405,
+      "selective": {
+        "harm": 5,
+        "intervention": 24,
+        "n": 35,
+        "name": "B4_4102_sel",
+        "net": -3,
+        "per_task": {
+          "1": 0.4,
+          "2": 0.6666666666666666,
+          "3": 0.625,
+          "4": 0.125,
+          "5": 0.0
+        },
+        "per_task_success_counts": {
+          "1": 2,
+          "2": 4,
+          "3": 5,
+          "4": 1,
+          "5": 0
+        },
+        "rescue": 2,
+        "success": 12,
+        "success_rate": 0.34285714285714286
+      },
+      "success": 12,
+      "success_rate": 0.34285714285714286
+    },
+    "4103": {
+      "candidate_auroc": 0.5489708603145236,
+      "candidate_brier": 0.6401534339883456,
+      "distinguishable_ranking_accuracy": 0.47058823529411764,
+      "harm": 5,
+      "intervention": 24,
+      "n": 35,
+      "n_distinguishable": 17,
+      "n_distinguishable_for_auc": 17,
+      "name": "B4_4103",
+      "net": -3,
+      "per_task": {
+        "1": 0.4,
+        "2": 0.5,
+        "3": 0.625,
+        "4": 0.125,
+        "5": 0.125
+      },
+      "per_task_success_counts": {
+        "1": 2,
+        "2": 3,
+        "3": 5,
+        "4": 1,
+        "5": 1
+      },
+      "rescue": 2,
+      "root_pairwise_auc": 0.5069327731092438,
+      "selective": {
+        "harm": 5,
+        "intervention": 24,
+        "n": 35,
+        "name": "B4_4103_sel",
+        "net": -3,
+        "per_task": {
+          "1": 0.4,
+          "2": 0.5,
+          "3": 0.625,
+          "4": 0.125,
+          "5": 0.125
+        },
+        "per_task_success_counts": {
+          "1": 2,
+          "2": 3,
+          "3": 5,
+          "4": 1,
+          "5": 1
+        },
+        "rescue": 2,
+        "success": 12,
+        "success_rate": 0.34285714285714286
+      },
+      "success": 12,
+      "success_rate": 0.34285714285714286
+    }
+  }
+}
